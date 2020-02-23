@@ -222,6 +222,7 @@ for (var propertyId in newData) {
   var entries = account.entries;
   var rents = {};
   var fees = {};
+  var reinbursments = {};
   for (var entryId in entries) {
     var entry = entries[entryId];
     if (entry.category === 'Income') {
@@ -230,6 +231,9 @@ for (var propertyId in newData) {
       }
       if (entry.type === 'Late Fee') {
         fees[entryId] = entry;
+      }
+      if (entry.type === 'Reinbursment') {
+        reinbursments[entryId] = entry;
       }
     }
   }
@@ -244,5 +248,98 @@ for (var propertyId in newData) {
       }
     }
   }
+  if (reinbursments) {
+    for (var reinbursmentId in reinbursments) {
+      var reinbursment = reinbursments[reinbursmentId];
+      for (var rentId in rents) {
+        var rent = rents[rentId];
+        if (reinbursment.tenantId === rent.tenantId && reinbursment.date.year === rent.date.year && reinbursment.date.month === rent.date.month) {
+          newData[propertyId].account.entries[rentId].amount = rent.amount + reinbursment.amount;
+        }
+      }
+    }
+  }
 }
+
+var properties = []
+var tenants = []
+var entries = []
+var records = []
+for (var propertyId in newData) {
+  var property = newData[propertyId];
+  property.id = parseInt(propertyId);
+  property.propertyInfo.line1 = property.propertyInfo.address;
+  property.address = property.propertyInfo;
+  var tenantIds = [];
+  for (var tenantId in property.tenants) {
+    var tenant = property.tenants[tenantId];
+    tenant.id = parseInt(tenantId);
+    tenant.name = tenant.tenantInfo.name;
+    tenant.email = tenant.tenantInfo.email;
+    tenant.phone = tenant.tenantInfo.phone;
+    tenant.unit = tenant.tenantInfo.unit;
+    tenant.currentRent = tenant.tenantInfo.currentRent;
+    leaseStartYear = parseInt(tenant.tenantInfo.lease.start.year);
+    leaseStartMonth = parseInt(tenant.tenantInfo.lease.start.month) - 1;
+    leaseStartDay = parseInt(tenant.tenantInfo.lease.start.day);
+    tenant.leaseStart = leaseStartYear && leaseStartMonth > -1 && leaseStartDay ? new Date(leaseStartYear, leaseStartMonth, leaseStartDay).toISOString() : undefined;
+    leaseEndYear = parseInt(tenant.tenantInfo.lease.end.year);
+    leaseEndMonth = parseInt(tenant.tenantInfo.lease.end.month) - 1;
+    leaseEndDay = parseInt(tenant.tenantInfo.lease.end.day);
+    tenant.leaseEnd = leaseEndYear && leaseEndMonth > -1 && leaseEndDay ? new Date(leaseEndYear, leaseEndMonth, leaseEndDay).toISOString() : undefined;
+    tenant.property = parseInt(propertyId);
+    delete tenant.tenantInfo;
+    delete tenant.oldId;
+    tenantIds.push(parseInt(tenantId));
+    tenants.push(tenant);
+  }
+  var entryIds = [];
+  for (var entryId in property.account.entries) {
+    var entry = property.account.entries[entryId];
+    entry.id = parseInt(entryId);
+    entry.tenant = parseInt(entry.tenantId);
+    entry.record = parseInt(entry.recordId);
+    entry.property = parseInt(propertyId);
+    year = parseInt(entry.date.year);
+    month = parseInt(entry.date.month) - 1;
+    day = parseInt(entry.date.day);
+    entry.date = year && month > -1 && day ? new Date(year, month, day).toISOString() : year && month > -1 ? new Date(year, month).toISOString() : undefined;
+    delete entry.tenantId;
+    delete entry.recordId;
+    delete entry.oldId;
+    entryIds.push(parseInt(entryId));
+    entries.push(entry);
+  }
+  var recordIds = [];
+  for (var recordId in property.account.records) {
+    var record = property.account.records[recordId];
+    record.id = parseInt(recordId);
+    record.tenant = parseInt(record.tenantId);
+    record.property = parseInt(propertyId);
+    year = parseInt(record.date.due.year);
+    month = parseInt(record.date.due.month) - 1;
+    day = parseInt(record.date.due.day);
+    record.date = year && month > -1 && day ? new Date(year, month, day).toISOString() : year && month > -1 ? new Date(year, month).toISOString() : undefined;
+    delete record.tenantId;
+    delete record.recordId;
+    delete record.oldId;
+    recordIds.push(parseInt(recordId));
+    records.push(record)
+  }
+  property.tenants = tenantIds;
+  property.entries = entryIds;
+  property.records = recordIds;
+  delete property.account;
+  delete property.propertyInfo.address;
+  delete property.propertyInfo;
+  properties.push(property);
+  delete newData[propertyId];
+}
+
+newData.properties = properties;
+newData.tenants = tenants;
+newData.entries = entries;
+newData.records = records;
+
+
 

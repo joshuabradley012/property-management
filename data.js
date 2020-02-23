@@ -1,8370 +1,4998 @@
 const data = {
-  "204589028":
+  "properties": [
   {
-    "propertyInfo":
+    "tenants": [1732370479],
+    "id": 204589028,
+    "address":
     {
-      "address": "3201 Orilla Avenue",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "3201 Orilla Avenue"
     },
-    "tenants":
-    {
-      "1732370479":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "name": "Ronda Covarrubias",
-          "email": "rondacova@yahoo.com",
-          "phone": "818-669-4443",
-          "currentRent": 1396,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "1980573":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "1318688727",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "03"
-          }
-        },
-        "402585574":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "631589103",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "04"
-          }
-        },
-        "826293444":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1396,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "1695211299",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "04"
-          }
-        },
-        "1376239738":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "660218254",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "03"
-          }
-        },
-        "1575376862":
-        {
-          "oldId": "-LxxjhVnk40vLkgPhIm8",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 80.58,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1689848698":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "1666581990",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "03"
-          }
-        },
-        "1809435036":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "1290059576",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "03"
-          }
-        },
-        "1862732192":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "1347317878",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "2113556410":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1343,
-          "source": "Mobile",
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "recordId": "602959952",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "05"
-          }
-        }
-      },
-      "records":
-      {
-        "602959952":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "631589103":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "660218254":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1290059576":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1318688727":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1347317878":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "1666581990":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1343,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1695211299":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1396,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1723840450":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1396,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1752469601":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1396,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1781098752":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1396,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1809727903":
-        {
-          "oldId": "-LjpmAhX73Iro2uEUd33",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1396,
-          "transactor": "Ronda Covarrubias",
-          "tenantId": "1732370479",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        }
-      }
-    }
+    "entries": [1980573, 402585574, 826293444, 1376239738, 1575376862, 1689848698, 1809435036, 1862732192, 2113556410],
+    "records": [602959952, 631589103, 660218254, 1290059576, 1318688727, 1347317878, 1666581990, 1695211299, 1723840450, 1752469601, 1781098752, 1809727903]
   },
-  "333872858":
   {
-    "propertyInfo":
+    "tenants": [1524938655],
+    "id": 333872858,
+    "address":
     {
-      "address": "4539 Verdugo Road",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "4539 Verdugo Road"
     },
-    "tenants":
-    {
-      "1524938655":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "name": "Candice Nigra",
-          "email": "candygirl587@hotmail.com",
-          "phone": "818-326-2810",
-          "currentRent": 1248,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "79472025":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "408580198",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "01"
-          }
-        },
-        "658047628":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "1530957703",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "01"
-          }
-        },
-        "720172683":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "872487230",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "01"
-          }
-        },
-        "1149406835":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "1559586854",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "01"
-          }
-        },
-        "1201798384":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "843858079",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1576181126":
-        {
-          "oldId": "-LxxjrcTTG2lVh-H32Gd",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 74.88,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1795969301":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "901116381",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "02"
-          }
-        },
-        "1886926488":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "437209349",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "01"
-          }
-        },
-        "2012099315":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "recordId": "1588216005",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "13"
-          }
-        },
-        "2091810328":
-        {
-          "oldId": "-Lvqr4ZKIY760goal_QL",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "amount": 160,
-          "transactor": "Leo Santoyo",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "11"
-          }
-        }
-      },
-      "records":
-      {
-        "294063594":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "322692745":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "351321896":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "379951047":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "408580198":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "437209349":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "843858079":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "872487230":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "901116381":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1530957703":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1559586854":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1588216005":
-        {
-          "oldId": "-LjpmND-Zfw8tPIUGAt2",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1248,
-          "transactor": "Candice Nigra",
-          "tenantId": "1524938655",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        }
-      }
-    }
+    "entries": [79472025, 658047628, 720172683, 1149406835, 1201798384, 1576181126, 1795969301, 1886926488, 2012099315, 2091810328],
+    "records": [294063594, 322692745, 351321896, 379951047, 408580198, 437209349, 843858079, 872487230, 901116381, 1530957703, 1559586854, 1588216005]
   },
-  "838056571":
   {
-    "propertyInfo":
+    "tenants": [59607423, 629044528, 728177430, 742965617],
+    "id": 838056571,
+    "address":
     {
-      "address": "3969 Denker Ave",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "3969 Denker Ave"
     },
-    "tenants":
-    {
-      "59607423":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "name": "Daniel Wegerer",
-          "email": "lilwegerer@yahoo.com",
-          "phone": "310-425-4392",
-          "unit": "2",
-          "currentRent": 2400,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "629044528":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "name": "Selene Garcia",
-          "email": "selenegarcia1986@gmail.com",
-          "phone": "323-458-2857",
-          "unit": "1",
-          "currentRent": 1653,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "728177430":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "name": "Tyler Sandness",
-          "email": "tlsandness@gmail.com",
-          "phone": "310-721-0703",
-          "unit": "4",
-          "currentRent": 1606,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "742965617":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "name": "Rebecca Themelis",
-          "email": "rthemelis@gmail.com",
-          "phone": "310-494-6036",
-          "unit": "3",
-          "currentRent": 0,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "42047647":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 0,
-          "source": "Mobile",
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "recordId": "711747540",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "02"
-          }
-        },
-        "66637717":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "source": "Check",
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "528548247",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "100801115":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Check",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "1006572828",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "157594904":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "source": "Check",
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "809777483",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "04"
-          }
-        },
-        "166854929":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "833885580",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "277645755":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Check",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "331752902",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "07"
-          }
-        },
-        "291008374":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "source": "Check",
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "1520985204",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "04"
-          }
-        },
-        "328433037":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Check",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "1693672452",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "05"
-          }
-        },
-        "362596435":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "source": "Check",
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "1215647871",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "05"
-          }
-        },
-        "417679147":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "source": "Check",
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "1578243506",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "05"
-          }
-        },
-        "462207189":
-        {
-          "oldId": "-LlHiMfsRHeQi8xSME_Q",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Pest Control",
-          "amount": 30,
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "02"
-          }
-        },
-        "579257255":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Mobile",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "949314526",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "613420653":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "471289945",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "783696524":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "source": "Check",
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "418552697",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "07"
-          }
-        },
-        "937870486":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "source": "Check",
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "447181848",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "04"
-          }
-        },
-        "985396503":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "source": "Check",
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "1158389569",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1037120558":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Check",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "1636414150",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "04"
-          }
-        },
-        "1416228877":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "source": "Check",
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "1187018720",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "04"
-          }
-        },
-        "1450392275":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Check",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "1665043301",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "04"
-          }
-        },
-        "1529808708":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Check",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "303123751",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "07"
-          }
-        },
-        "1619900376":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "source": "Check",
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "891143882",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "11"
-          }
-        },
-        "1649859559":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "source": "Check",
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "781148332",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "04"
-          }
-        },
-        "1755116138":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "862514731",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "01"
-          }
-        },
-        "1759575576":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "recordId": "499919096",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "01"
-          }
-        },
-        "1908255578":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 2400,
-          "source": "Mobile",
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "recordId": "977943677",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "2098462837":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1606,
-          "source": "Check",
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "recordId": "1549614355",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "04"
-          }
-        }
-      },
-      "records":
-      {
-        "81908140":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "81909101":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "81910062":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "81911023":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "81911984":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "81912945":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "188607147":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "217236298":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "245865449":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "274494600":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "303123751":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "304036093":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "331752902":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "332665244":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "361294395":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "389923546":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "418552697":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "447181848":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "471289945":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "499919096":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "528548247":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "666631728":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "695260879":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "711723515":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "711724476":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "711725437":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "711746579":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "711747540":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "711748501":
-        {
-          "oldId": "-LjpooIEekjbt9INqJGc",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 0,
-          "transactor": "Rebecca Themelis",
-          "tenantId": "742965617",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "723890030":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "752519181":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "781148332":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "809777483":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "833885580":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "862514731":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "891143882":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "949314526":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "977943677":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1006572828":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1158389569":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1187018720":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1215647871":
-        {
-          "oldId": "-Ljpmb9FBAeGzqYtZZnu",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1653,
-          "transactor": "Selene Garcia",
-          "tenantId": "629044528",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1520985204":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1549614355":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1578243506":
-        {
-          "oldId": "-Ljpp2DwJutrGz83wjC6",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1606,
-          "transactor": "Tyler Sandness",
-          "tenantId": "728177430",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1636414150":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1665043301":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1693672452":
-        {
-          "oldId": "-Ljpoat2TifVHNRBfWOv",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 2400,
-          "transactor": "Daniel Wegerer",
-          "tenantId": "59607423",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        }
-      }
-    }
+    "entries": [42047647, 66637717, 100801115, 157594904, 166854929, 277645755, 291008374, 328433037, 362596435, 417679147, 462207189, 579257255, 613420653, 783696524, 937870486, 985396503, 1037120558, 1416228877, 1450392275, 1529808708, 1619900376, 1649859559, 1755116138, 1759575576, 1908255578, 2098462837],
+    "records": [81908140, 81909101, 81910062, 81911023, 81911984, 81912945, 188607147, 217236298, 245865449, 274494600, 303123751, 304036093, 331752902, 332665244, 361294395, 389923546, 418552697, 447181848, 471289945, 499919096, 528548247, 666631728, 695260879, 711723515, 711724476, 711725437, 711746579, 711747540, 711748501, 723890030, 752519181, 781148332, 809777483, 833885580, 862514731, 891143882, 949314526, 977943677, 1006572828, 1158389569, 1187018720, 1215647871, 1520985204, 1549614355, 1578243506, 1636414150, 1665043301, 1693672452]
   },
-  "906979123":
   {
-    "propertyInfo":
+    "tenants": [84573818, 1093100950, 1703736041, 1801544731],
+    "id": 906979123,
+    "address":
     {
-      "address": "1202 Colorado Boulevard",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "1202 Colorado Boulevard"
     },
-    "tenants":
-    {
-      "84573818":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "name": "Rosa Alvarez",
-          "email": "rossmerymar@hotmail.com",
-          "phone": "323-400-7466",
-          "unit": "2",
-          "currentRent": 902,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1093100950":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "name": "Sonia Lopez",
-          "email": "sonialopez1202@gmail.com",
-          "phone": "323-868-2376",
-          "unit": "3",
-          "currentRent": 866,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1703736041":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "name": "Leah Magellanes",
-          "email": "leahrmadallanes@att.net",
-          "phone": "323-356-1598",
-          "unit": "4",
-          "currentRent": 1086,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1801544731":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "name": "Jessie Sanchez",
-          "phone": "323-353-0556",
-          "unit": "1",
-          "currentRent": 891,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "06",
-              "day": "17"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "39835130":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Check",
-          "number": "428",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "563979907",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "88534987":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1627582349",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "103536183":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "source": "Check",
-          "number": "319",
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1308239408",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "106455878":
-        {
-          "oldId": "-LoBTPPNQgYKMrXlSi05",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Steve Lindhal - windows",
-          "amount": 13000,
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "07"
-          }
-        },
-        "256417550":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Check",
-          "number": "3641",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "715278294",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "388061013":
-        {
-          "oldId": "-LsXdlMRPe1rty8ASG3J",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Frenchwood",
-          "amount": 5851.92,
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "31"
-          }
-        },
-        "549234992":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Check",
-          "number": "1578",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "713431252",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "02"
-          }
-        },
-        "575259447":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Check",
-          "number": "2589",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "1966989352",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "654745375":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Check",
-          "number": "2579",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "29806851",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "660420545":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Mobile",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "540891882",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "672812775":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 866,
-          "source": "Check",
-          "number": "3650",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "373770945",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "695558276":
-        {
-          "oldId": "-Llaq5b04x1fjxqCqd1l",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 1144.5,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "710043923":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "source": "Check",
-          "number": "318",
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1650670374",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "723474936":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Check",
-          "number": "2568",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "628663622",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "864883849":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Check",
-          "number": "833",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "693113790",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "881620570":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Mobile",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "692190269",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "01"
-          }
-        },
-        "890318620":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Check",
-          "number": "431",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "222472462",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "904574792":
-        {
-          "oldId": "-LvqrzDFJmKjk8MBzfpM",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 1143.96,
-          "transactor": "Rebecca Themelis - December management",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "10"
-          }
-        },
-        "938894896":
-        {
-          "oldId": "-LlHhc_Z3JhN0idVsg8J",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Frenchwood - Colorado Window Deposit",
-          "amount": 29000,
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "01"
-          }
-        },
-        "1033689933":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "source": "Check",
-          "number": "317",
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1649746853",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "1063883439":
-        {
-          "oldId": "-LuYvfrCcUREhTGxyOuG",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Frenchwood windows",
-          "amount": 1487,
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "25"
-          }
-        },
-        "1069997656":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Check",
-          "number": "3645",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "372847328",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1082389790":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Mobile",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "541815403",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "1083979527":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Mobile",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "657292773",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "1117089562":
-        {
-          "oldId": "-LqCpSLg5SJU0XLGHpEU",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Frenchwood",
-          "amount": 9000,
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "02"
-          }
-        },
-        "1203179778":
-        {
-          "oldId": "-Lt1OiHUGe_f_I2kI18l",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 1148.04,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "06"
-          }
-        },
-        "1250525615":
-        {
-          "oldId": "-LxajeW13FptYI8Dzz6V",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Indian chief fire co",
-          "amount": 280,
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "02"
-          }
-        },
-        "1267225692":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Mobile",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "58436002",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "01"
-          }
-        },
-        "1355389516":
-        {
-          "oldId": "-Llfy0QzQJ84YW4t4fmM",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "LADBS Window Permit Check 1006",
-          "amount": 681.24,
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "07"
-          }
-        },
-        "1403533306":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Mobile",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "685921924",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1447216252":
-        {
-          "oldId": "-Llb4qCnjFWw1arEXh1L",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Point Blank Electric- 1208 & 1212 comonthon area electric",
-          "amount": 462,
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "06"
-          }
-        },
-        "1467920129":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Check",
-          "number": "426",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "542738924",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "07"
-          }
-        },
-        "1516702957":
-        {
-          "oldId": "-Lt0Ez-Jt_NK9DhAFYMY",
-          "category": "Expense",
-          "type": "Owner Draw",
-          "amount": 6000,
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "31"
-          }
-        },
-        "1520314070":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "source": "Check",
-          "number": "316",
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1648823332",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1522037903":
-        {
-          "oldId": "-LnmlDiIYw2rpEcCFLhi",
-          "category": "Expense",
-          "type": "Owner Draw",
-          "amount": 5000,
-          "transactor": "Vickie Nigra",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "15"
-          }
-        },
-        "1522092656":
-        {
-          "oldId": "-LqkYujOxZzbljahMrGq",
-          "category": "Income",
-          "type": "Loan",
-          "name": "To cover window expenses",
-          "amount": 3000,
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "02"
-          }
-        },
-        "1555048719":
-        {
-          "oldId": "-LxxjVlwu6U7aXI6KhZo",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 990.84,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1559044006":
-        {
-          "oldId": "-LoFytl-gI23zWsjqvKx",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 1146.3,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "08"
-          }
-        },
-        "1639274921":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 902,
-          "source": "Check",
-          "number": "320",
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1309163698",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1654275348":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1626658828",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1661838223":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 891,
-          "source": "Check",
-          "number": "432",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "223396101",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1665149062":
-        {
-          "oldId": "-LmMAdF89zJmuncxYbub",
-          "category": "Expense",
-          "type": "Owner Draw",
-          "amount": 6500,
-          "transactor": "Vickie Nigra",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "10"
-          }
-        },
-        "1674230475":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Mobile",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "691266748",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1703898726":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Check",
-          "number": "430",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "564903428",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "1775509156":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1045,
-          "source": "Check",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "1177700",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1780798423":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 857,
-          "source": "Check",
-          "number": "427",
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "recordId": "563056386",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1833192364":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 868,
-          "source": "Check",
-          "number": "315",
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "recordId": "1628505870",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "07"
-          }
-        },
-        "1857700019":
-        {
-          "oldId": "-LqiL67EQHhKlb8qI8r8",
-          "category": "Expense",
-          "type": "Property Management",
-          "amount": 1147.5,
-          "transactor": "Rebecca Themelis",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "08"
-          }
-        },
-        "1912253511":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1086,
-          "source": "Check",
-          "number": "2594",
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "recordId": "1938360076",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1967554797":
-        {
-          "oldId": "-LpxD8LgNAQF9_hDxoch",
-          "category": "Expense",
-          "type": "Owner Draw",
-          "amount": 7000,
-          "transactor": "Vickie Nigra",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "29"
-          }
-        },
-        "2000151406":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 833,
-          "source": "Check",
-          "number": "1582",
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "recordId": "714354773",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "2091812126":
-        {
-          "oldId": "-LvqrSUCq6j10uBB38sS",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "1202-2 holes in bathroom and sink",
-          "amount": 320,
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "11"
-          }
-        },
-        "2091812157":
-        {
-          "oldId": "-LvqrcVOnq5hWyq2KcZR",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "1202 exterior and 1202-2 tile",
-          "amount": 330,
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "11"
-          }
-        }
-      },
-      "records":
-      {
-        "1177700":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "29806851":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "58436002":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "222472462":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "223396101":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 891,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "224319622":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 891,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "225243143":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 891,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "226166664":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 891,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "227090185":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 891,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "372847328":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "373770945":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 866,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "374694466":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 866,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "375617987":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 866,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "376541508":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 866,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "377465029":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 866,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "540891882":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "541815403":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "542738924":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "563056386":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "563979907":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "564903428":
-        {
-          "oldId": "-LjplWPka1rgc2w_mnCG",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 857,
-          "transactor": "Jessie Sanchez",
-          "tenantId": "1801544731",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "628663622":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "657292773":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "685921924":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "691266748":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "692190269":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "693113790":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "713431252":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "714354773":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "715278294":
-        {
-          "oldId": "-LjploPkP6uBjJgqQSiE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 833,
-          "transactor": "Sonia Lopez",
-          "tenantId": "1093100950",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1308239408":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1309163698":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 902,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1310087219":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 902,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1311010740":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 902,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1311934261":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 902,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1312857782":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 902,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1626658828":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "1627582349":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1628505870":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1648823332":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1649746853":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1650670374":
-        {
-          "oldId": "-LjplfMCl850Adm9byHE",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 868,
-          "transactor": "Rosa Alvarez",
-          "tenantId": "84573818",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1823843472":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1086,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1852472623":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1086,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1881101774":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1086,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1909730925":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1086,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1938360076":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1086,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1966989352":
-        {
-          "oldId": "-LjplzMDH5A5b2r6qdaF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1045,
-          "transactor": "Leah Magellanes",
-          "tenantId": "1703736041",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        }
-      }
-    }
+    "entries": [39835130, 88534987, 103536183, 106455878, 256417550, 388061013, 549234992, 575259447, 654745375, 660420545, 672812775, 695558276, 710043923, 723474936, 864883849, 881620570, 890318620, 904574792, 938894896, 1033689933, 1063883439, 1069997656, 1082389790, 1083979527, 1117089562, 1203179778, 1250525615, 1267225692, 1355389516, 1403533306, 1447216252, 1467920129, 1516702957, 1520314070, 1522037903, 1522092656, 1555048719, 1559044006, 1639274921, 1654275348, 1661838223, 1665149062, 1674230475, 1703898726, 1775509156, 1780798423, 1833192364, 1857700019, 1912253511, 1967554797, 2000151406, 2091812126, 2091812157],
+    "records": [1177700, 29806851, 58436002, 222472462, 223396101, 224319622, 225243143, 226166664, 227090185, 372847328, 373770945, 374694466, 375617987, 376541508, 377465029, 540891882, 541815403, 542738924, 563056386, 563979907, 564903428, 628663622, 657292773, 685921924, 691266748, 692190269, 693113790, 713431252, 714354773, 715278294, 1308239408, 1309163698, 1310087219, 1311010740, 1311934261, 1312857782, 1626658828, 1627582349, 1628505870, 1648823332, 1649746853, 1650670374, 1823843472, 1852472623, 1881101774, 1909730925, 1938360076, 1966989352]
   },
-  "1169268374":
   {
-    "propertyInfo":
+    "tenants": [1161390127, 1646034143],
+    "id": 1169268374,
+    "address":
     {
-      "address": "1216 Colorado Boulevard",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "1216 Colorado Boulevard"
     },
-    "tenants":
-    {
-      "1161390127":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "name": "Brooke Morgan",
-          "email": "joellebrooks01@gmail.com",
-          "phone": "909-354-1000",
-          "unit": "1",
-          "currentRent": 1872,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1646034143":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "name": "Javier Garcia",
-          "email": "tbone8552@yahoo.com",
-          "phone": "562-832-5803",
-          "unit": "2",
-          "currentRent": 1820,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "20319687":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "1326850075",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "22010920":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "source": "Check",
-          "number": "127",
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "953762433",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "02"
-          }
-        },
-        "351655357":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "639750451",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "486069919":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "source": "Check",
-          "number": "133",
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "1401666962",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "493110685":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "1640862057",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "600044535":
-        {
-          "oldId": "-LqCphidmfsegAXQa8Qg",
-          "category": "Expense",
-          "type": "Repairs and Maintenance",
-          "name": "Leo -  hinge repair",
-          "amount": 60,
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "02"
-          }
-        },
-        "656154398":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "612687826",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "05"
-          }
-        },
-        "772564054":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "source": "Check",
-          "number": "131",
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "896504131",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "903604549":
-        {
-          "oldId": "manualFee",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 50,
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "01"
-          }
-        },
-        "1003084576":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "697008753",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "04"
-          }
-        },
-        "1022726709":
-        {
-          "oldId": "-Lqan5mcdj8hDZLwz3Xt",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 50,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1036783461":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Other",
-          "description": "credit card",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "641316977",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "01"
-          }
-        },
-        "1135583208":
-        {
-          "oldId": "-LsyquA8bhw964tK6E7-",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 50,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "1173121627":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Other",
-          "description": "mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "1384108377",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "30"
-          }
-        },
-        "1173169055":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "source": "Check",
-          "number": "1820",
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "1583603755",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "1314343778":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "1612232906",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "1321384544":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "source": "Check",
-          "number": "132",
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "1373037811",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1455799106":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "668379602",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "1743577930":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1820,
-          "source": "Check",
-          "number": "129",
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "recordId": "925133282",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "1787419670":
-        {
-          "oldId": "-LqanwRrKBrpCB5sdYOx",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 20,
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1856403301":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1872,
-          "source": "Mobile",
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "recordId": "1355479226",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "06"
-          }
-        },
-        "2044964367":
-        {
-          "oldId": "-LvSZKOLgKROI9sWgmlB",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 50,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        }
-      },
-      "records":
-      {
-        "498171222":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "526800373":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "555429524":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "584058675":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "612687826":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "639750451":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "641316977":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "668379602":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "697008753":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "896504131":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "925133282":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "953762433":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1326850075":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1355479226":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1373037811":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1384108377":
-        {
-          "oldId": "-LjpqNy1BPXXhW4fT3oS",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1872,
-          "transactor": "Brooke Morgan",
-          "tenantId": "1161390127",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1401666962":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1430296113":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1458925264":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1487554415":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1516183566":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1583603755":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1612232906":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1640862057":
-        {
-          "oldId": "-LjpqY-0yzkkbMPAqg_E",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1820,
-          "transactor": "Javier Garcia",
-          "tenantId": "1646034143",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        }
-      }
-    }
+    "entries": [20319687, 22010920, 351655357, 486069919, 493110685, 600044535, 656154398, 772564054, 903604549, 1003084576, 1022726709, 1036783461, 1135583208, 1173121627, 1173169055, 1314343778, 1321384544, 1455799106, 1743577930, 1787419670, 1856403301, 2044964367],
+    "records": [498171222, 526800373, 555429524, 584058675, 612687826, 639750451, 641316977, 668379602, 697008753, 896504131, 925133282, 953762433, 1326850075, 1355479226, 1373037811, 1384108377, 1401666962, 1430296113, 1458925264, 1487554415, 1516183566, 1583603755, 1612232906, 1640862057]
   },
-  "1437687918":
   {
-    "propertyInfo":
+    "tenants": [152999434, 727550555, 1002459878, 1554081728],
+    "id": 1437687918,
+    "address":
     {
-      "address": "1212 Colorado Boulevard",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "1212 Colorado Boulevard"
     },
-    "tenants":
-    {
-      "152999434":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "name": "Byron Sanchez",
-          "email": "byron4578@gmail.com",
-          "phone": "818-653-2488",
-          "unit": "2",
-          "currentRent": 1269,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "727550555":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "name": "Corbett and Maria Rousey",
-          "email": "maria.rousey16@yahoo.com",
-          "phone": "626-429-3475",
-          "unit": "4",
-          "currentRent": 1061,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1002459878":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "name": "Mia Hernandez",
-          "email": "miamag_443@msn.com",
-          "phone": "818-572-3332",
-          "unit": "1",
-          "currentRent": 1654,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1554081728":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "name": "Vindy Duran",
-          "email": "vindyduran@gmail.com",
-          "phone": "323-514-6687",
-          "unit": "3",
-          "currentRent": 1358,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "29696173":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1021,
-          "source": "Other",
-          "description": "Money order",
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "990237351",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "160004621":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Mobile",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "477622605",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "06"
-          }
-        },
-        "260812261":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "983294408",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "370908858":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Check",
-          "number": "3206",
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "303137757",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "396594643":
-        {
-          "oldId": "-LyL82X4zdlHXv7iiIp2",
-          "category": "Expense",
-          "type": "Reminbursement",
-          "name": "Rent overpayment",
-          "amount": -9,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "481574302":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1358,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "297772863",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "03"
-          }
-        },
-        "589238773":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Check",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "209477019",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "06"
-          }
-        },
-        "620544365":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "976167495",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "01"
-          }
-        },
-        "638089608":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "1322003598",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "01"
-          }
-        },
-        "650362197":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1021,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "1047495653",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "668269463":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1269,
-          "source": "Check",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "1758689901",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "07"
-          }
-        },
-        "757675946":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "1634637968",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "01"
-          }
-        },
-        "804563017":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "1670394032",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "01"
-          }
-        },
-        "922269681":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1021,
-          "source": "Check",
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "1966404185",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "11"
-          }
-        },
-        "1002891446":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "1641764881",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "01"
-          }
-        },
-        "1022338047":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1021,
-          "source": "Bank",
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "360396029",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1078407668":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "1663267119",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "02"
-          }
-        },
-        "1131681886":
-        {
-          "oldId": "-M-S8MlpdPCZTUzjtPMy",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 30,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1186910098":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "947538344",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "01"
-          }
-        },
-        "1246844841":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Check",
-          "number": "1221",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "180847868",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1323217712":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "1691896270",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1356319980":
-        {
-          "oldId": "-LyL6yeWlBoXh8-UZZt8",
-          "category": "Income",
-          "type": "Reminbursement",
-          "name": "rent overpayment",
-          "amount": 9,
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1436545665":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1030,
-          "source": "Check",
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "331766848",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "06"
-          }
-        },
-        "1546642202":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "954665257",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1618820691":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Mobile",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "506251756",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1629542677":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1061,
-          "source": "Check",
-          "description": "3173.4",
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "1995033490",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1674448982":
-        {
-          "oldId": "-Lxww2AfzDJJThKUBVX5",
-          "category": "Expense",
-          "type": "Reminbursement",
-          "name": "Rent overpayment",
-          "amount": 9,
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1740208118":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "1699023183",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "03"
-          }
-        },
-        "1837150636":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1021,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "recordId": "1018866502",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "1847872746":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Check",
-          "number": "181",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "1787319184",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1849424065":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1654,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "1350633589",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "01"
-          }
-        },
-        "1866968468":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1591,
-          "source": "Mobile",
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "recordId": "1004796646",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "01"
-          }
-        },
-        "1898274060":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Check",
-          "number": "180",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "238106170",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "1948680386":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "326402171",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "05"
-          }
-        },
-        "1996088235":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1221,
-          "source": "Check",
-          "number": "126",
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "recordId": "448993454",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "2125525026":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1306,
-          "source": "Mobile",
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "recordId": "1011923559",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "03"
-          }
-        },
-        "2126066814":
-        {
-          "oldId": "-LxwwVOsW2sbWcnM69Ra",
-          "category": "Expense",
-          "type": "Reminbursement",
-          "amount": 9,
-          "transactor": "Maria rousey",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "2140507417":
-        {
-          "oldId": "-LxvwgqrPfH5VT6SM8Y9",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 30,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        }
-      },
-      "records":
-      {
-        "180847868":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "183256259":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1358,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "209477019":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "211885410":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1358,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "238106170":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "240514561":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1358,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "269143712":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1358,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "297772863":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1358,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "303137757":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "326402171":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "331766848":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1030,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "360396029":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1021,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "448993454":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "477622605":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "506251756":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "947538344":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "954665257":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "976167495":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "983294408":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "990237351":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1021,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1004796646":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1011923559":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1018866502":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1021,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1047495653":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1021,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "1322003598":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1350633589":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1654,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1379262740":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1654,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1407891891":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1654,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1436521042":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1654,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1465150193":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1654,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1634637968":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1641764881":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1644173297":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1269,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1663267119":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1670394032":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1672802448":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1269,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1691896270":
-        {
-          "oldId": "-Ljppre-E85Bt93FSVkF",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1591,
-          "transactor": "Mia Hernandez",
-          "tenantId": "1002459878",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "1699023183":
-        {
-          "oldId": "-Ljpq6be5eEFxAyZF2yh",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1306,
-          "transactor": "Vindy Duran",
-          "tenantId": "1554081728",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1701431599":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1269,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1730060750":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1269,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1758689901":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1269,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1787319184":
-        {
-          "oldId": "-LjppzaBPBTJZUW2vAdO",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1221,
-          "transactor": "Byron Sanchez",
-          "tenantId": "152999434",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1966404185":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1995033490":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1061,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "2023662641":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1061,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "2052291792":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1061,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "2080920943":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1061,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "2109550094":
-        {
-          "oldId": "-LjpqE30ecCcg_5-7LUZ",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1061,
-          "transactor": "Corbett and Maria Rousey",
-          "tenantId": "727550555",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        }
-      }
-    }
+    "entries": [29696173, 160004621, 260812261, 370908858, 396594643, 481574302, 589238773, 620544365, 638089608, 650362197, 668269463, 757675946, 804563017, 922269681, 1002891446, 1022338047, 1078407668, 1131681886, 1186910098, 1246844841, 1323217712, 1356319980, 1436545665, 1546642202, 1618820691, 1629542677, 1674448982, 1740208118, 1837150636, 1847872746, 1849424065, 1866968468, 1898274060, 1948680386, 1996088235, 2125525026, 2126066814, 2140507417],
+    "records": [180847868, 183256259, 209477019, 211885410, 238106170, 240514561, 269143712, 297772863, 303137757, 326402171, 331766848, 360396029, 448993454, 477622605, 506251756, 947538344, 954665257, 976167495, 983294408, 990237351, 1004796646, 1011923559, 1018866502, 1047495653, 1322003598, 1350633589, 1379262740, 1407891891, 1436521042, 1465150193, 1634637968, 1641764881, 1644173297, 1663267119, 1670394032, 1672802448, 1691896270, 1699023183, 1701431599, 1730060750, 1758689901, 1787319184, 1966404185, 1995033490, 2023662641, 2052291792, 2080920943, 2109550094]
   },
-  "1625037383":
   {
-    "propertyInfo":
+    "tenants": [554466551, 1009226164, 1167141134, 1948488359],
+    "id": 1625037383,
+    "address":
     {
-      "address": "1208 Colorado Boulevard",
       "city": "Los Angeles",
-      "state": "CA"
+      "state": "CA",
+      "line1": "1208 Colorado Boulevard"
     },
-    "tenants":
-    {
-      "554466551":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "name": "Kevin Simon",
-          "email": "mrsimonfilms@gmail.com",
-          "phone": "401-639-4952",
-          "unit": "2",
-          "currentRent": 1052,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1009226164":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "name": "Ricardo Perez",
-          "email": "perezmiami72@yahoo.com",
-          "phone": "323-422-0063",
-          "unit": "3",
-          "currentRent": 1111,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1167141134":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "name": "Mary Texidor",
-          "phone": "323-394-9010",
-          "unit": "4",
-          "currentRent": 879,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      },
-      "1948488359":
-      {
-        "tenantInfo":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "name": "Kathleen Dornidon",
-          "email": "mn46292@gmail.com",
-          "phone": "323-806-2720",
-          "unit": "1",
-          "currentRent": 1167,
-          "lease":
-          {
-            "start":
-            {},
-            "end":
-            {
-              "year": "2020",
-              "month": "07",
-              "day": "01"
-            }
-          }
-        }
-      }
-    },
-    "account":
-    {
-      "entries":
-      {
-        "137420450":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Check",
-          "number": "101",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "468934191",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        },
-        "170787123":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "183612056",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "272433168":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1052,
-          "source": "Other",
-          "description": "Money order",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "741294468",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "07"
-          }
-        },
-        "356532677":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "source": "Check",
-          "number": "1032",
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "44944385",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "453737470":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "source": "Check",
-          "number": "1030",
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "43097343",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "480767149":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Mobile",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "1156033815",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "02"
-          }
-        },
-        "557821888":
-        {
-          "oldId": "-Lo2jLxz8_jILuVIutsw",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 30,
-          "transactor": "Kevin Simon",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "06"
-          }
-        },
-        "571392124":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "source": "Bank",
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "870711680",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "06"
-          }
-        },
-        "572697648":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 879,
-          "source": "Check",
-          "number": "1057",
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "296562964",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "577077701":
-        {
-          "oldId": "-LoCNz2gRQ6VhXshZong",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 30,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "07"
-          }
-        },
-        "584470059":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Mobile",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "2022361772",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "657487534":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1111,
-          "source": "Other",
-          "description": "Money order",
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "1097454574",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "764768722":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "source": "Check",
-          "number": "1023",
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "22779881",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "851008554":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Bank",
-          "number": "3330",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "1614135051",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "978041613":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "21856360",
-          "date":
-          {
-            "year": "2019",
-            "month": "08",
-            "day": "05"
-          }
-        },
-        "985075060":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Bank",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "1585505900",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "06"
-          }
-        },
-        "1092584372":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Check",
-          "number": "103",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "1829236902",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1170112783":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "source": "Check",
-          "number": "1033",
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "297486581",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1222984404":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Mobile",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "1993732621",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1238477777":
-        {
-          "oldId": "-M-S8BbTAMt799YiB7a7",
-          "category": "Income",
-          "type": "Late Fee",
-          "amount": 30,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1240799861":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Check",
-          "number": "189",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "1127404664",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "1264691490":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "source": "Other",
-          "description": "Mo",
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "842082529",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "07"
-          }
-        },
-        "1394928589":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1167,
-          "source": "Check",
-          "number": "104",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "1857866181",
-          "date":
-          {
-            "year": "2020",
-            "month": "02",
-            "day": "06"
-          }
-        },
-        "1502437773":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Bank",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "1556876749",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "1574115348":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "20932839",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1636667340":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "154982905",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1641404862":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Check",
-          "number": "102",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "440305040",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "1830026097":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "source": "Other",
-          "description": "Money order",
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "1126084523",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "1858987460":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Check",
-          "number": "190",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "497563342",
-          "date":
-          {
-            "year": "2019",
-            "month": "10",
-            "day": "02"
-          }
-        },
-        "1916120709":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "source": "Other",
-          "description": "Money order",
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "899340831",
-          "date":
-          {
-            "year": "2019",
-            "month": "12",
-            "day": "06"
-          }
-        },
-        "1920858231":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1123,
-          "source": "Mobile",
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "recordId": "1184662966",
-          "date":
-          {
-            "year": "2019",
-            "month": "07",
-            "day": "05"
-          }
-        },
-        "1960301169":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Other",
-          "description": "MO",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "2050990923",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "07"
-          }
-        },
-        "1978241586":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1069,
-          "source": "Other",
-          "description": "Money order",
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "recordId": "212241207",
-          "date":
-          {
-            "year": "2019",
-            "month": "09",
-            "day": "05"
-          }
-        },
-        "2051258263":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 1012,
-          "source": "Other",
-          "description": "Cashiers check",
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "recordId": "712665193",
-          "date":
-          {
-            "year": "2020",
-            "month": "01",
-            "day": "06"
-          }
-        },
-        "2100266533":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Income",
-          "type": "Rent",
-          "amount": 846,
-          "source": "Check",
-          "number": "1042",
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "recordId": "44020864",
-          "date":
-          {
-            "year": "2019",
-            "month": "11",
-            "day": "05"
-          }
-        }
-      },
-      "records":
-      {
-        "20932839":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "21856360":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "22779881":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "43097343":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "44020864":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "44944385":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "154982905":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "183612056":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "212241207":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "292868880":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 879,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "293792401":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 879,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "294715922":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 879,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "295639443":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 879,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "296562964":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 879,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "297486581":
-        {
-          "oldId": "-LjppdfT5yQ8WfHQWoSH",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 846,
-          "transactor": "Mary Texidor",
-          "tenantId": "1167141134",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "440305040":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "468934191":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "497563342":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "712665193":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "741294468":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1052,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "769923619":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1052,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "798552770":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1052,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "827181921":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1052,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "842082529":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "855811072":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1052,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "870711680":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "899340831":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "982937970":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1111,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1011567121":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1111,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1040196272":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1111,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1068825423":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1111,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1097454574":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1111,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1126084523":
-        {
-          "oldId": "-LjppUgYezzYPJ6LXqik",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1069,
-          "transactor": "Ricardo Perez",
-          "tenantId": "1009226164",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1127404664":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        },
-        "1156033815":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "1184662966":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "1556876749":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "12"
-            }
-          }
-        },
-        "1585505900":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "11"
-            }
-          }
-        },
-        "1614135051":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "10"
-            }
-          }
-        },
-        "1829236902":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1123,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "01"
-            }
-          }
-        },
-        "1857866181":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1167,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "02"
-            }
-          }
-        },
-        "1886495332":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1167,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "03"
-            }
-          }
-        },
-        "1915124483":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1167,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "04"
-            }
-          }
-        },
-        "1943753634":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1167,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "05"
-            }
-          }
-        },
-        "1972382785":
-        {
-          "oldId": "-LjppG5b_FsjS5VP6J5W",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1167,
-          "transactor": "Kathleen Dornidon",
-          "tenantId": "1948488359",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2020",
-              "month": "06"
-            }
-          }
-        },
-        "1993732621":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "07"
-            }
-          }
-        },
-        "2022361772":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "08"
-            }
-          }
-        },
-        "2050990923":
-        {
-          "oldId": "-LjppN8HWitbvElUnA8_",
-          "category": "Invoice",
-          "type": "Rent",
-          "amount": 1012,
-          "transactor": "Kevin Simon",
-          "tenantId": "554466551",
-          "date":
-          {
-            "requested":
-            {},
-            "due":
-            {
-              "year": "2019",
-              "month": "09"
-            }
-          }
-        }
-      }
-    }
-  }
+    "entries": [137420450, 170787123, 272433168, 356532677, 453737470, 480767149, 557821888, 571392124, 572697648, 577077701, 584470059, 657487534, 764768722, 851008554, 978041613, 985075060, 1092584372, 1170112783, 1222984404, 1238477777, 1240799861, 1264691490, 1394928589, 1502437773, 1574115348, 1636667340, 1641404862, 1830026097, 1858987460, 1916120709, 1920858231, 1960301169, 1978241586, 2051258263, 2100266533],
+    "records": [20932839, 21856360, 22779881, 43097343, 44020864, 44944385, 154982905, 183612056, 212241207, 292868880, 293792401, 294715922, 295639443, 296562964, 297486581, 440305040, 468934191, 497563342, 712665193, 741294468, 769923619, 798552770, 827181921, 842082529, 855811072, 870711680, 899340831, 982937970, 1011567121, 1040196272, 1068825423, 1097454574, 1126084523, 1127404664, 1156033815, 1184662966, 1556876749, 1585505900, 1614135051, 1829236902, 1857866181, 1886495332, 1915124483, 1943753634, 1972382785, 1993732621, 2022361772, 2050990923]
+  }],
+  "tenants": [
+  {
+    "id": 1732370479,
+    "name": "Ronda Covarrubias",
+    "email": "rondacova@yahoo.com",
+    "phone": "818-669-4443",
+    "currentRent": 1396,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 204589028
+  },
+  {
+    "id": 1524938655,
+    "name": "Candice Nigra",
+    "email": "candygirl587@hotmail.com",
+    "phone": "818-326-2810",
+    "currentRent": 1248,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 333872858
+  },
+  {
+    "id": 59607423,
+    "name": "Daniel Wegerer",
+    "email": "lilwegerer@yahoo.com",
+    "phone": "310-425-4392",
+    "unit": "2",
+    "currentRent": 2400,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 838056571
+  },
+  {
+    "id": 629044528,
+    "name": "Selene Garcia",
+    "email": "selenegarcia1986@gmail.com",
+    "phone": "323-458-2857",
+    "unit": "1",
+    "currentRent": 1653,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 838056571
+  },
+  {
+    "id": 728177430,
+    "name": "Tyler Sandness",
+    "email": "tlsandness@gmail.com",
+    "phone": "310-721-0703",
+    "unit": "4",
+    "currentRent": 1606,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 838056571
+  },
+  {
+    "id": 742965617,
+    "name": "Rebecca Themelis",
+    "email": "rthemelis@gmail.com",
+    "phone": "310-494-6036",
+    "unit": "3",
+    "currentRent": 0,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 838056571
+  },
+  {
+    "id": 84573818,
+    "name": "Rosa Alvarez",
+    "email": "rossmerymar@hotmail.com",
+    "phone": "323-400-7466",
+    "unit": "2",
+    "currentRent": 902,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 906979123
+  },
+  {
+    "id": 1093100950,
+    "name": "Sonia Lopez",
+    "email": "sonialopez1202@gmail.com",
+    "phone": "323-868-2376",
+    "unit": "3",
+    "currentRent": 866,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 906979123
+  },
+  {
+    "id": 1703736041,
+    "name": "Leah Magellanes",
+    "email": "leahrmadallanes@att.net",
+    "phone": "323-356-1598",
+    "unit": "4",
+    "currentRent": 1086,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 906979123
+  },
+  {
+    "id": 1801544731,
+    "name": "Jessie Sanchez",
+    "phone": "323-353-0556",
+    "unit": "1",
+    "currentRent": 891,
+    "leaseEnd": "2020-06-17T07:00:00.000Z",
+    "property": 906979123
+  },
+  {
+    "id": 1161390127,
+    "name": "Brooke Morgan",
+    "email": "joellebrooks01@gmail.com",
+    "phone": "909-354-1000",
+    "unit": "1",
+    "currentRent": 1872,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1169268374
+  },
+  {
+    "id": 1646034143,
+    "name": "Javier Garcia",
+    "email": "tbone8552@yahoo.com",
+    "phone": "562-832-5803",
+    "unit": "2",
+    "currentRent": 1820,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1169268374
+  },
+  {
+    "id": 152999434,
+    "name": "Byron Sanchez",
+    "email": "byron4578@gmail.com",
+    "phone": "818-653-2488",
+    "unit": "2",
+    "currentRent": 1269,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1437687918
+  },
+  {
+    "id": 727550555,
+    "name": "Corbett and Maria Rousey",
+    "email": "maria.rousey16@yahoo.com",
+    "phone": "626-429-3475",
+    "unit": "4",
+    "currentRent": 1061,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1437687918
+  },
+  {
+    "id": 1002459878,
+    "name": "Mia Hernandez",
+    "email": "miamag_443@msn.com",
+    "phone": "818-572-3332",
+    "unit": "1",
+    "currentRent": 1654,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1437687918
+  },
+  {
+    "id": 1554081728,
+    "name": "Vindy Duran",
+    "email": "vindyduran@gmail.com",
+    "phone": "323-514-6687",
+    "unit": "3",
+    "currentRent": 1358,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1437687918
+  },
+  {
+    "id": 554466551,
+    "name": "Kevin Simon",
+    "email": "mrsimonfilms@gmail.com",
+    "phone": "401-639-4952",
+    "unit": "2",
+    "currentRent": 1052,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1625037383
+  },
+  {
+    "id": 1009226164,
+    "name": "Ricardo Perez",
+    "email": "perezmiami72@yahoo.com",
+    "phone": "323-422-0063",
+    "unit": "3",
+    "currentRent": 1111,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1625037383
+  },
+  {
+    "id": 1167141134,
+    "name": "Mary Texidor",
+    "phone": "323-394-9010",
+    "unit": "4",
+    "currentRent": 879,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1625037383
+  },
+  {
+    "id": 1948488359,
+    "name": "Kathleen Dornidon",
+    "email": "mn46292@gmail.com",
+    "phone": "323-806-2720",
+    "unit": "1",
+    "currentRent": 1167,
+    "leaseEnd": "2020-07-01T07:00:00.000Z",
+    "property": 1625037383
+  }],
+  "entries": [
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-08-03T07:00:00.000Z",
+    "id": 1980573,
+    "tenant": 1732370479,
+    "record": 1318688727,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-11-04T08:00:00.000Z",
+    "id": 402585574,
+    "tenant": 1732370479,
+    "record": 631589103,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1396,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-02-04T08:00:00.000Z",
+    "id": 826293444,
+    "tenant": 1732370479,
+    "record": 1695211299,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-10-03T07:00:00.000Z",
+    "id": 1376239738,
+    "tenant": 1732370479,
+    "record": 660218254,
+    "property": 204589028
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 80.58,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1575376862,
+    "tenant": null,
+    "record": null,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-01-03T08:00:00.000Z",
+    "id": 1689848698,
+    "tenant": 1732370479,
+    "record": 1666581990,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-09-03T07:00:00.000Z",
+    "id": 1809435036,
+    "tenant": 1732370479,
+    "record": 1290059576,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1862732192,
+    "tenant": 1732370479,
+    "record": 1347317878,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1343,
+    "source": "Mobile",
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-12-05T08:00:00.000Z",
+    "id": 2113556410,
+    "tenant": 1732370479,
+    "record": 602959952,
+    "property": 204589028
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 79472025,
+    "tenant": 1524938655,
+    "record": 408580198,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 658047628,
+    "tenant": 1524938655,
+    "record": 1530957703,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 720172683,
+    "tenant": 1524938655,
+    "record": 872487230,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1149406835,
+    "tenant": 1524938655,
+    "record": 1559586854,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1201798384,
+    "tenant": 1524938655,
+    "record": 843858079,
+    "property": 333872858
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 74.88,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1576181126,
+    "tenant": null,
+    "record": null,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-09-02T07:00:00.000Z",
+    "id": 1795969301,
+    "tenant": 1524938655,
+    "record": 901116381,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1886926488,
+    "tenant": 1524938655,
+    "record": 437209349,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-12-13T08:00:00.000Z",
+    "id": 2012099315,
+    "tenant": 1524938655,
+    "record": 1588216005,
+    "property": 333872858
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "amount": 160,
+    "transactor": "Leo Santoyo",
+    "date": "2019-12-11T08:00:00.000Z",
+    "id": 2091810328,
+    "tenant": null,
+    "record": null,
+    "property": 333872858
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 0,
+    "source": "Mobile",
+    "transactor": "Rebecca Themelis",
+    "date": "2019-08-02T07:00:00.000Z",
+    "id": 42047647,
+    "tenant": 742965617,
+    "record": 711747540,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "source": "Check",
+    "transactor": "Selene Garcia",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 66637717,
+    "tenant": 629044528,
+    "record": 528548247,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Check",
+    "transactor": "Daniel Wegerer",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 100801115,
+    "tenant": 59607423,
+    "record": 1006572828,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "source": "Check",
+    "transactor": "Selene Garcia",
+    "date": "2020-01-04T08:00:00.000Z",
+    "id": 157594904,
+    "tenant": 629044528,
+    "record": 809777483,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 166854929,
+    "tenant": 728177430,
+    "record": 833885580,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Check",
+    "transactor": "Daniel Wegerer",
+    "date": "2020-01-07T08:00:00.000Z",
+    "id": 277645755,
+    "tenant": 59607423,
+    "record": 331752902,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "source": "Check",
+    "transactor": "Tyler Sandness",
+    "date": "2019-10-04T07:00:00.000Z",
+    "id": 291008374,
+    "tenant": 728177430,
+    "record": 1520985204,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Check",
+    "transactor": "Daniel Wegerer",
+    "date": "2019-12-05T08:00:00.000Z",
+    "id": 328433037,
+    "tenant": 59607423,
+    "record": 1693672452,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "source": "Check",
+    "transactor": "Selene Garcia",
+    "date": "2019-12-05T08:00:00.000Z",
+    "id": 362596435,
+    "tenant": 629044528,
+    "record": 1215647871,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "source": "Check",
+    "transactor": "Tyler Sandness",
+    "date": "2019-12-05T08:00:00.000Z",
+    "id": 417679147,
+    "tenant": 728177430,
+    "record": 1578243506,
+    "property": 838056571
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Pest Control",
+    "amount": 30,
+    "date": "2019-08-02T07:00:00.000Z",
+    "id": 462207189,
+    "tenant": null,
+    "record": null,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Mobile",
+    "transactor": "Daniel Wegerer",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 579257255,
+    "tenant": 59607423,
+    "record": 949314526,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 613420653,
+    "tenant": 629044528,
+    "record": 471289945,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "source": "Check",
+    "transactor": "Tyler Sandness",
+    "date": "2020-02-07T08:00:00.000Z",
+    "id": 783696524,
+    "tenant": 728177430,
+    "record": 418552697,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "source": "Check",
+    "transactor": "Tyler Sandness",
+    "date": "2020-01-04T08:00:00.000Z",
+    "id": 937870486,
+    "tenant": 728177430,
+    "record": 447181848,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "source": "Check",
+    "transactor": "Selene Garcia",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 985396503,
+    "tenant": 629044528,
+    "record": 1158389569,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Check",
+    "transactor": "Daniel Wegerer",
+    "date": "2019-10-04T07:00:00.000Z",
+    "id": 1037120558,
+    "tenant": 59607423,
+    "record": 1636414150,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "source": "Check",
+    "transactor": "Selene Garcia",
+    "date": "2019-11-04T08:00:00.000Z",
+    "id": 1416228877,
+    "tenant": 629044528,
+    "record": 1187018720,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Check",
+    "transactor": "Daniel Wegerer",
+    "date": "2019-11-04T08:00:00.000Z",
+    "id": 1450392275,
+    "tenant": 59607423,
+    "record": 1665043301,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Check",
+    "transactor": "Daniel Wegerer",
+    "date": "2020-02-07T08:00:00.000Z",
+    "id": 1529808708,
+    "tenant": 59607423,
+    "record": 303123751,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "source": "Check",
+    "transactor": "Tyler Sandness",
+    "date": "2019-09-11T07:00:00.000Z",
+    "id": 1619900376,
+    "tenant": 728177430,
+    "record": 891143882,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "source": "Check",
+    "transactor": "Selene Garcia",
+    "date": "2020-02-04T08:00:00.000Z",
+    "id": 1649859559,
+    "tenant": 629044528,
+    "record": 781148332,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1755116138,
+    "tenant": 728177430,
+    "record": 862514731,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1759575576,
+    "tenant": 629044528,
+    "record": 499919096,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 2400,
+    "source": "Mobile",
+    "transactor": "Daniel Wegerer",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 1908255578,
+    "tenant": 59607423,
+    "record": 977943677,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1606,
+    "source": "Check",
+    "transactor": "Tyler Sandness",
+    "date": "2019-11-04T08:00:00.000Z",
+    "id": 2098462837,
+    "tenant": 728177430,
+    "record": 1549614355,
+    "property": 838056571
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Check",
+    "number": "428",
+    "transactor": "Jessie Sanchez",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 39835130,
+    "tenant": 1801544731,
+    "record": 563979907,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 88534987,
+    "tenant": 84573818,
+    "record": 1627582349,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "source": "Check",
+    "number": "319",
+    "transactor": "Rosa Alvarez",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 103536183,
+    "tenant": 84573818,
+    "record": 1308239408,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Steve Lindhal - windows",
+    "amount": 13000,
+    "date": "2019-09-07T07:00:00.000Z",
+    "id": 106455878,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Check",
+    "number": "3641",
+    "transactor": "Sonia Lopez",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 256417550,
+    "tenant": 1093100950,
+    "record": 715278294,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Frenchwood",
+    "amount": 5851.92,
+    "date": "2019-10-31T07:00:00.000Z",
+    "id": 388061013,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Check",
+    "number": "1578",
+    "transactor": "Sonia Lopez",
+    "date": "2019-10-02T07:00:00.000Z",
+    "id": 549234992,
+    "tenant": 1093100950,
+    "record": 713431252,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Check",
+    "number": "2589",
+    "transactor": "Leah Magellanes",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 575259447,
+    "tenant": 1703736041,
+    "record": 1966989352,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Check",
+    "number": "2579",
+    "transactor": "Leah Magellanes",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 654745375,
+    "tenant": 1703736041,
+    "record": 29806851,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Mobile",
+    "transactor": "Jessie Sanchez",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 660420545,
+    "tenant": 1801544731,
+    "record": 540891882,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 866,
+    "source": "Check",
+    "number": "3650",
+    "transactor": "Sonia Lopez",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 672812775,
+    "tenant": 1093100950,
+    "record": 373770945,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 1144.5,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 695558276,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "source": "Check",
+    "number": "318",
+    "transactor": "Rosa Alvarez",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 710043923,
+    "tenant": 84573818,
+    "record": 1650670374,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Check",
+    "number": "2568",
+    "transactor": "Leah Magellanes",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 723474936,
+    "tenant": 1703736041,
+    "record": 628663622,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Check",
+    "number": "833",
+    "transactor": "Sonia Lopez",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 864883849,
+    "tenant": 1093100950,
+    "record": 693113790,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Mobile",
+    "transactor": "Sonia Lopez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 881620570,
+    "tenant": 1093100950,
+    "record": 692190269,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Check",
+    "number": "431",
+    "transactor": "Jessie Sanchez",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 890318620,
+    "tenant": 1801544731,
+    "record": 222472462,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 1143.96,
+    "transactor": "Rebecca Themelis - December management",
+    "date": "2019-12-10T08:00:00.000Z",
+    "id": 904574792,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Frenchwood - Colorado Window Deposit",
+    "amount": 29000,
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 938894896,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "source": "Check",
+    "number": "317",
+    "transactor": "Rosa Alvarez",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 1033689933,
+    "tenant": 84573818,
+    "record": 1649746853,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Frenchwood windows",
+    "amount": 1487,
+    "date": "2019-11-25T08:00:00.000Z",
+    "id": 1063883439,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Check",
+    "number": "3645",
+    "transactor": "Sonia Lopez",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1069997656,
+    "tenant": 1093100950,
+    "record": 372847328,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Mobile",
+    "transactor": "Jessie Sanchez",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 1082389790,
+    "tenant": 1801544731,
+    "record": 541815403,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Mobile",
+    "transactor": "Leah Magellanes",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 1083979527,
+    "tenant": 1703736041,
+    "record": 657292773,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Frenchwood",
+    "amount": 9000,
+    "date": "2019-10-02T07:00:00.000Z",
+    "id": 1117089562,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 1148.04,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-11-06T08:00:00.000Z",
+    "id": 1203179778,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Indian chief fire co",
+    "amount": 280,
+    "date": "2020-01-02T08:00:00.000Z",
+    "id": 1250525615,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Mobile",
+    "transactor": "Leah Magellanes",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1267225692,
+    "tenant": 1703736041,
+    "record": 58436002,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "LADBS Window Permit Check 1006",
+    "amount": 681.24,
+    "date": "2019-08-07T07:00:00.000Z",
+    "id": 1355389516,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Mobile",
+    "transactor": "Leah Magellanes",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1403533306,
+    "tenant": 1703736041,
+    "record": 685921924,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Point Blank Electric- 1208 & 1212 comonthon area electric",
+    "amount": 462,
+    "date": "2019-08-06T07:00:00.000Z",
+    "id": 1447216252,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Check",
+    "number": "426",
+    "transactor": "Jessie Sanchez",
+    "date": "2019-09-07T07:00:00.000Z",
+    "id": 1467920129,
+    "tenant": 1801544731,
+    "record": 542738924,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Owner Draw",
+    "amount": 6000,
+    "date": "2019-10-31T07:00:00.000Z",
+    "id": 1516702957,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "source": "Check",
+    "number": "316",
+    "transactor": "Rosa Alvarez",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1520314070,
+    "tenant": 84573818,
+    "record": 1648823332,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Owner Draw",
+    "amount": 5000,
+    "transactor": "Vickie Nigra",
+    "date": "2019-08-15T07:00:00.000Z",
+    "id": 1522037903,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Loan",
+    "name": "To cover window expenses",
+    "amount": 3000,
+    "date": "2019-10-02T07:00:00.000Z",
+    "id": 1522092656,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 990.84,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1555048719,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 1146.3,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-09-08T07:00:00.000Z",
+    "id": 1559044006,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 902,
+    "source": "Check",
+    "number": "320",
+    "transactor": "Rosa Alvarez",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1639274921,
+    "tenant": 84573818,
+    "record": 1309163698,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1654275348,
+    "tenant": 84573818,
+    "record": 1626658828,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 891,
+    "source": "Check",
+    "number": "432",
+    "transactor": "Jessie Sanchez",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1661838223,
+    "tenant": 1801544731,
+    "record": 223396101,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Owner Draw",
+    "amount": 6500,
+    "transactor": "Vickie Nigra",
+    "date": "2019-08-10T07:00:00.000Z",
+    "id": 1665149062,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Mobile",
+    "transactor": "Sonia Lopez",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1674230475,
+    "tenant": 1093100950,
+    "record": 691266748,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Check",
+    "number": "430",
+    "transactor": "Jessie Sanchez",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 1703898726,
+    "tenant": 1801544731,
+    "record": 564903428,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1045,
+    "source": "Check",
+    "transactor": "Leah Magellanes",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1775509156,
+    "tenant": 1703736041,
+    "record": 1177700,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 857,
+    "source": "Check",
+    "number": "427",
+    "transactor": "Jessie Sanchez",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1780798423,
+    "tenant": 1801544731,
+    "record": 563056386,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 868,
+    "source": "Check",
+    "number": "315",
+    "transactor": "Rosa Alvarez",
+    "date": "2019-09-07T07:00:00.000Z",
+    "id": 1833192364,
+    "tenant": 84573818,
+    "record": 1628505870,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Property Management",
+    "amount": 1147.5,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-10-08T07:00:00.000Z",
+    "id": 1857700019,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1086,
+    "source": "Check",
+    "number": "2594",
+    "transactor": "Leah Magellanes",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1912253511,
+    "tenant": 1703736041,
+    "record": 1938360076,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Owner Draw",
+    "amount": 7000,
+    "transactor": "Vickie Nigra",
+    "date": "2019-09-29T07:00:00.000Z",
+    "id": 1967554797,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 833,
+    "source": "Check",
+    "number": "1582",
+    "transactor": "Sonia Lopez",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 2000151406,
+    "tenant": 1093100950,
+    "record": 714354773,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "1202-2 holes in bathroom and sink",
+    "amount": 320,
+    "date": "2019-12-11T08:00:00.000Z",
+    "id": 2091812126,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "1202 exterior and 1202-2 tile",
+    "amount": 330,
+    "date": "2019-12-11T08:00:00.000Z",
+    "id": 2091812157,
+    "tenant": null,
+    "record": null,
+    "property": 906979123
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 20319687,
+    "tenant": 1161390127,
+    "record": 1326850075,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "source": "Check",
+    "number": "127",
+    "transactor": "Javier Garcia",
+    "date": "2019-10-02T07:00:00.000Z",
+    "id": 22010920,
+    "tenant": 1646034143,
+    "record": 953762433,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 351655357,
+    "tenant": 1161390127,
+    "record": 639750451,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "source": "Check",
+    "number": "133",
+    "transactor": "Javier Garcia",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 486069919,
+    "tenant": 1646034143,
+    "record": 1401666962,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 493110685,
+    "tenant": 1646034143,
+    "record": 1640862057,
+    "property": 1169268374
+  },
+  {
+    "category": "Expense",
+    "type": "Repairs and Maintenance",
+    "name": "Leo -  hinge repair",
+    "amount": 60,
+    "date": "2019-10-02T07:00:00.000Z",
+    "id": 600044535,
+    "tenant": null,
+    "record": null,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2020-02-05T08:00:00.000Z",
+    "id": 656154398,
+    "tenant": 1161390127,
+    "record": 612687826,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "source": "Check",
+    "number": "131",
+    "transactor": "Javier Garcia",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 772564054,
+    "tenant": 1646034143,
+    "record": 896504131,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 50,
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 903604549,
+    "tenant": null,
+    "record": null,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2019-09-04T07:00:00.000Z",
+    "id": 1003084576,
+    "tenant": 1161390127,
+    "record": 697008753,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 50,
+    "transactor": "Brooke Morgan",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1022726709,
+    "tenant": 1161390127,
+    "record": null,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Other",
+    "description": "credit card",
+    "transactor": "Brooke Morgan",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1036783461,
+    "tenant": 1161390127,
+    "record": 641316977,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 50,
+    "transactor": "Brooke Morgan",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 1135583208,
+    "tenant": 1161390127,
+    "record": null,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Other",
+    "description": "mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2019-12-30T08:00:00.000Z",
+    "id": 1173121627,
+    "tenant": 1161390127,
+    "record": 1384108377,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "source": "Check",
+    "number": "1820",
+    "transactor": "Javier Garcia",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 1173169055,
+    "tenant": 1646034143,
+    "record": 1583603755,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 1314343778,
+    "tenant": 1646034143,
+    "record": 1612232906,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "source": "Check",
+    "number": "132",
+    "transactor": "Javier Garcia",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1321384544,
+    "tenant": 1646034143,
+    "record": 1373037811,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 1455799106,
+    "tenant": 1161390127,
+    "record": 668379602,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1820,
+    "source": "Check",
+    "number": "129",
+    "transactor": "Javier Garcia",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 1743577930,
+    "tenant": 1646034143,
+    "record": 925133282,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 20,
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1787419670,
+    "tenant": null,
+    "record": null,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1872,
+    "source": "Mobile",
+    "transactor": "Brooke Morgan",
+    "date": "2019-11-06T08:00:00.000Z",
+    "id": 1856403301,
+    "tenant": 1161390127,
+    "record": 1355479226,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 50,
+    "transactor": "Brooke Morgan",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 2044964367,
+    "tenant": 1161390127,
+    "record": null,
+    "property": 1169268374
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1021,
+    "source": "Other",
+    "description": "Money order",
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 29696173,
+    "tenant": 727550555,
+    "record": 990237351,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Mobile",
+    "transactor": "Byron Sanchez",
+    "date": "2019-08-06T07:00:00.000Z",
+    "id": 160004621,
+    "tenant": 152999434,
+    "record": 477622605,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 260812261,
+    "tenant": 1554081728,
+    "record": 983294408,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Check",
+    "number": "3206",
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 370908858,
+    "tenant": 727550555,
+    "record": 303137757,
+    "property": 1437687918
+  },
+  {
+    "category": "Expense",
+    "type": "Reminbursement",
+    "name": "Rent overpayment",
+    "amount": -9,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 396594643,
+    "tenant": 727550555,
+    "record": null,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1358,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2020-02-03T08:00:00.000Z",
+    "id": 481574302,
+    "tenant": 1554081728,
+    "record": 297772863,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Check",
+    "transactor": "Byron Sanchez",
+    "date": "2019-11-06T08:00:00.000Z",
+    "id": 589238773,
+    "tenant": 152999434,
+    "record": 209477019,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 620544365,
+    "tenant": 1002459878,
+    "record": 976167495,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 638089608,
+    "tenant": 1002459878,
+    "record": 1322003598,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1021,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 650362197,
+    "tenant": 727550555,
+    "record": 1047495653,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1269,
+    "source": "Check",
+    "transactor": "Byron Sanchez",
+    "date": "2020-02-07T08:00:00.000Z",
+    "id": 668269463,
+    "tenant": 152999434,
+    "record": 1758689901,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 757675946,
+    "tenant": 1002459878,
+    "record": 1634637968,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 804563017,
+    "tenant": 1554081728,
+    "record": 1670394032,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1021,
+    "source": "Check",
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-01-11T08:00:00.000Z",
+    "id": 922269681,
+    "tenant": 727550555,
+    "record": 1966404185,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1002891446,
+    "tenant": 1554081728,
+    "record": 1641764881,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1021,
+    "source": "Bank",
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1022338047,
+    "tenant": 727550555,
+    "record": 360396029,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2019-08-02T07:00:00.000Z",
+    "id": 1078407668,
+    "tenant": 1002459878,
+    "record": 1663267119,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 30,
+    "transactor": "Byron Sanchez",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1131681886,
+    "tenant": 152999434,
+    "record": null,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1186910098,
+    "tenant": 1002459878,
+    "record": 947538344,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Check",
+    "number": "1221",
+    "transactor": "Byron Sanchez",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1246844841,
+    "tenant": 152999434,
+    "record": 180847868,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1323217712,
+    "tenant": 1002459878,
+    "record": 1691896270,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Reminbursement",
+    "name": "rent overpayment",
+    "amount": 9,
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1356319980,
+    "tenant": null,
+    "record": null,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1030,
+    "source": "Check",
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-11-06T08:00:00.000Z",
+    "id": 1436545665,
+    "tenant": 727550555,
+    "record": 331766848,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1546642202,
+    "tenant": 1554081728,
+    "record": 954665257,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Mobile",
+    "transactor": "Byron Sanchez",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1618820691,
+    "tenant": 152999434,
+    "record": 506251756,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1061,
+    "source": "Check",
+    "description": "3173.4",
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1629542677,
+    "tenant": 727550555,
+    "record": 1995033490,
+    "property": 1437687918
+  },
+  {
+    "category": "Expense",
+    "type": "Reminbursement",
+    "name": "Rent overpayment",
+    "amount": 9,
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1674448982,
+    "tenant": null,
+    "record": null,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2019-12-03T08:00:00.000Z",
+    "id": 1740208118,
+    "tenant": 1554081728,
+    "record": 1699023183,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1021,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 1837150636,
+    "tenant": 727550555,
+    "record": 1018866502,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Check",
+    "number": "181",
+    "transactor": "Byron Sanchez",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1847872746,
+    "tenant": 152999434,
+    "record": 1787319184,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1654,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1849424065,
+    "tenant": 1002459878,
+    "record": 1350633589,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1591,
+    "source": "Mobile",
+    "transactor": "Mia Hernandez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1866968468,
+    "tenant": 1002459878,
+    "record": 1004796646,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Check",
+    "number": "180",
+    "transactor": "Byron Sanchez",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 1898274060,
+    "tenant": 152999434,
+    "record": 238106170,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2020-01-05T08:00:00.000Z",
+    "id": 1948680386,
+    "tenant": 1554081728,
+    "record": 326402171,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1221,
+    "source": "Check",
+    "number": "126",
+    "transactor": "Byron Sanchez",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 1996088235,
+    "tenant": 152999434,
+    "record": 448993454,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1306,
+    "source": "Mobile",
+    "transactor": "Vindy Duran",
+    "date": "2019-09-03T07:00:00.000Z",
+    "id": 2125525026,
+    "tenant": 1554081728,
+    "record": 1011923559,
+    "property": 1437687918
+  },
+  {
+    "category": "Expense",
+    "type": "Reminbursement",
+    "amount": 9,
+    "transactor": "Maria rousey",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 2126066814,
+    "tenant": null,
+    "record": null,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 30,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 2140507417,
+    "tenant": 727550555,
+    "record": null,
+    "property": 1437687918
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Check",
+    "number": "101",
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 137420450,
+    "tenant": 1948488359,
+    "record": 468934191,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 170787123,
+    "tenant": 1009226164,
+    "record": 183612056,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1052,
+    "source": "Other",
+    "description": "Money order",
+    "transactor": "Kevin Simon",
+    "date": "2020-02-07T08:00:00.000Z",
+    "id": 272433168,
+    "tenant": 554466551,
+    "record": 741294468,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "source": "Check",
+    "number": "1032",
+    "transactor": "Mary Texidor",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 356532677,
+    "tenant": 1167141134,
+    "record": 44944385,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "source": "Check",
+    "number": "1030",
+    "transactor": "Mary Texidor",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 453737470,
+    "tenant": 1167141134,
+    "record": 43097343,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Mobile",
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-08-02T07:00:00.000Z",
+    "id": 480767149,
+    "tenant": 1948488359,
+    "record": 1156033815,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 30,
+    "transactor": "Kevin Simon",
+    "date": "2019-09-06T07:00:00.000Z",
+    "id": 557821888,
+    "tenant": null,
+    "record": null,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "source": "Bank",
+    "transactor": "Ricardo Perez",
+    "date": "2019-11-06T08:00:00.000Z",
+    "id": 571392124,
+    "tenant": 1009226164,
+    "record": 870711680,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 879,
+    "source": "Check",
+    "number": "1057",
+    "transactor": "Mary Texidor",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 572697648,
+    "tenant": 1167141134,
+    "record": 296562964,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 30,
+    "transactor": "Kevin Simon",
+    "date": "2019-09-07T07:00:00.000Z",
+    "id": 577077701,
+    "tenant": 554466551,
+    "record": null,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Mobile",
+    "transactor": "Kevin Simon",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 584470059,
+    "tenant": 554466551,
+    "record": 2022361772,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1111,
+    "source": "Other",
+    "description": "Money order",
+    "transactor": "Ricardo Perez",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 657487534,
+    "tenant": 1009226164,
+    "record": 1097454574,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "source": "Check",
+    "number": "1023",
+    "transactor": "Mary Texidor",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 764768722,
+    "tenant": 1167141134,
+    "record": 22779881,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Bank",
+    "number": "3330",
+    "transactor": "Kevin Simon",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 851008554,
+    "tenant": 554466551,
+    "record": 1614135051,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-08-05T07:00:00.000Z",
+    "id": 978041613,
+    "tenant": 1167141134,
+    "record": 21856360,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Bank",
+    "transactor": "Kevin Simon",
+    "date": "2019-11-06T08:00:00.000Z",
+    "id": 985075060,
+    "tenant": 554466551,
+    "record": 1585505900,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Check",
+    "number": "103",
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1092584372,
+    "tenant": 1948488359,
+    "record": 1829236902,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "source": "Check",
+    "number": "1033",
+    "transactor": "Mary Texidor",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1170112783,
+    "tenant": 1167141134,
+    "record": 297486581,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Mobile",
+    "transactor": "Kevin Simon",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1222984404,
+    "tenant": 554466551,
+    "record": 1993732621,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Late Fee",
+    "amount": 30,
+    "transactor": "Kevin Simon",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1238477777,
+    "tenant": 554466551,
+    "record": null,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Check",
+    "number": "189",
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 1240799861,
+    "tenant": 1948488359,
+    "record": 1127404664,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "source": "Other",
+    "description": "Mo",
+    "transactor": "Ricardo Perez",
+    "date": "2019-10-07T07:00:00.000Z",
+    "id": 1264691490,
+    "tenant": 1009226164,
+    "record": 842082529,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1167,
+    "source": "Check",
+    "number": "104",
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-02-06T08:00:00.000Z",
+    "id": 1394928589,
+    "tenant": 1948488359,
+    "record": 1857866181,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Bank",
+    "transactor": "Kevin Simon",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 1502437773,
+    "tenant": 554466551,
+    "record": 1556876749,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1574115348,
+    "tenant": 1167141134,
+    "record": 20932839,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1636667340,
+    "tenant": 1009226164,
+    "record": 154982905,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Check",
+    "number": "102",
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 1641404862,
+    "tenant": 1948488359,
+    "record": 440305040,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "source": "Other",
+    "description": "Money order",
+    "transactor": "Ricardo Perez",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 1830026097,
+    "tenant": 1009226164,
+    "record": 1126084523,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Check",
+    "number": "190",
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-10-02T07:00:00.000Z",
+    "id": 1858987460,
+    "tenant": 1948488359,
+    "record": 497563342,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "source": "Other",
+    "description": "Money order",
+    "transactor": "Ricardo Perez",
+    "date": "2019-12-06T08:00:00.000Z",
+    "id": 1916120709,
+    "tenant": 1009226164,
+    "record": 899340831,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1123,
+    "source": "Mobile",
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-07-05T07:00:00.000Z",
+    "id": 1920858231,
+    "tenant": 1948488359,
+    "record": 1184662966,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Other",
+    "description": "MO",
+    "transactor": "Kevin Simon",
+    "date": "2019-09-07T07:00:00.000Z",
+    "id": 1960301169,
+    "tenant": 554466551,
+    "record": 2050990923,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1069,
+    "source": "Other",
+    "description": "Money order",
+    "transactor": "Ricardo Perez",
+    "date": "2019-09-05T07:00:00.000Z",
+    "id": 1978241586,
+    "tenant": 1009226164,
+    "record": 212241207,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 1012,
+    "source": "Other",
+    "description": "Cashiers check",
+    "transactor": "Kevin Simon",
+    "date": "2020-01-06T08:00:00.000Z",
+    "id": 2051258263,
+    "tenant": 554466551,
+    "record": 712665193,
+    "property": 1625037383
+  },
+  {
+    "category": "Income",
+    "type": "Rent",
+    "amount": 846,
+    "source": "Check",
+    "number": "1042",
+    "transactor": "Mary Texidor",
+    "date": "2019-11-05T08:00:00.000Z",
+    "id": 2100266533,
+    "tenant": 1167141134,
+    "record": 44020864,
+    "property": 1625037383
+  }],
+  "records": [
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 602959952,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 631589103,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 660218254,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1290059576,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1318688727,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1347317878,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1343,
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1666581990,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1396,
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1695211299,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1396,
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1723840450,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1396,
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1752469601,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1396,
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1781098752,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1396,
+    "transactor": "Ronda Covarrubias",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1809727903,
+    "tenant": 1732370479,
+    "property": 204589028
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 294063594,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 322692745,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 351321896,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 379951047,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 408580198,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 437209349,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 843858079,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 872487230,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 901116381,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1530957703,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1559586854,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1248,
+    "transactor": "Candice Nigra",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1588216005,
+    "tenant": 1524938655,
+    "property": 333872858
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 81908140,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 81909101,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 81910062,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 81911023,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 81911984,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 81912945,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 188607147,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 217236298,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 245865449,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 274494600,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 303123751,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 304036093,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 331752902,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 332665244,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 361294395,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 389923546,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 418552697,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 447181848,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 471289945,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 499919096,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 528548247,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 666631728,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 695260879,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 711723515,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 711724476,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 711725437,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 711746579,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 711747540,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 0,
+    "transactor": "Rebecca Themelis",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 711748501,
+    "tenant": 742965617,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 723890030,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 752519181,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 781148332,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 809777483,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 833885580,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 862514731,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 891143882,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 949314526,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 977943677,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1006572828,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1158389569,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1187018720,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1653,
+    "transactor": "Selene Garcia",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1215647871,
+    "tenant": 629044528,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1520985204,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1549614355,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1606,
+    "transactor": "Tyler Sandness",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1578243506,
+    "tenant": 728177430,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1636414150,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1665043301,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 2400,
+    "transactor": "Daniel Wegerer",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1693672452,
+    "tenant": 59607423,
+    "property": 838056571
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1177700,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 29806851,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 58436002,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 222472462,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 891,
+    "transactor": "Jessie Sanchez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 223396101,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 891,
+    "transactor": "Jessie Sanchez",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 224319622,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 891,
+    "transactor": "Jessie Sanchez",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 225243143,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 891,
+    "transactor": "Jessie Sanchez",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 226166664,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 891,
+    "transactor": "Jessie Sanchez",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 227090185,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 372847328,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 866,
+    "transactor": "Sonia Lopez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 373770945,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 866,
+    "transactor": "Sonia Lopez",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 374694466,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 866,
+    "transactor": "Sonia Lopez",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 375617987,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 866,
+    "transactor": "Sonia Lopez",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 376541508,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 866,
+    "transactor": "Sonia Lopez",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 377465029,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 540891882,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 541815403,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 542738924,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 563056386,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 563979907,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 857,
+    "transactor": "Jessie Sanchez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 564903428,
+    "tenant": 1801544731,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 628663622,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 657292773,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 685921924,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 691266748,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 692190269,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 693113790,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 713431252,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 714354773,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 833,
+    "transactor": "Sonia Lopez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 715278294,
+    "tenant": 1093100950,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1308239408,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 902,
+    "transactor": "Rosa Alvarez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1309163698,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 902,
+    "transactor": "Rosa Alvarez",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1310087219,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 902,
+    "transactor": "Rosa Alvarez",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1311010740,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 902,
+    "transactor": "Rosa Alvarez",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1311934261,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 902,
+    "transactor": "Rosa Alvarez",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1312857782,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1626658828,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1627582349,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1628505870,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1648823332,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1649746853,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 868,
+    "transactor": "Rosa Alvarez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1650670374,
+    "tenant": 84573818,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1086,
+    "transactor": "Leah Magellanes",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1823843472,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1086,
+    "transactor": "Leah Magellanes",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1852472623,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1086,
+    "transactor": "Leah Magellanes",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1881101774,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1086,
+    "transactor": "Leah Magellanes",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1909730925,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1086,
+    "transactor": "Leah Magellanes",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1938360076,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1045,
+    "transactor": "Leah Magellanes",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1966989352,
+    "tenant": 1703736041,
+    "property": 906979123
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 498171222,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 526800373,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 555429524,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 584058675,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 612687826,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 639750451,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 641316977,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 668379602,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 697008753,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 896504131,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 925133282,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 953762433,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1326850075,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1355479226,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1373037811,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1872,
+    "transactor": "Brooke Morgan",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1384108377,
+    "tenant": 1161390127,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1401666962,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1430296113,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1458925264,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1487554415,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1516183566,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1583603755,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1612232906,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1820,
+    "transactor": "Javier Garcia",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1640862057,
+    "tenant": 1646034143,
+    "property": 1169268374
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 180847868,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1358,
+    "transactor": "Vindy Duran",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 183256259,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 209477019,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1358,
+    "transactor": "Vindy Duran",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 211885410,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 238106170,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1358,
+    "transactor": "Vindy Duran",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 240514561,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1358,
+    "transactor": "Vindy Duran",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 269143712,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1358,
+    "transactor": "Vindy Duran",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 297772863,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 303137757,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 326402171,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1030,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 331766848,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1021,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 360396029,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 448993454,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 477622605,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 506251756,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 947538344,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 954665257,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 976167495,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 983294408,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1021,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 990237351,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1004796646,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1011923559,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1021,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1018866502,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1021,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1047495653,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1322003598,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1654,
+    "transactor": "Mia Hernandez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1350633589,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1654,
+    "transactor": "Mia Hernandez",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1379262740,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1654,
+    "transactor": "Mia Hernandez",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1407891891,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1654,
+    "transactor": "Mia Hernandez",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1436521042,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1654,
+    "transactor": "Mia Hernandez",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1465150193,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1634637968,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1641764881,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1269,
+    "transactor": "Byron Sanchez",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1644173297,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1663267119,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1670394032,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1269,
+    "transactor": "Byron Sanchez",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1672802448,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1591,
+    "transactor": "Mia Hernandez",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1691896270,
+    "tenant": 1002459878,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1306,
+    "transactor": "Vindy Duran",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1699023183,
+    "tenant": 1554081728,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1269,
+    "transactor": "Byron Sanchez",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1701431599,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1269,
+    "transactor": "Byron Sanchez",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1730060750,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1269,
+    "transactor": "Byron Sanchez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1758689901,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1221,
+    "transactor": "Byron Sanchez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1787319184,
+    "tenant": 152999434,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1966404185,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1061,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1995033490,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1061,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 2023662641,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1061,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 2052291792,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1061,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 2080920943,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1061,
+    "transactor": "Corbett and Maria Rousey",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 2109550094,
+    "tenant": 727550555,
+    "property": 1437687918
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 20932839,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 21856360,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 22779881,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 43097343,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 44020864,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 44944385,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 154982905,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 183612056,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 212241207,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 879,
+    "transactor": "Mary Texidor",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 292868880,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 879,
+    "transactor": "Mary Texidor",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 293792401,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 879,
+    "transactor": "Mary Texidor",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 294715922,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 879,
+    "transactor": "Mary Texidor",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 295639443,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 879,
+    "transactor": "Mary Texidor",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 296562964,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 846,
+    "transactor": "Mary Texidor",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 297486581,
+    "tenant": 1167141134,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 440305040,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 468934191,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 497563342,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 712665193,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1052,
+    "transactor": "Kevin Simon",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 741294468,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1052,
+    "transactor": "Kevin Simon",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 769923619,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1052,
+    "transactor": "Kevin Simon",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 798552770,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1052,
+    "transactor": "Kevin Simon",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 827181921,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 842082529,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1052,
+    "transactor": "Kevin Simon",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 855811072,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 870711680,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 899340831,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1111,
+    "transactor": "Ricardo Perez",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 982937970,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1111,
+    "transactor": "Ricardo Perez",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1011567121,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1111,
+    "transactor": "Ricardo Perez",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1040196272,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1111,
+    "transactor": "Ricardo Perez",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1068825423,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1111,
+    "transactor": "Ricardo Perez",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1097454574,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1069,
+    "transactor": "Ricardo Perez",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1126084523,
+    "tenant": 1009226164,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 1127404664,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 1156033815,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1184662966,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2019-12-01T08:00:00.000Z",
+    "id": 1556876749,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2019-11-01T07:00:00.000Z",
+    "id": 1585505900,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2019-10-01T07:00:00.000Z",
+    "id": 1614135051,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1123,
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-01-01T08:00:00.000Z",
+    "id": 1829236902,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1167,
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-02-01T08:00:00.000Z",
+    "id": 1857866181,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1167,
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-03-01T08:00:00.000Z",
+    "id": 1886495332,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1167,
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-04-01T07:00:00.000Z",
+    "id": 1915124483,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1167,
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-05-01T07:00:00.000Z",
+    "id": 1943753634,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1167,
+    "transactor": "Kathleen Dornidon",
+    "date": "2020-06-01T07:00:00.000Z",
+    "id": 1972382785,
+    "tenant": 1948488359,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2019-07-01T07:00:00.000Z",
+    "id": 1993732621,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2019-08-01T07:00:00.000Z",
+    "id": 2022361772,
+    "tenant": 554466551,
+    "property": 1625037383
+  },
+  {
+    "category": "Invoice",
+    "type": "Rent",
+    "amount": 1012,
+    "transactor": "Kevin Simon",
+    "date": "2019-09-01T07:00:00.000Z",
+    "id": 2050990923,
+    "tenant": 554466551,
+    "property": 1625037383
+  }]
 }
 
 export { data }

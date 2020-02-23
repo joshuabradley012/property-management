@@ -14,42 +14,20 @@ import {
 } from '@material-ui/core'
 import { data as rentData } from '../../data'
 import {
-  getRentRoll,
-  getRentCollected,
-} from '../utilities/getPaymentData'
-
-const data = [];
+  getHistory,
+} from '../utilities/getData'
 
 const dates = [
-  { year: '2019', month: '07' },
-  { year: '2019', month: '08' },
-  { year: '2019', month: '09' },
-  { year: '2019', month: '10' },
-  { year: '2019', month: '11' },
-  { year: '2019', month: '12' },
-  { year: '2020', month: '01' },
-  { year: '2020', month: '02' },
+  '2020-02',
 ]
 
-for (const date of dates) {
-  let monthRentRoll = 0
-  let monthRentCollected = 0
-  for (const [propertyId, property] of Object.entries(rentData)) {
-    monthRentRoll += getRentRoll(property.account, date)
-    monthRentCollected += getRentCollected(property.account, date)
-  }
-  data.push({
-    name: [date.year, date.month].join('-'),
-    Collected: monthRentCollected,
-    Due: monthRentRoll - monthRentCollected,
-  })
-}
+const data = getHistory(rentData, dates)
 
 const DashboardCharts = ({ classes }) => {
   return (
     <Paper variant="outlined" className={classes.dashboardComponent}>
       <BarChart
-        width={800}
+        width={1200}
         height={300}
         data={data}
         margin={{
@@ -61,7 +39,7 @@ const DashboardCharts = ({ classes }) => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="Collected" stackId="a" fill="#1976d2" />
+        <Bar dataKey="Paid" stackId="a" fill="#1976d2" />
         <Bar dataKey="Due" stackId="a" fill="#d32f2f" />
       </BarChart>
     </Paper>

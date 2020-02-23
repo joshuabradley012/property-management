@@ -15,7 +15,7 @@ import {
 import {
   getPaymentProgress,
   getOutstandingRent,
-} from './utilities/getPaymentData'
+} from './utilities/getData'
 import styles from './styles'
 import theme from './theme'
 import AppBar from './components/AppBar'
@@ -50,16 +50,10 @@ const outstandingRentHeader = [
 
 const useStyles = makeStyles(styles)
 
-const makeDateObj = date => {
-  console.log({ year: date.split('-')[0], month: date.split('-')[1] })
-  return { year: date.split('-')[0], month: date.split('-')[1] }
-}
-
 const App = () => {
   const [data, setData] = useState({})
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [date, setDate] = useState(new Date().toISOString().substring(0,7))
-  const [dateObj, setDateObj] = useState(makeDateObj(date))
+  const [date, setDate] = useState(new Date().toISOString())
   const [paymentProgressData, setPaymentProgressData] = useState([])
   const [outstandingRentData, setOutstandingRentData] = useState([])
   const classes = useStyles()
@@ -67,8 +61,8 @@ const App = () => {
   useEffect(() => {
     import('../data').then(({data}) => {
       setData(data)
-      setPaymentProgressData(getPaymentProgress(data, dateObj))
-      setOutstandingRentData(getOutstandingRent(data, dateObj))
+      setPaymentProgressData(getPaymentProgress(data, date))
+      setOutstandingRentData(getOutstandingRent(data, date))
     })
   }, [])
 
@@ -81,8 +75,8 @@ const App = () => {
     const dateObj = makeDateObj(date)
     setDate(date)
     setDateObj(dateObj)
-    setPaymentProgressData(getPaymentProgress(data, dateObj))
-    setOutstandingRentData(getOutstandingRent(data, dateObj))
+    setPaymentProgressData(getPaymentProgress(data, date))
+    setOutstandingRentData(getOutstandingRent(data, date))
   }
 
   return (
@@ -117,9 +111,7 @@ const App = () => {
                 <MenuItem value="2019-12">December 2019</MenuItem>
               </Select>
             </FormControl>
-            <DashboardCharts
-              classes={classes}
-            />
+            <DashboardCharts classes={classes}/>
             <SortableTable
               classes={classes}
               headCells={paymentProgressHeader}
