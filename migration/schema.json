@@ -1,0 +1,82 @@
+"properties": {
+  "propertyId": {
+    "propertyInfo": {
+      "address": "",
+      "city": "string",
+      "state": "string",
+      "zip": "string",
+    },
+    "tenants": {
+      "tenantId": {
+        "tenantInfo": {
+          "name": "string",
+          "email": "string",
+          "phone": "string",
+          "unit": "string",
+          "currentRent": "int",
+          "lease": {
+            "start": {
+              "yyyy": "string",
+              "mm": "string",
+              "dd": "string",
+            },
+            "end": {
+              "yyyy": "string",
+              "mm": "string",
+              "dd": "string",
+            },
+          }
+        },
+      },
+    },
+    "account": {
+      "entries": {
+        "entryId": {
+          "entryInfo": {
+            "category": "string [Income, Expense]",
+            "type": "string [Rent, Late Fee, Reminbursement, Loan, Real Estate Taxes, Property Management, Repairs and Maintenance, Insurance, Utilities, Interest, Misc., Custom]",
+            "name": "string",
+            "amount": "int",
+            "source": "string [Check, Cash, Direct Deposit, Credit Card, Debit Card, Money Order, Mobile]",
+            "number": "string",
+            "description": "string",
+            "transactor": "string",
+            "tenantId": "numeric",
+            "recordId": "numeric",
+            "date": {
+              "yyyy": "string",
+              "mm": "string",
+              "dd": "string",
+            },
+          },
+        },
+      },
+      "records": {
+        "recordId": {
+          "recordInfo": {
+            "category": "string [Lease,Invoice, Bill, Receipt]",
+            "type": "string [Rent, Late Fee, Real Estate Taxes, Property Management, Repairs and Maintenance, Insurance, Utilities, Interest, Misc., Custom]",
+            "name": "string",
+            "amount": "int",
+            "number": "string",
+            "description": "string",
+            "transactor": "string",
+            "tenantId": "numeric",
+            "date": {
+              "requested": {
+                "yyyy": "string",
+                "mm": "string",
+                "dd": "string",
+              },
+              "due": {
+                "yyyy": "string",
+                "mm": "string",
+                "dd": "string",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+}
