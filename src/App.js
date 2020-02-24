@@ -1,5 +1,6 @@
 import React, { Suspense, lazy, useState, useEffect } from 'react'
 import {
+  Box,
   Container,
   CssBaseline,
   FormControl,
@@ -7,14 +8,17 @@ import {
   MenuItem,
   Select,
   Toolbar,
+  Typography,
 } from '@material-ui/core'
 import {
   ThemeProvider,
   makeStyles,
 } from '@material-ui/core/styles'
 import {
-  getPaymentProgress,
+  dateFns,
+  getEarliestRecord,
   getOutstandingRent,
+  getPaymentProgress,
 } from './utilities/getData'
 import styles from './styles'
 import theme from './theme'
@@ -23,7 +27,7 @@ import ResponsiveDrawer from './components/ResponsiveDrawer'
 const DashboardCharts = lazy(() => import('./components/DashboardCharts'))
 const SortableTable = lazy(() => import('./components/SortableTable'))
 
-const appName = 'Accumulator'
+const appName = 'RT Properties'
 
 const menu = [
   { name: 'Overview', icon: 'dashboard' },
@@ -53,7 +57,8 @@ const useStyles = makeStyles(styles)
 const App = () => {
   const [data, setData] = useState({})
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [date, setDate] = useState(new Date().toISOString())
+  const [date, setDate] = useState(new Date(dateFns.getYear(new Date()), dateFns.getMonth(new Date())).toISOString())
+  const [dates, setDates] = useState([date])
   const [paymentProgressData, setPaymentProgressData] = useState([])
   const [outstandingRentData, setOutstandingRentData] = useState([])
   const classes = useStyles()
@@ -63,6 +68,10 @@ const App = () => {
       setData(data)
       setPaymentProgressData(getPaymentProgress(data, date))
       setOutstandingRentData(getOutstandingRent(data, date))
+      const interval = dateFns.eachMonthOfInterval({ start: getEarliestRecord(data), end: dateFns.parseISO(date)}).map(date => (
+        date.toISOString()
+      ))
+      setDates(interval.reverse())
     })
   }, [])
 
@@ -72,9 +81,7 @@ const App = () => {
 
   const handleDateSelect = event => {
     const date = event.target.value
-    const dateObj = makeDateObj(date)
     setDate(date)
-    setDateObj(dateObj)
     setPaymentProgressData(getPaymentProgress(data, date))
     setOutstandingRentData(getOutstandingRent(data, date))
   }
@@ -98,20 +105,28 @@ const App = () => {
         <Container className={classes.content}>
           <Suspense fallback={<div>Loading...</div>}>
             <Toolbar />
-            <FormControl variant="standard" className={classes.formControl}>
-              <InputLabel id="date">Date</InputLabel>
-              <Select
-                labelId="date"
-                id="date-select"
-                value={date}
-                onChange={handleDateSelect}
-              >
-                <MenuItem value="2020-02">February 2020</MenuItem>
-                <MenuItem value="2020-01">January 2020</MenuItem>
-                <MenuItem value="2019-12">December 2019</MenuItem>
-              </Select>
-            </FormControl>
-            <DashboardCharts classes={classes}/>
+            <Box display="flex" justifyContent="flex-end">
+              <Box pl={2}>
+                <Typography variant="h5">Overview</Typography>
+                <Typography variant="body2">Payment progress overview</Typography>
+              </Box>
+              <FormControl variant="standard" className={classes.formControl}>
+                <InputLabel id="date">Date</InputLabel>
+                <Select
+                  labelId="date"
+                  id="date-select"
+                  value={date}
+                  onChange={handleDateSelect}
+                >
+                  {dates.map(date => (
+                    <MenuItem key={date} value={date}>
+                      {dateFns.format(dateFns.parseISO(date), 'MMMM yyyy')}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Box>
+            <DashboardCharts classes={classes} date={date} />
             <SortableTable
               classes={classes}
               headCells={paymentProgressHeader}

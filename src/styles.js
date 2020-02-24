@@ -40,6 +40,7 @@ const styles = {
   },
   formControl: {
     margin: theme.spacing(1),
+    marginLeft: 'auto',
     minWidth: 120,
   },
 }

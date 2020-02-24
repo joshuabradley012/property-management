@@ -1754,7 +1754,7 @@ const data = {
   },
   {
     "category": "Expense",
-    "type": "Reminbursement",
+    "type": "Reimbursement",
     "name": "Rent overpayment",
     "amount": -9,
     "transactor": "Corbett and Maria Rousey",
@@ -1862,7 +1862,7 @@ const data = {
   {
     "category": "Income",
     "type": "Rent",
-    "amount": 1021,
+    "amount": 1012,
     "source": "Check",
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-01-11T08:00:00.000Z",
@@ -1957,7 +1957,7 @@ const data = {
   },
   {
     "category": "Income",
-    "type": "Reminbursement",
+    "type": "Reimbursement",
     "name": "rent overpayment",
     "amount": 9,
     "date": "2020-01-06T08:00:00.000Z",
@@ -2017,7 +2017,7 @@ const data = {
   },
   {
     "category": "Expense",
-    "type": "Reminbursement",
+    "type": "Reimbursement",
     "name": "Rent overpayment",
     "amount": 9,
     "date": "2020-01-06T08:00:00.000Z",
@@ -2138,7 +2138,7 @@ const data = {
   },
   {
     "category": "Expense",
-    "type": "Reminbursement",
+    "type": "Reimbursement",
     "amount": 9,
     "transactor": "Maria rousey",
     "date": "2020-01-06T08:00:00.000Z",
