@@ -43,6 +43,30 @@ const theme = createMuiTheme({
         minWidth: 600,
       },
     },
+    MuiGrid: {
+      container: {
+        [baseTheme.breakpoints.down('xs')]: {
+          '&$spacing-xs-3': {
+            width: '100%',
+            marginRight: 0,
+            marginLeft: 0,
+
+            '& > $item': {
+              paddingLeft: 0,
+              paddingRight: 0,
+
+              '& .MuiPaper-rounded': {
+                borderRadius: 0,
+              },
+
+              '& .MuiPaper-outlined': {
+                border: 0,
+              },
+            },
+          },
+        },
+      },
+    },
   },
 })
 

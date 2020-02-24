@@ -57,9 +57,9 @@ const DashboardCharts = ({ classes, date }) => {
   const pieData = getSource(rentData, date)
 
   return (
-    <div className={classes.dashboardComponent}>
+    <Box p={1.5} px={[0, 1.5]}>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={12} lg={4}>
           <Paper variant="outlined" style={{ height: 320 }}>
             <Box p={2}>
               <Box mb={1}>
@@ -81,8 +81,9 @@ const DashboardCharts = ({ classes, date }) => {
             </Box>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={5}>
+        <Grid item xs={12} sm={6} lg={5}>
           <Paper variant="outlined">
+            {/*<Box pt={2} pl={2}><Typography variant="subtitle2">Timeline</Typography></Box>*/}
             <ResponsiveContainer height={320}>
               <BarChart data={barData} margin={{ top: 40, right: 32, left: 16, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" />
@@ -96,8 +97,9 @@ const DashboardCharts = ({ classes, date }) => {
             </ResponsiveContainer>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={6} lg={3}>
           <Paper variant="outlined">
+            {/*<Box pt={2} pl={2}><Typography variant="subtitle2">Source</Typography></Box>*/}
             <ResponsiveContainer height={320}>
               <PieChart>
                 <Pie
@@ -120,7 +122,7 @@ const DashboardCharts = ({ classes, date }) => {
           </Paper>
         </Grid>
       </Grid>
-    </div>
+    </Box>
   )
 }
 

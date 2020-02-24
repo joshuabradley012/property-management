@@ -4,6 +4,7 @@ import {
   Container,
   CssBaseline,
   FormControl,
+  Grid,
   InputLabel,
   MenuItem,
   Select,
@@ -105,7 +106,7 @@ const App = () => {
         <Container className={classes.content}>
           <Suspense fallback={<div>Loading...</div>}>
             <Toolbar />
-            <Box display="flex" justifyContent="flex-end">
+            <Box display="flex" justifyContent="flex-end" p={1.5} px={[0, 1.5]} pr={[1, 2.5]} pb={0}>
               <Box pl={2}>
                 <Typography variant="h5">Overview</Typography>
                 <Typography variant="body2">Payment progress overview</Typography>
@@ -127,22 +128,30 @@ const App = () => {
               </FormControl>
             </Box>
             <DashboardCharts classes={classes} date={date} />
-            <SortableTable
-              classes={classes}
-              headCells={paymentProgressHeader}
-              initOrderBy="rentRoll"
-              rows={paymentProgressData}
-              title="Payment Progress"
-            />
-            <SortableTable
-              classes={classes}
-              headCells={outstandingRentHeader}
-              initOrder="asc"
-              initOrderBy="name"
-              initRows={10}
-              rows={outstandingRentData}
-              title="Outstanding Rent"
-            />
+            <Box p={1.5} px={[0, 1.5]}>
+              <Grid container spacing={3}>
+                <Grid item xs={12}>
+                  <SortableTable
+                    classes={classes}
+                    headCells={paymentProgressHeader}
+                    initOrderBy="rentRoll"
+                    rows={paymentProgressData}
+                    title="Payment Progress"
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <SortableTable
+                    classes={classes}
+                    headCells={outstandingRentHeader}
+                    initOrder="asc"
+                    initOrderBy="name"
+                    initRows={10}
+                    rows={outstandingRentData}
+                    title="Outstanding Rent"
+                  />
+                </Grid>
+              </Grid>
+            </Box>
           </Suspense>
         </Container>
       </div>
