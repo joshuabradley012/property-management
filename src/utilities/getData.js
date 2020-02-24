@@ -42,7 +42,10 @@ const getAll = (objs, args, date, any) => {
 
 const getAllById = (objs, ids, date, any) => {
   const all = []
-  for (const id of ids) all.push(getItem(objs, { id: id }, date, any))
+  for (const id of ids) {
+    const item = getItem(objs, { id: id }, date, any)
+    if (item) all.push(item)
+  }
   return all
 }
 
@@ -153,6 +156,7 @@ const getEarliestRecord = (data) => {
 
 export {
   dateFns,
+  getAll,
   getHistory,
   getEarliestRecord,
   getLateFees,

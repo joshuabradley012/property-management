@@ -17,6 +17,7 @@ import {
 } from '@material-ui/core/styles'
 import {
   dateFns,
+  getAll,
   getEarliestRecord,
   getOutstandingRent,
   getPaymentProgress,
@@ -104,30 +105,30 @@ const App = () => {
           mobileOpen={mobileOpen}
         />
         <Container className={classes.content}>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Toolbar />
-            <Box display="flex" justifyContent="flex-end" p={1.5} px={[0, 1.5]} pr={[1, 2.5]} pb={0}>
-              <Box pl={2}>
-                <Typography variant="h5">Overview</Typography>
-                <Typography variant="body2">Payment progress overview</Typography>
-              </Box>
-              <FormControl variant="standard" className={classes.formControl}>
-                <InputLabel id="date">Date</InputLabel>
-                <Select
-                  labelId="date"
-                  id="date-select"
-                  value={date}
-                  onChange={handleDateSelect}
-                >
-                  {dates.map(date => (
-                    <MenuItem key={date} value={date}>
-                      {dateFns.format(dateFns.parseISO(date), 'MMMM yyyy')}
-                    </MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
+          <Toolbar />
+          <Box display="flex" justifyContent="flex-end" p={1.5} px={[0, 1.5]} pr={[1, 2.5]} pb={0}>
+            <Box pl={2}>
+              <Typography variant="h5">Overview</Typography>
+              <Typography variant="body2">Payment progress</Typography>
             </Box>
-            <DashboardCharts classes={classes} date={date} />
+            <FormControl variant="standard" className={classes.formControl}>
+              <InputLabel id="date">Date</InputLabel>
+              <Select
+                labelId="date"
+                id="date-select"
+                value={date}
+                onChange={handleDateSelect}
+              >
+                {dates.map(date => (
+                  <MenuItem key={date} value={date}>
+                    {dateFns.format(dateFns.parseISO(date), 'MMMM yyyy')}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
+          <Suspense fallback={<div></div>}>
+            <DashboardCharts classes={classes} date={date} data={data} />
             <Box p={1.5} px={[0, 1.5]}>
               <Grid container spacing={3}>
                 <Grid item xs={12}>

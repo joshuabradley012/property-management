@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import {
   Hidden,
   Drawer,
 } from '@material-ui/core'
-import Menu from './Menu'
+const Menu = lazy(() => import('./Menu'))
 
 const ResponsiveDrawer = ({ appName, classes, handleDrawerToggle, menu, mobileOpen }) => (
   <nav className={classes.drawer}>
-    <Hidden smUp implementation="css">
+    <Hidden mdUp implementation="css">
       <Drawer
         variant="temporary"
         open={mobileOpen}
@@ -15,16 +15,20 @@ const ResponsiveDrawer = ({ appName, classes, handleDrawerToggle, menu, mobileOp
         classes={{ paper: classes.drawerPaper }}
         ModalProps={{ keepMounted: true }}
       >
-        <Menu appName={appName} menu={menu} />
+        <Suspense fallback={<div></div>}>
+          <Menu appName={appName} menu={menu} />
+        </Suspense>
       </Drawer>
     </Hidden>
-    <Hidden xsDown implementation="css">
+    <Hidden smDown implementation="css">
       <Drawer
         classes={{ paper: classes.drawerPaper }}
         variant="permanent"
         open
       >
-        <Menu appName={appName} menu={menu} />
+        <Suspense fallback={<div></div>}>
+          <Menu appName={appName} menu={menu} />
+        </Suspense>
       </Drawer>
     </Hidden>
   </nav>

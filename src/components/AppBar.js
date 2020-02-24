@@ -13,7 +13,7 @@ import {
 const AppBar = ({ appName, classes, handleDrawerToggle }) => (
   <MuiAppBar position="fixed" className={classes.appBar}>
     <Toolbar>
-      <Hidden smUp implementation="css">
+      <Hidden mdUp implementation="css">
         <IconButton
           aria-label="menu"
           className={classes.menuButton}
