@@ -6,17 +6,20 @@ import {
   Typography,
 } from '@material-ui/core'
 import {
+  isEmpty,
   getHistory,
   getLateFees,
   getReimbursements,
   getRentCollected,
   getRentRoll,
   getSource,
-} from '../utilities/getData'
+} from '../utils/getData'
 const StackedBarChart = lazy(() => import('./StackedBarChart'))
 const ResponsivePieChart = lazy(() => import('./ResponsivePieChart'))
 
-const DashboardCharts = ({ classes, date, data}) => {
+const DashboardCharts = ({ classes, date, data }) => {
+  if (isEmpty(data)) return null
+
   const chartHeight = { height: 280 }
   const barData = getHistory(data, [date])
   const pieData = getSource(data, date)

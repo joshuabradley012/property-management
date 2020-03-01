@@ -17,11 +17,13 @@ import {
 } from '@material-ui/core/styles'
 import {
   dateFns,
+  isEmpty,
   getAll,
+  getDateRange,
   getEarliestRecord,
   getOutstandingRent,
   getPaymentProgress,
-} from './utilities/getData'
+} from './utils/getData'
 import styles from './styles'
 import theme from './theme'
 import AppBar from './components/AppBar'
@@ -57,23 +59,19 @@ const outstandingRentHeader = [
 const useStyles = makeStyles(styles)
 
 const App = () => {
+  const thisMonth = new Date(dateFns.getYear(new Date()), dateFns.getMonth(new Date())).toISOString()
   const [data, setData] = useState({})
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [date, setDate] = useState(new Date(dateFns.getYear(new Date()), dateFns.getMonth(new Date())).toISOString())
-  const [dates, setDates] = useState([date])
-  const [paymentProgressData, setPaymentProgressData] = useState([])
-  const [outstandingRentData, setOutstandingRentData] = useState([])
+  const [date, setDate] = useState(thisMonth)
   const classes = useStyles()
+
+  const dates = getDateRange(data, thisMonth)
+  const paymentProgressData = getPaymentProgress(data, date)
+  const outstandingRentData = getOutstandingRent(data, date)
 
   useEffect(() => {
     import('../data').then(({data}) => {
       setData(data)
-      setPaymentProgressData(getPaymentProgress(data, date))
-      setOutstandingRentData(getOutstandingRent(data, date))
-      const interval = dateFns.eachMonthOfInterval({ start: getEarliestRecord(data), end: dateFns.parseISO(date)}).map(date => (
-        date.toISOString()
-      ))
-      setDates(interval.reverse())
     })
   }, [])
 
@@ -84,8 +82,6 @@ const App = () => {
   const handleDateSelect = event => {
     const date = event.target.value
     setDate(date)
-    setPaymentProgressData(getPaymentProgress(data, date))
-    setOutstandingRentData(getOutstandingRent(data, date))
   }
 
   return (

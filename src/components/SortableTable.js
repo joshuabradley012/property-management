@@ -40,7 +40,7 @@ const SortableTable = ({ classes, headCells, initOrder, initOrderBy, initRows, r
         <Typography variant="subtitle1">{title}</Typography>
       </Toolbar>
       <TableContainer>
-        <Table size="small">
+        <Table size="small" style={{ minWidth: headCells.length * 150 }}>
           <SortableTableHead
             handleRequestSort={handleRequestSort}
             headCells={headCells}

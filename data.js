@@ -1,285 +1,169 @@
 const data = {
   "properties": [
   {
-    "tenants": [1732370479],
-    "id": 204589028,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "3201 Orilla Avenue"
-    },
-    "entries": [1980573, 402585574, 826293444, 1376239738, 1575376862, 1689848698, 1809435036, 1862732192, 2113556410],
-    "records": [602959952, 631589103, 660218254, 1290059576, 1318688727, 1347317878, 1666581990, 1695211299, 1723840450, 1752469601, 1781098752, 1809727903]
+    "name": "3201 Orilla Avenue",
+    "buildings": [204589028],
+    "id": 936057677,
+    "owner": 1320821815
   },
   {
-    "tenants": [1524938655],
-    "id": 333872858,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "4539 Verdugo Road"
-    },
-    "entries": [79472025, 658047628, 720172683, 1149406835, 1201798384, 1576181126, 1795969301, 1886926488, 2012099315, 2091810328],
-    "records": [294063594, 322692745, 351321896, 379951047, 408580198, 437209349, 843858079, 872487230, 901116381, 1530957703, 1559586854, 1588216005]
+    "name": "4539 Verdugo Road",
+    "buildings": [333872858],
+    "id": 1604067203,
+    "owner": 1320821815
   },
   {
-    "tenants": [59607423, 629044528, 728177430, 742965617],
-    "id": 838056571,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "3969 Denker Ave"
-    },
-    "entries": [42047647, 66637717, 100801115, 157594904, 166854929, 277645755, 291008374, 328433037, 362596435, 417679147, 462207189, 579257255, 613420653, 783696524, 937870486, 985396503, 1037120558, 1416228877, 1450392275, 1529808708, 1619900376, 1649859559, 1755116138, 1759575576, 1908255578, 2098462837],
-    "records": [81908140, 81909101, 81910062, 81911023, 81911984, 81912945, 188607147, 217236298, 245865449, 274494600, 303123751, 304036093, 331752902, 332665244, 361294395, 389923546, 418552697, 447181848, 471289945, 499919096, 528548247, 666631728, 695260879, 711723515, 711724476, 711725437, 711746579, 711747540, 711748501, 723890030, 752519181, 781148332, 809777483, 833885580, 862514731, 891143882, 949314526, 977943677, 1006572828, 1158389569, 1187018720, 1215647871, 1520985204, 1549614355, 1578243506, 1636414150, 1665043301, 1693672452]
+    "name": "3969 Denker Ave",
+    "buildings": [838056571],
+    "id": 1475544782,
+    "owner": 445890682
   },
   {
-    "tenants": [84573818, 1093100950, 1703736041, 1801544731],
-    "id": 906979123,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "1202 Colorado Boulevard"
-    },
-    "entries": [39835130, 88534987, 103536183, 106455878, 256417550, 388061013, 549234992, 575259447, 654745375, 660420545, 672812775, 695558276, 710043923, 723474936, 864883849, 881620570, 890318620, 904574792, 938894896, 1033689933, 1063883439, 1069997656, 1082389790, 1083979527, 1117089562, 1203179778, 1250525615, 1267225692, 1355389516, 1403533306, 1447216252, 1467920129, 1516702957, 1520314070, 1522037903, 1522092656, 1555048719, 1559044006, 1639274921, 1654275348, 1661838223, 1665149062, 1674230475, 1703898726, 1775509156, 1780798423, 1833192364, 1857700019, 1912253511, 1967554797, 2000151406, 2091812126, 2091812157],
-    "records": [1177700, 29806851, 58436002, 222472462, 223396101, 224319622, 225243143, 226166664, 227090185, 372847328, 373770945, 374694466, 375617987, 376541508, 377465029, 540891882, 541815403, 542738924, 563056386, 563979907, 564903428, 628663622, 657292773, 685921924, 691266748, 692190269, 693113790, 713431252, 714354773, 715278294, 1308239408, 1309163698, 1310087219, 1311010740, 1311934261, 1312857782, 1626658828, 1627582349, 1628505870, 1648823332, 1649746853, 1650670374, 1823843472, 1852472623, 1881101774, 1909730925, 1938360076, 1966989352]
-  },
-  {
-    "tenants": [1161390127, 1646034143],
-    "id": 1169268374,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "1216 Colorado Boulevard"
-    },
-    "entries": [20319687, 22010920, 351655357, 486069919, 493110685, 600044535, 656154398, 772564054, 903604549, 1003084576, 1022726709, 1036783461, 1135583208, 1173121627, 1173169055, 1314343778, 1321384544, 1455799106, 1743577930, 1787419670, 1856403301, 2044964367],
-    "records": [498171222, 526800373, 555429524, 584058675, 612687826, 639750451, 641316977, 668379602, 697008753, 896504131, 925133282, 953762433, 1326850075, 1355479226, 1373037811, 1384108377, 1401666962, 1430296113, 1458925264, 1487554415, 1516183566, 1583603755, 1612232906, 1640862057]
-  },
-  {
-    "tenants": [152999434, 727550555, 1002459878, 1554081728],
-    "id": 1437687918,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "1212 Colorado Boulevard"
-    },
-    "entries": [29696173, 160004621, 260812261, 370908858, 396594643, 481574302, 589238773, 620544365, 638089608, 650362197, 668269463, 757675946, 804563017, 922269681, 1002891446, 1022338047, 1078407668, 1131681886, 1186910098, 1246844841, 1323217712, 1356319980, 1436545665, 1546642202, 1618820691, 1629542677, 1674448982, 1740208118, 1837150636, 1847872746, 1849424065, 1866968468, 1898274060, 1948680386, 1996088235, 2125525026, 2126066814, 2140507417],
-    "records": [180847868, 183256259, 209477019, 211885410, 238106170, 240514561, 269143712, 297772863, 303137757, 326402171, 331766848, 360396029, 448993454, 477622605, 506251756, 947538344, 954665257, 976167495, 983294408, 990237351, 1004796646, 1011923559, 1018866502, 1047495653, 1322003598, 1350633589, 1379262740, 1407891891, 1436521042, 1465150193, 1634637968, 1641764881, 1644173297, 1663267119, 1670394032, 1672802448, 1691896270, 1699023183, 1701431599, 1730060750, 1758689901, 1787319184, 1966404185, 1995033490, 2023662641, 2052291792, 2080920943, 2109550094]
-  },
-  {
-    "tenants": [554466551, 1009226164, 1167141134, 1948488359],
-    "id": 1625037383,
-    "address":
-    {
-      "city": "Los Angeles",
-      "state": "CA",
-      "line1": "1208 Colorado Boulevard"
-    },
-    "entries": [137420450, 170787123, 272433168, 356532677, 453737470, 480767149, 557821888, 571392124, 572697648, 577077701, 584470059, 657487534, 764768722, 851008554, 978041613, 985075060, 1092584372, 1170112783, 1222984404, 1238477777, 1240799861, 1264691490, 1394928589, 1502437773, 1574115348, 1636667340, 1641404862, 1830026097, 1858987460, 1916120709, 1920858231, 1960301169, 1978241586, 2051258263, 2100266533],
-    "records": [20932839, 21856360, 22779881, 43097343, 44020864, 44944385, 154982905, 183612056, 212241207, 292868880, 293792401, 294715922, 295639443, 296562964, 297486581, 440305040, 468934191, 497563342, 712665193, 741294468, 769923619, 798552770, 827181921, 842082529, 855811072, 870711680, 899340831, 982937970, 1011567121, 1040196272, 1068825423, 1097454574, 1126084523, 1127404664, 1156033815, 1184662966, 1556876749, 1585505900, 1614135051, 1829236902, 1857866181, 1886495332, 1915124483, 1943753634, 1972382785, 1993732621, 2022361772, 2050990923]
+    "name": "Colorado Boulevard",
+    "buildings": [906979123, 1169268374, 1437687918, 1625037383],
+    "id": 918976025,
+    "owner": 1320821815
   }],
   "tenants": [
   {
-    "id": 1732370479,
-    "name": "Ronda Covarrubias",
-    "email": "rondacova@yahoo.com",
-    "phone": "818-669-4443",
+    "id": 1190300810,
+    "unit": 38087793,
+    "person": 1732370479,
     "currentRent": 1396,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 204589028
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1524938655,
-    "name": "Candice Nigra",
-    "email": "candygirl587@hotmail.com",
-    "phone": "818-326-2810",
+    "id": 288061260,
+    "unit": 517628130,
+    "person": 1524938655,
     "currentRent": 1248,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 333872858
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 59607423,
-    "name": "Daniel Wegerer",
-    "email": "lilwegerer@yahoo.com",
-    "phone": "310-425-4392",
-    "unit": "2",
+    "id": 66966098,
+    "unit": 1357285494,
+    "person": 59607423,
     "currentRent": 2400,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 838056571
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 629044528,
-    "name": "Selene Garcia",
-    "email": "selenegarcia1986@gmail.com",
-    "phone": "323-458-2857",
-    "unit": "1",
+    "id": 1300607929,
+    "unit": 455391895,
+    "person": 629044528,
     "currentRent": 1653,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 838056571
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 728177430,
-    "name": "Tyler Sandness",
-    "email": "tlsandness@gmail.com",
-    "phone": "310-721-0703",
-    "unit": "4",
+    "id": 2035844188,
+    "unit": 1418583113,
+    "person": 728177430,
     "currentRent": 1606,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 838056571
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 742965617,
-    "name": "Rebecca Themelis",
-    "email": "rthemelis@gmail.com",
-    "phone": "310-494-6036",
-    "unit": "3",
+    "id": 749022907,
+    "unit": 169191674,
+    "person": 742965617,
     "currentRent": 0,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 838056571
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 84573818,
-    "name": "Rosa Alvarez",
-    "email": "rossmerymar@hotmail.com",
-    "phone": "323-400-7466",
-    "unit": "2",
+    "id": 1821392154,
+    "unit": 584903032,
+    "person": 84573818,
     "currentRent": 902,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 906979123
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1093100950,
-    "name": "Sonia Lopez",
-    "email": "sonialopez1202@gmail.com",
-    "phone": "323-868-2376",
-    "unit": "3",
+    "id": 1181550032,
+    "unit": 2002593783,
+    "person": 1093100950,
     "currentRent": 866,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 906979123
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1703736041,
-    "name": "Leah Magellanes",
-    "email": "leahrmadallanes@att.net",
-    "phone": "323-356-1598",
-    "unit": "4",
+    "id": 985593647,
+    "unit": 835434552,
+    "person": 1703736041,
     "currentRent": 1086,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 906979123
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1801544731,
-    "name": "Jessie Sanchez",
-    "phone": "323-353-0556",
-    "unit": "1",
+    "id": 1959818617,
+    "unit": 299750007,
+    "person": 1801544731,
     "currentRent": 891,
-    "leaseEnd": "2020-06-17T07:00:00.000Z",
-    "property": 906979123
+    "leaseEnd": "2020-06-17T07:00:00.000Z"
   },
   {
-    "id": 1161390127,
-    "name": "Brooke Morgan",
-    "email": "joellebrooks01@gmail.com",
-    "phone": "909-354-1000",
-    "unit": "1",
+    "id": 1881409933,
+    "unit": 1480284426,
+    "person": 1161390127,
     "currentRent": 1872,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1169268374
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1646034143,
-    "name": "Javier Garcia",
-    "email": "tbone8552@yahoo.com",
-    "phone": "562-832-5803",
-    "unit": "2",
+    "id": 328420390,
+    "unit": 1406152844,
+    "person": 1646034143,
     "currentRent": 1820,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1169268374
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 152999434,
-    "name": "Byron Sanchez",
-    "email": "byron4578@gmail.com",
-    "phone": "818-653-2488",
-    "unit": "2",
+    "id": 1780160054,
+    "unit": 369657976,
+    "person": 152999434,
     "currentRent": 1269,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1437687918
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 727550555,
-    "name": "Corbett and Maria Rousey",
-    "email": "maria.rousey16@yahoo.com",
-    "phone": "626-429-3475",
-    "unit": "4",
+    "id": 725242234,
+    "unit": 324930195,
+    "person": 727550555,
     "currentRent": 1061,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1437687918
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1002459878,
-    "name": "Mia Hernandez",
-    "email": "miamag_443@msn.com",
-    "phone": "818-572-3332",
-    "unit": "1",
+    "id": 1543848822,
+    "unit": 2134022001,
+    "person": 1002459878,
     "currentRent": 1654,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1437687918
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1554081728,
-    "name": "Vindy Duran",
-    "email": "vindyduran@gmail.com",
-    "phone": "323-514-6687",
-    "unit": "3",
+    "id": 289322151,
+    "unit": 745110684,
+    "person": 1554081728,
     "currentRent": 1358,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1437687918
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 554466551,
-    "name": "Kevin Simon",
-    "email": "mrsimonfilms@gmail.com",
-    "phone": "401-639-4952",
-    "unit": "2",
+    "id": 399526394,
+    "unit": 2098731169,
+    "person": 554466551,
     "currentRent": 1052,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1625037383
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1009226164,
-    "name": "Ricardo Perez",
-    "email": "perezmiami72@yahoo.com",
-    "phone": "323-422-0063",
-    "unit": "3",
+    "id": 1773247993,
+    "unit": 388159246,
+    "person": 1009226164,
     "currentRent": 1111,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1625037383
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1167141134,
-    "name": "Mary Texidor",
-    "phone": "323-394-9010",
-    "unit": "4",
+    "id": 1413696923,
+    "unit": 1429983119,
+    "person": 1167141134,
     "currentRent": 879,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1625037383
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   },
   {
-    "id": 1948488359,
-    "name": "Kathleen Dornidon",
-    "email": "mn46292@gmail.com",
-    "phone": "323-806-2720",
-    "unit": "1",
+    "id": 444193786,
+    "unit": 590786302,
+    "person": 1948488359,
     "currentRent": 1167,
-    "leaseEnd": "2020-07-01T07:00:00.000Z",
-    "property": 1625037383
+    "leaseEnd": "2020-07-01T07:00:00.000Z"
   }],
   "entries": [
   {
@@ -290,9 +174,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-08-03T07:00:00.000Z",
     "id": 1980573,
-    "tenant": 1732370479,
     "record": 1318688727,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -302,9 +185,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-11-04T08:00:00.000Z",
     "id": 402585574,
-    "tenant": 1732370479,
     "record": 631589103,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -314,9 +196,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-02-04T08:00:00.000Z",
     "id": 826293444,
-    "tenant": 1732370479,
     "record": 1695211299,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -326,9 +207,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-10-03T07:00:00.000Z",
     "id": 1376239738,
-    "tenant": 1732370479,
     "record": 660218254,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Expense",
@@ -337,9 +217,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1575376862,
-    "tenant": null,
     "record": null,
-    "property": 204589028
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -349,9 +228,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-01-03T08:00:00.000Z",
     "id": 1689848698,
-    "tenant": 1732370479,
     "record": 1666581990,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -361,9 +239,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-09-03T07:00:00.000Z",
     "id": 1809435036,
-    "tenant": 1732370479,
     "record": 1290059576,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -373,9 +250,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1862732192,
-    "tenant": 1732370479,
     "record": 1347317878,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -385,9 +261,8 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-12-05T08:00:00.000Z",
     "id": 2113556410,
-    "tenant": 1732370479,
     "record": 602959952,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Income",
@@ -396,9 +271,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 79472025,
-    "tenant": 1524938655,
     "record": 408580198,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Income",
@@ -407,9 +281,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 658047628,
-    "tenant": 1524938655,
     "record": 1530957703,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Income",
@@ -418,9 +291,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 720172683,
-    "tenant": 1524938655,
     "record": 872487230,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Income",
@@ -429,9 +301,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1149406835,
-    "tenant": 1524938655,
     "record": 1559586854,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Income",
@@ -440,9 +311,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1201798384,
-    "tenant": 1524938655,
     "record": 843858079,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Expense",
@@ -451,9 +321,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1576181126,
-    "tenant": null,
     "record": null,
-    "property": 333872858
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -462,9 +331,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-09-02T07:00:00.000Z",
     "id": 1795969301,
-    "tenant": 1524938655,
     "record": 901116381,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Income",
@@ -473,9 +341,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1886926488,
-    "tenant": 1524938655,
     "record": 437209349,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Income",
@@ -484,9 +351,8 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-12-13T08:00:00.000Z",
     "id": 2012099315,
-    "tenant": 1524938655,
     "record": 1588216005,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Expense",
@@ -495,9 +361,8 @@ const data = {
     "transactor": "Leo Santoyo",
     "date": "2019-12-11T08:00:00.000Z",
     "id": 2091810328,
-    "tenant": null,
     "record": null,
-    "property": 333872858
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -507,9 +372,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-08-02T07:00:00.000Z",
     "id": 42047647,
-    "tenant": 742965617,
     "record": 711747540,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Income",
@@ -519,9 +383,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 66637717,
-    "tenant": 629044528,
     "record": 528548247,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -531,9 +394,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 100801115,
-    "tenant": 59607423,
     "record": 1006572828,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -543,9 +405,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-01-04T08:00:00.000Z",
     "id": 157594904,
-    "tenant": 629044528,
     "record": 809777483,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -554,9 +415,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 166854929,
-    "tenant": 728177430,
     "record": 833885580,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -566,9 +426,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-01-07T08:00:00.000Z",
     "id": 277645755,
-    "tenant": 59607423,
     "record": 331752902,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -578,9 +437,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-10-04T07:00:00.000Z",
     "id": 291008374,
-    "tenant": 728177430,
     "record": 1520985204,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -590,9 +448,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-12-05T08:00:00.000Z",
     "id": 328433037,
-    "tenant": 59607423,
     "record": 1693672452,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -602,9 +459,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-12-05T08:00:00.000Z",
     "id": 362596435,
-    "tenant": 629044528,
     "record": 1215647871,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -614,9 +470,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-12-05T08:00:00.000Z",
     "id": 417679147,
-    "tenant": 728177430,
     "record": 1578243506,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Expense",
@@ -625,9 +480,8 @@ const data = {
     "amount": 30,
     "date": "2019-08-02T07:00:00.000Z",
     "id": 462207189,
-    "tenant": null,
     "record": null,
-    "property": 838056571
+    "person": 445890682
   },
   {
     "category": "Income",
@@ -637,9 +491,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 579257255,
-    "tenant": 59607423,
     "record": 949314526,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -648,9 +501,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 613420653,
-    "tenant": 629044528,
     "record": 471289945,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -660,9 +512,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-02-07T08:00:00.000Z",
     "id": 783696524,
-    "tenant": 728177430,
     "record": 418552697,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -672,9 +523,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-01-04T08:00:00.000Z",
     "id": 937870486,
-    "tenant": 728177430,
     "record": 447181848,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -684,9 +534,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 985396503,
-    "tenant": 629044528,
     "record": 1158389569,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -696,9 +545,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-10-04T07:00:00.000Z",
     "id": 1037120558,
-    "tenant": 59607423,
     "record": 1636414150,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -708,9 +556,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-11-04T08:00:00.000Z",
     "id": 1416228877,
-    "tenant": 629044528,
     "record": 1187018720,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -720,9 +567,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-11-04T08:00:00.000Z",
     "id": 1450392275,
-    "tenant": 59607423,
     "record": 1665043301,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -732,9 +578,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-02-07T08:00:00.000Z",
     "id": 1529808708,
-    "tenant": 59607423,
     "record": 303123751,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -744,9 +589,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-09-11T07:00:00.000Z",
     "id": 1619900376,
-    "tenant": 728177430,
     "record": 891143882,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -756,9 +600,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-02-04T08:00:00.000Z",
     "id": 1649859559,
-    "tenant": 629044528,
     "record": 781148332,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -767,9 +610,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1755116138,
-    "tenant": 728177430,
     "record": 862514731,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -778,9 +620,8 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1759575576,
-    "tenant": 629044528,
     "record": 499919096,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Income",
@@ -790,9 +631,8 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 1908255578,
-    "tenant": 59607423,
     "record": 977943677,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Income",
@@ -802,9 +642,8 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-11-04T08:00:00.000Z",
     "id": 2098462837,
-    "tenant": 728177430,
     "record": 1549614355,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Income",
@@ -815,9 +654,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 39835130,
-    "tenant": 1801544731,
     "record": 563979907,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Income",
@@ -826,9 +664,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 88534987,
-    "tenant": 84573818,
     "record": 1627582349,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Income",
@@ -839,9 +676,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 103536183,
-    "tenant": 84573818,
     "record": 1308239408,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Expense",
@@ -850,9 +686,8 @@ const data = {
     "amount": 13000,
     "date": "2019-09-07T07:00:00.000Z",
     "id": 106455878,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -863,9 +698,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 256417550,
-    "tenant": 1093100950,
     "record": 715278294,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Expense",
@@ -874,9 +708,8 @@ const data = {
     "amount": 5851.92,
     "date": "2019-10-31T07:00:00.000Z",
     "id": 388061013,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -887,9 +720,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-10-02T07:00:00.000Z",
     "id": 549234992,
-    "tenant": 1093100950,
     "record": 713431252,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Income",
@@ -900,9 +732,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 575259447,
-    "tenant": 1703736041,
     "record": 1966989352,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Income",
@@ -913,9 +744,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 654745375,
-    "tenant": 1703736041,
     "record": 29806851,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Income",
@@ -925,9 +755,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 660420545,
-    "tenant": 1801544731,
     "record": 540891882,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Income",
@@ -938,9 +767,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 672812775,
-    "tenant": 1093100950,
     "record": 373770945,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Expense",
@@ -949,9 +777,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 695558276,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -962,9 +789,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 710043923,
-    "tenant": 84573818,
     "record": 1650670374,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Income",
@@ -975,9 +801,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 723474936,
-    "tenant": 1703736041,
     "record": 628663622,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Income",
@@ -988,9 +813,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 864883849,
-    "tenant": 1093100950,
     "record": 693113790,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Income",
@@ -1000,9 +824,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 881620570,
-    "tenant": 1093100950,
     "record": 692190269,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Income",
@@ -1013,9 +836,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 890318620,
-    "tenant": 1801544731,
     "record": 222472462,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Expense",
@@ -1024,9 +846,8 @@ const data = {
     "transactor": "Rebecca Themelis - December management",
     "date": "2019-12-10T08:00:00.000Z",
     "id": 904574792,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Expense",
@@ -1035,9 +856,8 @@ const data = {
     "amount": 29000,
     "date": "2019-08-01T07:00:00.000Z",
     "id": 938894896,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1048,9 +868,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 1033689933,
-    "tenant": 84573818,
     "record": 1649746853,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Expense",
@@ -1059,9 +878,8 @@ const data = {
     "amount": 1487,
     "date": "2019-11-25T08:00:00.000Z",
     "id": 1063883439,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1072,9 +890,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1069997656,
-    "tenant": 1093100950,
     "record": 372847328,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Income",
@@ -1084,9 +901,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 1082389790,
-    "tenant": 1801544731,
     "record": 541815403,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Income",
@@ -1096,9 +912,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 1083979527,
-    "tenant": 1703736041,
     "record": 657292773,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Expense",
@@ -1107,9 +922,8 @@ const data = {
     "amount": 9000,
     "date": "2019-10-02T07:00:00.000Z",
     "id": 1117089562,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Expense",
@@ -1118,9 +932,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-11-06T08:00:00.000Z",
     "id": 1203179778,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Expense",
@@ -1129,9 +942,8 @@ const data = {
     "amount": 280,
     "date": "2020-01-02T08:00:00.000Z",
     "id": 1250525615,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1141,9 +953,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1267225692,
-    "tenant": 1703736041,
     "record": 58436002,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Expense",
@@ -1152,9 +963,8 @@ const data = {
     "amount": 681.24,
     "date": "2019-08-07T07:00:00.000Z",
     "id": 1355389516,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1164,9 +974,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1403533306,
-    "tenant": 1703736041,
     "record": 685921924,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Expense",
@@ -1175,9 +984,8 @@ const data = {
     "amount": 462,
     "date": "2019-08-06T07:00:00.000Z",
     "id": 1447216252,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1188,9 +996,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-09-07T07:00:00.000Z",
     "id": 1467920129,
-    "tenant": 1801544731,
     "record": 542738924,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Expense",
@@ -1198,9 +1005,8 @@ const data = {
     "amount": 6000,
     "date": "2019-10-31T07:00:00.000Z",
     "id": 1516702957,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1211,9 +1017,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1520314070,
-    "tenant": 84573818,
     "record": 1648823332,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Expense",
@@ -1222,9 +1027,8 @@ const data = {
     "transactor": "Vickie Nigra",
     "date": "2019-08-15T07:00:00.000Z",
     "id": 1522037903,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1233,9 +1037,8 @@ const data = {
     "amount": 3000,
     "date": "2019-10-02T07:00:00.000Z",
     "id": 1522092656,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Expense",
@@ -1244,9 +1047,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1555048719,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Expense",
@@ -1255,9 +1057,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-09-08T07:00:00.000Z",
     "id": 1559044006,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1268,9 +1069,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1639274921,
-    "tenant": 84573818,
     "record": 1309163698,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Income",
@@ -1279,9 +1079,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1654275348,
-    "tenant": 84573818,
     "record": 1626658828,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Income",
@@ -1292,9 +1091,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1661838223,
-    "tenant": 1801544731,
     "record": 223396101,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Expense",
@@ -1303,9 +1101,8 @@ const data = {
     "transactor": "Vickie Nigra",
     "date": "2019-08-10T07:00:00.000Z",
     "id": 1665149062,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1315,9 +1112,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1674230475,
-    "tenant": 1093100950,
     "record": 691266748,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Income",
@@ -1328,9 +1124,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 1703898726,
-    "tenant": 1801544731,
     "record": 564903428,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Income",
@@ -1340,9 +1135,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1775509156,
-    "tenant": 1703736041,
     "record": 1177700,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Income",
@@ -1353,9 +1147,8 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1780798423,
-    "tenant": 1801544731,
     "record": 563056386,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Income",
@@ -1366,9 +1159,8 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-09-07T07:00:00.000Z",
     "id": 1833192364,
-    "tenant": 84573818,
     "record": 1628505870,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Expense",
@@ -1377,9 +1169,8 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-10-08T07:00:00.000Z",
     "id": 1857700019,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1390,9 +1181,8 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1912253511,
-    "tenant": 1703736041,
     "record": 1938360076,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Expense",
@@ -1401,9 +1191,8 @@ const data = {
     "transactor": "Vickie Nigra",
     "date": "2019-09-29T07:00:00.000Z",
     "id": 1967554797,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1414,9 +1203,8 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 2000151406,
-    "tenant": 1093100950,
     "record": 714354773,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Expense",
@@ -1425,9 +1213,8 @@ const data = {
     "amount": 320,
     "date": "2019-12-11T08:00:00.000Z",
     "id": 2091812126,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Expense",
@@ -1436,9 +1223,8 @@ const data = {
     "amount": 330,
     "date": "2019-12-11T08:00:00.000Z",
     "id": 2091812157,
-    "tenant": null,
     "record": null,
-    "property": 906979123
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1448,9 +1234,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 20319687,
-    "tenant": 1161390127,
     "record": 1326850075,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1461,9 +1246,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-10-02T07:00:00.000Z",
     "id": 22010920,
-    "tenant": 1646034143,
     "record": 953762433,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1473,9 +1257,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 351655357,
-    "tenant": 1161390127,
     "record": 639750451,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1486,9 +1269,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 486069919,
-    "tenant": 1646034143,
     "record": 1401666962,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1497,9 +1279,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 493110685,
-    "tenant": 1646034143,
     "record": 1640862057,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Expense",
@@ -1508,9 +1289,8 @@ const data = {
     "amount": 60,
     "date": "2019-10-02T07:00:00.000Z",
     "id": 600044535,
-    "tenant": null,
     "record": null,
-    "property": 1169268374
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1520,9 +1300,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-02-05T08:00:00.000Z",
     "id": 656154398,
-    "tenant": 1161390127,
     "record": 612687826,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1533,9 +1312,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 772564054,
-    "tenant": 1646034143,
     "record": 896504131,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1543,9 +1321,8 @@ const data = {
     "amount": 50,
     "date": "2020-01-01T08:00:00.000Z",
     "id": 903604549,
-    "tenant": null,
     "record": null,
-    "property": 1169268374
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1555,9 +1332,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-09-04T07:00:00.000Z",
     "id": 1003084576,
-    "tenant": 1161390127,
     "record": 697008753,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1566,9 +1342,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1022726709,
-    "tenant": 1161390127,
     "record": null,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1579,9 +1354,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1036783461,
-    "tenant": 1161390127,
     "record": 641316977,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1590,9 +1364,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 1135583208,
-    "tenant": 1161390127,
     "record": null,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1603,9 +1376,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-12-30T08:00:00.000Z",
     "id": 1173121627,
-    "tenant": 1161390127,
     "record": 1384108377,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1616,9 +1388,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 1173169055,
-    "tenant": 1646034143,
     "record": 1583603755,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1627,9 +1398,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 1314343778,
-    "tenant": 1646034143,
     "record": 1612232906,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1640,9 +1410,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1321384544,
-    "tenant": 1646034143,
     "record": 1373037811,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1652,9 +1421,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 1455799106,
-    "tenant": 1161390127,
     "record": 668379602,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1665,9 +1433,8 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 1743577930,
-    "tenant": 1646034143,
     "record": 925133282,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Income",
@@ -1675,9 +1442,8 @@ const data = {
     "amount": 20,
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1787419670,
-    "tenant": null,
     "record": null,
-    "property": 1169268374
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1687,9 +1453,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-11-06T08:00:00.000Z",
     "id": 1856403301,
-    "tenant": 1161390127,
     "record": 1355479226,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1698,9 +1463,8 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 2044964367,
-    "tenant": 1161390127,
     "record": null,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Income",
@@ -1711,9 +1475,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 29696173,
-    "tenant": 727550555,
     "record": 990237351,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -1723,9 +1486,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-08-06T07:00:00.000Z",
     "id": 160004621,
-    "tenant": 152999434,
     "record": 477622605,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -1735,9 +1497,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 260812261,
-    "tenant": 1554081728,
     "record": 983294408,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -1748,9 +1509,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 370908858,
-    "tenant": 727550555,
     "record": 303137757,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Expense",
@@ -1760,9 +1520,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 396594643,
-    "tenant": 727550555,
     "record": null,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -1772,9 +1531,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-02-03T08:00:00.000Z",
     "id": 481574302,
-    "tenant": 1554081728,
     "record": 297772863,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -1784,9 +1542,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-11-06T08:00:00.000Z",
     "id": 589238773,
-    "tenant": 152999434,
     "record": 209477019,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -1796,9 +1553,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 620544365,
-    "tenant": 1002459878,
     "record": 976167495,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -1808,9 +1564,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 638089608,
-    "tenant": 1002459878,
     "record": 1322003598,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -1819,9 +1574,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 650362197,
-    "tenant": 727550555,
     "record": 1047495653,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -1831,9 +1585,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-02-07T08:00:00.000Z",
     "id": 668269463,
-    "tenant": 152999434,
     "record": 1758689901,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -1843,9 +1596,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 757675946,
-    "tenant": 1002459878,
     "record": 1634637968,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -1855,9 +1607,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 804563017,
-    "tenant": 1554081728,
     "record": 1670394032,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -1867,9 +1618,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-01-11T08:00:00.000Z",
     "id": 922269681,
-    "tenant": 727550555,
     "record": 1966404185,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -1879,9 +1629,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1002891446,
-    "tenant": 1554081728,
     "record": 1641764881,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -1891,9 +1640,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1022338047,
-    "tenant": 727550555,
     "record": 360396029,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -1903,9 +1651,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-08-02T07:00:00.000Z",
     "id": 1078407668,
-    "tenant": 1002459878,
     "record": 1663267119,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -1914,9 +1661,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1131681886,
-    "tenant": 152999434,
     "record": null,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -1926,9 +1672,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1186910098,
-    "tenant": 1002459878,
     "record": 947538344,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -1939,9 +1684,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1246844841,
-    "tenant": 152999434,
     "record": 180847868,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -1951,9 +1695,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1323217712,
-    "tenant": 1002459878,
     "record": 1691896270,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -1962,9 +1705,8 @@ const data = {
     "amount": 9,
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1356319980,
-    "tenant": null,
     "record": null,
-    "property": 1437687918
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -1974,9 +1716,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-11-06T08:00:00.000Z",
     "id": 1436545665,
-    "tenant": 727550555,
     "record": 331766848,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -1986,9 +1727,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1546642202,
-    "tenant": 1554081728,
     "record": 954665257,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -1998,9 +1738,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1618820691,
-    "tenant": 152999434,
     "record": 506251756,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -2011,9 +1750,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1629542677,
-    "tenant": 727550555,
     "record": 1995033490,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Expense",
@@ -2022,9 +1760,8 @@ const data = {
     "amount": 9,
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1674448982,
-    "tenant": null,
     "record": null,
-    "property": 1437687918
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -2034,9 +1771,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-12-03T08:00:00.000Z",
     "id": 1740208118,
-    "tenant": 1554081728,
     "record": 1699023183,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -2045,9 +1781,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 1837150636,
-    "tenant": 727550555,
     "record": 1018866502,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -2058,9 +1793,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1847872746,
-    "tenant": 152999434,
     "record": 1787319184,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -2070,9 +1804,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1849424065,
-    "tenant": 1002459878,
     "record": 1350633589,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -2082,9 +1815,8 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1866968468,
-    "tenant": 1002459878,
     "record": 1004796646,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Income",
@@ -2095,9 +1827,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 1898274060,
-    "tenant": 152999434,
     "record": 238106170,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -2107,9 +1838,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-01-05T08:00:00.000Z",
     "id": 1948680386,
-    "tenant": 1554081728,
     "record": 326402171,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Income",
@@ -2120,9 +1850,8 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 1996088235,
-    "tenant": 152999434,
     "record": 448993454,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Income",
@@ -2132,9 +1861,8 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-09-03T07:00:00.000Z",
     "id": 2125525026,
-    "tenant": 1554081728,
     "record": 1011923559,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Expense",
@@ -2143,9 +1871,8 @@ const data = {
     "transactor": "Maria rousey",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 2126066814,
-    "tenant": null,
     "record": null,
-    "property": 1437687918
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -2154,9 +1881,8 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 2140507417,
-    "tenant": 727550555,
     "record": null,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Income",
@@ -2167,9 +1893,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 137420450,
-    "tenant": 1948488359,
     "record": 468934191,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2178,9 +1903,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 170787123,
-    "tenant": 1009226164,
     "record": 183612056,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2191,9 +1915,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-02-07T08:00:00.000Z",
     "id": 272433168,
-    "tenant": 554466551,
     "record": 741294468,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2204,9 +1927,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 356532677,
-    "tenant": 1167141134,
     "record": 44944385,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2217,9 +1939,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 453737470,
-    "tenant": 1167141134,
     "record": 43097343,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2229,9 +1950,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-08-02T07:00:00.000Z",
     "id": 480767149,
-    "tenant": 1948488359,
     "record": 1156033815,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2240,9 +1960,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-09-06T07:00:00.000Z",
     "id": 557821888,
-    "tenant": null,
     "record": null,
-    "property": 1625037383
+    "person": 1320821815
   },
   {
     "category": "Income",
@@ -2252,9 +1971,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-11-06T08:00:00.000Z",
     "id": 571392124,
-    "tenant": 1009226164,
     "record": 870711680,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2265,9 +1983,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 572697648,
-    "tenant": 1167141134,
     "record": 296562964,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2276,9 +1993,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-09-07T07:00:00.000Z",
     "id": 577077701,
-    "tenant": 554466551,
     "record": null,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2288,9 +2004,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 584470059,
-    "tenant": 554466551,
     "record": 2022361772,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2301,9 +2016,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 657487534,
-    "tenant": 1009226164,
     "record": 1097454574,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2314,9 +2028,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 764768722,
-    "tenant": 1167141134,
     "record": 22779881,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2327,9 +2040,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 851008554,
-    "tenant": 554466551,
     "record": 1614135051,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2338,9 +2050,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-08-05T07:00:00.000Z",
     "id": 978041613,
-    "tenant": 1167141134,
     "record": 21856360,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2350,9 +2061,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-11-06T08:00:00.000Z",
     "id": 985075060,
-    "tenant": 554466551,
     "record": 1585505900,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2363,9 +2073,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1092584372,
-    "tenant": 1948488359,
     "record": 1829236902,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2376,9 +2085,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1170112783,
-    "tenant": 1167141134,
     "record": 297486581,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2388,9 +2096,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1222984404,
-    "tenant": 554466551,
     "record": 1993732621,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2399,9 +2106,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1238477777,
-    "tenant": 554466551,
     "record": null,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2412,9 +2118,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 1240799861,
-    "tenant": 1948488359,
     "record": 1127404664,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2425,9 +2130,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-10-07T07:00:00.000Z",
     "id": 1264691490,
-    "tenant": 1009226164,
     "record": 842082529,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2438,9 +2142,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-02-06T08:00:00.000Z",
     "id": 1394928589,
-    "tenant": 1948488359,
     "record": 1857866181,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2450,9 +2153,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 1502437773,
-    "tenant": 554466551,
     "record": 1556876749,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2461,9 +2163,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1574115348,
-    "tenant": 1167141134,
     "record": 20932839,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Income",
@@ -2472,9 +2173,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1636667340,
-    "tenant": 1009226164,
     "record": 154982905,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2485,9 +2185,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 1641404862,
-    "tenant": 1948488359,
     "record": 440305040,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2498,9 +2197,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 1830026097,
-    "tenant": 1009226164,
     "record": 1126084523,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2511,9 +2209,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-10-02T07:00:00.000Z",
     "id": 1858987460,
-    "tenant": 1948488359,
     "record": 497563342,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2524,9 +2221,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-12-06T08:00:00.000Z",
     "id": 1916120709,
-    "tenant": 1009226164,
     "record": 899340831,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2536,9 +2232,8 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-07-05T07:00:00.000Z",
     "id": 1920858231,
-    "tenant": 1948488359,
     "record": 1184662966,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Income",
@@ -2549,9 +2244,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-09-07T07:00:00.000Z",
     "id": 1960301169,
-    "tenant": 554466551,
     "record": 2050990923,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2562,9 +2256,8 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-09-05T07:00:00.000Z",
     "id": 1978241586,
-    "tenant": 1009226164,
     "record": 212241207,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Income",
@@ -2575,9 +2268,8 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-01-06T08:00:00.000Z",
     "id": 2051258263,
-    "tenant": 554466551,
     "record": 712665193,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Income",
@@ -2588,9 +2280,8 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-11-05T08:00:00.000Z",
     "id": 2100266533,
-    "tenant": 1167141134,
     "record": 44020864,
-    "property": 1625037383
+    "person": 1167141134
   }],
   "records": [
   {
@@ -2600,8 +2291,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 602959952,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2610,8 +2300,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 631589103,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2620,8 +2309,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 660218254,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2630,8 +2318,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1290059576,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2640,8 +2327,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1318688727,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2650,8 +2336,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1347317878,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2660,8 +2345,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1666581990,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2670,8 +2354,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1695211299,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2680,8 +2363,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1723840450,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2690,8 +2372,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1752469601,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2700,8 +2381,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1781098752,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2710,8 +2390,7 @@ const data = {
     "transactor": "Ronda Covarrubias",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1809727903,
-    "tenant": 1732370479,
-    "property": 204589028
+    "person": 1732370479
   },
   {
     "category": "Invoice",
@@ -2720,8 +2399,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 294063594,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2730,8 +2408,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 322692745,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2740,8 +2417,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 351321896,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2750,8 +2426,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 379951047,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2760,8 +2435,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 408580198,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2770,8 +2444,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 437209349,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2780,8 +2453,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 843858079,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2790,8 +2462,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 872487230,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2800,8 +2471,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 901116381,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2810,8 +2480,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1530957703,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2820,8 +2489,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1559586854,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2830,8 +2498,7 @@ const data = {
     "transactor": "Candice Nigra",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1588216005,
-    "tenant": 1524938655,
-    "property": 333872858
+    "person": 1524938655
   },
   {
     "category": "Invoice",
@@ -2840,8 +2507,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 81908140,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -2850,8 +2516,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 81909101,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -2860,8 +2525,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 81910062,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -2870,8 +2534,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 81911023,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -2880,8 +2543,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 81911984,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -2890,8 +2552,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 81912945,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -2900,8 +2561,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 188607147,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -2910,8 +2570,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 217236298,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -2920,8 +2579,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 245865449,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -2930,8 +2588,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 274494600,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -2940,8 +2597,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 303123751,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -2950,8 +2606,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 304036093,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -2960,8 +2615,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 331752902,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -2970,8 +2624,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 332665244,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -2980,8 +2633,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 361294395,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -2990,8 +2642,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 389923546,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3000,8 +2651,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 418552697,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3010,8 +2660,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 447181848,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3020,8 +2669,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 471289945,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3030,8 +2678,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 499919096,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3040,8 +2687,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 528548247,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3050,8 +2696,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 666631728,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3060,8 +2705,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 695260879,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3070,8 +2714,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 711723515,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -3080,8 +2723,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 711724476,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -3090,8 +2732,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 711725437,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -3100,8 +2741,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 711746579,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -3110,8 +2750,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 711747540,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -3120,8 +2759,7 @@ const data = {
     "transactor": "Rebecca Themelis",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 711748501,
-    "tenant": 742965617,
-    "property": 838056571
+    "person": 742965617
   },
   {
     "category": "Invoice",
@@ -3130,8 +2768,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 723890030,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3140,8 +2777,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 752519181,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3150,8 +2786,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 781148332,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3160,8 +2795,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 809777483,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3170,8 +2804,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 833885580,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3180,8 +2813,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 862514731,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3190,8 +2822,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 891143882,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3200,8 +2831,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 949314526,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -3210,8 +2840,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 977943677,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -3220,8 +2849,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1006572828,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -3230,8 +2858,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1158389569,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3240,8 +2867,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1187018720,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3250,8 +2876,7 @@ const data = {
     "transactor": "Selene Garcia",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1215647871,
-    "tenant": 629044528,
-    "property": 838056571
+    "person": 629044528
   },
   {
     "category": "Invoice",
@@ -3260,8 +2885,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1520985204,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3270,8 +2894,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1549614355,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3280,8 +2903,7 @@ const data = {
     "transactor": "Tyler Sandness",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1578243506,
-    "tenant": 728177430,
-    "property": 838056571
+    "person": 728177430
   },
   {
     "category": "Invoice",
@@ -3290,8 +2912,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1636414150,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -3300,8 +2921,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1665043301,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -3310,8 +2930,7 @@ const data = {
     "transactor": "Daniel Wegerer",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1693672452,
-    "tenant": 59607423,
-    "property": 838056571
+    "person": 59607423
   },
   {
     "category": "Invoice",
@@ -3320,8 +2939,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1177700,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3330,8 +2948,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 29806851,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3340,8 +2957,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 58436002,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3350,8 +2966,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 222472462,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3360,8 +2975,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 223396101,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3370,8 +2984,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 224319622,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3380,8 +2993,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 225243143,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3390,8 +3002,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 226166664,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3400,8 +3011,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 227090185,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3410,8 +3020,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 372847328,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3420,8 +3029,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 373770945,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3430,8 +3038,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 374694466,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3440,8 +3047,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 375617987,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3450,8 +3056,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 376541508,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3460,8 +3065,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 377465029,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3470,8 +3074,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 540891882,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3480,8 +3083,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 541815403,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3490,8 +3092,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 542738924,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3500,8 +3101,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 563056386,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3510,8 +3110,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 563979907,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3520,8 +3119,7 @@ const data = {
     "transactor": "Jessie Sanchez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 564903428,
-    "tenant": 1801544731,
-    "property": 906979123
+    "person": 1801544731
   },
   {
     "category": "Invoice",
@@ -3530,8 +3128,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 628663622,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3540,8 +3137,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 657292773,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3550,8 +3146,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 685921924,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3560,8 +3155,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 691266748,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3570,8 +3164,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 692190269,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3580,8 +3173,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 693113790,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3590,8 +3182,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 713431252,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3600,8 +3191,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 714354773,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3610,8 +3200,7 @@ const data = {
     "transactor": "Sonia Lopez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 715278294,
-    "tenant": 1093100950,
-    "property": 906979123
+    "person": 1093100950
   },
   {
     "category": "Invoice",
@@ -3620,8 +3209,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1308239408,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3630,8 +3218,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1309163698,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3640,8 +3227,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1310087219,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3650,8 +3236,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1311010740,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3660,8 +3245,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1311934261,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3670,8 +3254,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1312857782,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3680,8 +3263,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1626658828,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3690,8 +3272,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1627582349,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3700,8 +3281,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1628505870,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3710,8 +3290,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1648823332,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3720,8 +3299,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1649746853,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3730,8 +3308,7 @@ const data = {
     "transactor": "Rosa Alvarez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1650670374,
-    "tenant": 84573818,
-    "property": 906979123
+    "person": 84573818
   },
   {
     "category": "Invoice",
@@ -3740,8 +3317,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1823843472,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3750,8 +3326,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1852472623,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3760,8 +3335,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1881101774,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3770,8 +3344,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1909730925,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3780,8 +3353,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1938360076,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3790,8 +3362,7 @@ const data = {
     "transactor": "Leah Magellanes",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1966989352,
-    "tenant": 1703736041,
-    "property": 906979123
+    "person": 1703736041
   },
   {
     "category": "Invoice",
@@ -3800,8 +3371,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 498171222,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3810,8 +3380,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 526800373,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3820,8 +3389,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 555429524,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3830,8 +3398,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 584058675,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3840,8 +3407,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 612687826,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3850,8 +3416,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 639750451,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3860,8 +3425,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 641316977,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3870,8 +3434,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 668379602,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3880,8 +3443,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 697008753,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3890,8 +3452,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 896504131,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3900,8 +3461,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 925133282,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3910,8 +3470,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 953762433,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3920,8 +3479,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1326850075,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3930,8 +3488,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1355479226,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3940,8 +3497,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1373037811,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3950,8 +3506,7 @@ const data = {
     "transactor": "Brooke Morgan",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1384108377,
-    "tenant": 1161390127,
-    "property": 1169268374
+    "person": 1161390127
   },
   {
     "category": "Invoice",
@@ -3960,8 +3515,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1401666962,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3970,8 +3524,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1430296113,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3980,8 +3533,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1458925264,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -3990,8 +3542,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1487554415,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -4000,8 +3551,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1516183566,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -4010,8 +3560,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1583603755,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -4020,8 +3569,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1612232906,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -4030,8 +3578,7 @@ const data = {
     "transactor": "Javier Garcia",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1640862057,
-    "tenant": 1646034143,
-    "property": 1169268374
+    "person": 1646034143
   },
   {
     "category": "Invoice",
@@ -4040,8 +3587,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 180847868,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4050,8 +3596,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 183256259,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4060,8 +3605,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 209477019,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4070,8 +3614,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 211885410,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4080,8 +3623,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 238106170,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4090,8 +3632,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 240514561,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4100,8 +3641,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 269143712,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4110,8 +3650,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 297772863,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4120,8 +3659,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 303137757,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4130,8 +3668,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 326402171,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4140,8 +3677,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 331766848,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4150,8 +3686,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 360396029,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4160,8 +3695,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 448993454,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4170,8 +3704,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 477622605,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4180,8 +3713,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 506251756,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4190,8 +3722,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 947538344,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4200,8 +3731,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 954665257,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4210,8 +3740,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 976167495,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4220,8 +3749,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 983294408,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4230,8 +3758,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 990237351,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4240,8 +3767,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1004796646,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4250,8 +3776,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1011923559,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4260,8 +3785,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1018866502,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4270,8 +3794,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1047495653,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4280,8 +3803,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1322003598,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4290,8 +3812,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1350633589,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4300,8 +3821,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1379262740,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4310,8 +3830,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1407891891,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4320,8 +3839,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1436521042,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4330,8 +3848,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1465150193,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4340,8 +3857,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1634637968,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4350,8 +3866,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1641764881,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4360,8 +3875,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1644173297,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4370,8 +3884,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1663267119,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4380,8 +3893,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1670394032,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4390,8 +3902,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1672802448,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4400,8 +3911,7 @@ const data = {
     "transactor": "Mia Hernandez",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1691896270,
-    "tenant": 1002459878,
-    "property": 1437687918
+    "person": 1002459878
   },
   {
     "category": "Invoice",
@@ -4410,8 +3920,7 @@ const data = {
     "transactor": "Vindy Duran",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1699023183,
-    "tenant": 1554081728,
-    "property": 1437687918
+    "person": 1554081728
   },
   {
     "category": "Invoice",
@@ -4420,8 +3929,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1701431599,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4430,8 +3938,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1730060750,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4440,8 +3947,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1758689901,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4450,8 +3956,7 @@ const data = {
     "transactor": "Byron Sanchez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1787319184,
-    "tenant": 152999434,
-    "property": 1437687918
+    "person": 152999434
   },
   {
     "category": "Invoice",
@@ -4460,8 +3965,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1966404185,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4470,8 +3974,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1995033490,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4480,8 +3983,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 2023662641,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4490,8 +3992,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 2052291792,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4500,8 +4001,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 2080920943,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4510,8 +4010,7 @@ const data = {
     "transactor": "Corbett and Maria Rousey",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 2109550094,
-    "tenant": 727550555,
-    "property": 1437687918
+    "person": 727550555
   },
   {
     "category": "Invoice",
@@ -4520,8 +4019,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 20932839,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4530,8 +4028,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 21856360,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4540,8 +4037,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 22779881,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4550,8 +4046,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 43097343,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4560,8 +4055,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 44020864,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4570,8 +4064,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 44944385,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4580,8 +4073,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 154982905,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4590,8 +4082,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 183612056,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4600,8 +4091,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 212241207,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4610,8 +4100,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 292868880,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4620,8 +4109,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 293792401,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4630,8 +4118,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 294715922,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4640,8 +4127,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 295639443,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4650,8 +4136,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 296562964,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4660,8 +4145,7 @@ const data = {
     "transactor": "Mary Texidor",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 297486581,
-    "tenant": 1167141134,
-    "property": 1625037383
+    "person": 1167141134
   },
   {
     "category": "Invoice",
@@ -4670,8 +4154,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 440305040,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4680,8 +4163,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 468934191,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4690,8 +4172,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 497563342,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4700,8 +4181,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 712665193,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4710,8 +4190,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 741294468,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4720,8 +4199,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 769923619,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4730,8 +4208,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 798552770,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4740,8 +4217,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 827181921,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4750,8 +4226,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 842082529,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4760,8 +4235,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 855811072,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4770,8 +4244,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 870711680,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4780,8 +4253,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 899340831,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4790,8 +4262,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 982937970,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4800,8 +4271,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1011567121,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4810,8 +4280,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1040196272,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4820,8 +4289,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1068825423,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4830,8 +4298,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1097454574,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4840,8 +4307,7 @@ const data = {
     "transactor": "Ricardo Perez",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1126084523,
-    "tenant": 1009226164,
-    "property": 1625037383
+    "person": 1009226164
   },
   {
     "category": "Invoice",
@@ -4850,8 +4316,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 1127404664,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4860,8 +4325,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 1156033815,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4870,8 +4334,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1184662966,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4880,8 +4343,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-12-01T08:00:00.000Z",
     "id": 1556876749,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4890,8 +4352,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-11-01T07:00:00.000Z",
     "id": 1585505900,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4900,8 +4361,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-10-01T07:00:00.000Z",
     "id": 1614135051,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4910,8 +4370,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-01-01T08:00:00.000Z",
     "id": 1829236902,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4920,8 +4379,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-02-01T08:00:00.000Z",
     "id": 1857866181,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4930,8 +4388,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-03-01T08:00:00.000Z",
     "id": 1886495332,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4940,8 +4397,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-04-01T07:00:00.000Z",
     "id": 1915124483,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4950,8 +4406,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-05-01T07:00:00.000Z",
     "id": 1943753634,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4960,8 +4415,7 @@ const data = {
     "transactor": "Kathleen Dornidon",
     "date": "2020-06-01T07:00:00.000Z",
     "id": 1972382785,
-    "tenant": 1948488359,
-    "property": 1625037383
+    "person": 1948488359
   },
   {
     "category": "Invoice",
@@ -4970,8 +4424,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-07-01T07:00:00.000Z",
     "id": 1993732621,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4980,8 +4433,7 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-08-01T07:00:00.000Z",
     "id": 2022361772,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
   },
   {
     "category": "Invoice",
@@ -4990,8 +4442,379 @@ const data = {
     "transactor": "Kevin Simon",
     "date": "2019-09-01T07:00:00.000Z",
     "id": 2050990923,
-    "tenant": 554466551,
-    "property": 1625037383
+    "person": 554466551
+  }],
+  "units": [
+  {
+    "id": 38087793,
+    "tenants": [1190300810],
+    "building": 204589028
+  },
+  {
+    "id": 517628130,
+    "tenants": [288061260],
+    "building": 333872858
+  },
+  {
+    "id": 1357285494,
+    "name": "2",
+    "tenants": [66966098],
+    "building": 838056571
+  },
+  {
+    "id": 455391895,
+    "name": "1",
+    "tenants": [1300607929],
+    "building": 838056571
+  },
+  {
+    "id": 1418583113,
+    "name": "4",
+    "tenants": [2035844188],
+    "building": 838056571
+  },
+  {
+    "id": 169191674,
+    "name": "3",
+    "tenants": [749022907],
+    "building": 838056571
+  },
+  {
+    "id": 584903032,
+    "name": "2",
+    "tenants": [1821392154],
+    "building": 906979123
+  },
+  {
+    "id": 2002593783,
+    "name": "3",
+    "tenants": [1181550032],
+    "building": 906979123
+  },
+  {
+    "id": 835434552,
+    "name": "4",
+    "tenants": [985593647],
+    "building": 906979123
+  },
+  {
+    "id": 299750007,
+    "name": "1",
+    "tenants": [1959818617],
+    "building": 906979123
+  },
+  {
+    "id": 1480284426,
+    "name": "1",
+    "tenants": [1881409933],
+    "building": 1169268374
+  },
+  {
+    "id": 1406152844,
+    "name": "2",
+    "tenants": [328420390],
+    "building": 1169268374
+  },
+  {
+    "id": 369657976,
+    "name": "2",
+    "tenants": [1780160054],
+    "building": 1437687918
+  },
+  {
+    "id": 324930195,
+    "name": "4",
+    "tenants": [725242234],
+    "building": 1437687918
+  },
+  {
+    "id": 2134022001,
+    "name": "1",
+    "tenants": [1543848822],
+    "building": 1437687918
+  },
+  {
+    "id": 745110684,
+    "name": "3",
+    "tenants": [289322151],
+    "building": 1437687918
+  },
+  {
+    "id": 2098731169,
+    "name": "2",
+    "tenants": [399526394],
+    "building": 1625037383
+  },
+  {
+    "id": 388159246,
+    "name": "3",
+    "tenants": [1773247993],
+    "building": 1625037383
+  },
+  {
+    "id": 1429983119,
+    "name": "4",
+    "tenants": [1413696923],
+    "building": 1625037383
+  },
+  {
+    "id": 590786302,
+    "name": "1",
+    "tenants": [444193786],
+    "building": 1625037383
+  }],
+  "people": [
+  {
+    "id": 1732370479,
+    "name": "Ronda Covarrubias",
+    "email": "rondacova@yahoo.com",
+    "phone": "818-669-4443",
+    "entries": [1980573, 402585574, 826293444, 1376239738, 1689848698, 1809435036, 1862732192, 2113556410],
+    "records": [602959952, 631589103, 660218254, 1290059576, 1318688727, 1347317878, 1666581990, 1695211299, 1723840450, 1752469601, 1781098752, 1809727903]
+  },
+  {
+    "id": 1524938655,
+    "name": "Candice Nigra",
+    "email": "candygirl587@hotmail.com",
+    "phone": "818-326-2810",
+    "entries": [79472025, 658047628, 720172683, 1149406835, 1201798384, 1795969301, 1886926488, 2012099315],
+    "records": [294063594, 322692745, 351321896, 379951047, 408580198, 437209349, 843858079, 872487230, 901116381, 1530957703, 1559586854, 1588216005]
+  },
+  {
+    "id": 59607423,
+    "name": "Daniel Wegerer",
+    "email": "lilwegerer@yahoo.com",
+    "phone": "310-425-4392",
+    "entries": [100801115, 277645755, 328433037, 579257255, 1037120558, 1450392275, 1529808708, 1908255578],
+    "records": [188607147, 217236298, 245865449, 274494600, 303123751, 331752902, 949314526, 977943677, 1006572828, 1636414150, 1665043301, 1693672452]
+  },
+  {
+    "id": 629044528,
+    "name": "Selene Garcia",
+    "email": "selenegarcia1986@gmail.com",
+    "phone": "323-458-2857",
+    "entries": [66637717, 157594904, 362596435, 613420653, 985396503, 1416228877, 1649859559, 1759575576],
+    "records": [471289945, 499919096, 528548247, 666631728, 695260879, 723890030, 752519181, 781148332, 809777483, 1158389569, 1187018720, 1215647871]
+  },
+  {
+    "id": 728177430,
+    "name": "Tyler Sandness",
+    "email": "tlsandness@gmail.com",
+    "phone": "310-721-0703",
+    "entries": [166854929, 291008374, 417679147, 783696524, 937870486, 1619900376, 1755116138, 2098462837],
+    "records": [304036093, 332665244, 361294395, 389923546, 418552697, 447181848, 833885580, 862514731, 891143882, 1520985204, 1549614355, 1578243506]
+  },
+  {
+    "id": 742965617,
+    "name": "Rebecca Themelis",
+    "email": "rthemelis@gmail.com",
+    "phone": "310-494-6036",
+    "entries": [42047647],
+    "records": [81908140, 81909101, 81910062, 81911023, 81911984, 81912945, 711723515, 711724476, 711725437, 711746579, 711747540, 711748501]
+  },
+  {
+    "id": 84573818,
+    "name": "Rosa Alvarez",
+    "email": "rossmerymar@hotmail.com",
+    "phone": "323-400-7466",
+    "entries": [88534987, 103536183, 710043923, 1033689933, 1520314070, 1639274921, 1654275348, 1833192364],
+    "records": [1308239408, 1309163698, 1310087219, 1311010740, 1311934261, 1312857782, 1626658828, 1627582349, 1628505870, 1648823332, 1649746853, 1650670374]
+  },
+  {
+    "id": 1093100950,
+    "name": "Sonia Lopez",
+    "email": "sonialopez1202@gmail.com",
+    "phone": "323-868-2376",
+    "entries": [256417550, 549234992, 672812775, 864883849, 881620570, 1069997656, 1674230475, 2000151406],
+    "records": [372847328, 373770945, 374694466, 375617987, 376541508, 377465029, 691266748, 692190269, 693113790, 713431252, 714354773, 715278294]
+  },
+  {
+    "id": 1703736041,
+    "name": "Leah Magellanes",
+    "email": "leahrmadallanes@att.net",
+    "phone": "323-356-1598",
+    "entries": [575259447, 654745375, 723474936, 1083979527, 1267225692, 1403533306, 1775509156, 1912253511],
+    "records": [1177700, 29806851, 58436002, 628663622, 657292773, 685921924, 1823843472, 1852472623, 1881101774, 1909730925, 1938360076, 1966989352]
+  },
+  {
+    "id": 1801544731,
+    "name": "Jessie Sanchez",
+    "phone": "323-353-0556",
+    "entries": [39835130, 660420545, 890318620, 1082389790, 1467920129, 1661838223, 1703898726, 1780798423],
+    "records": [222472462, 223396101, 224319622, 225243143, 226166664, 227090185, 540891882, 541815403, 542738924, 563056386, 563979907, 564903428]
+  },
+  {
+    "id": 1161390127,
+    "name": "Brooke Morgan",
+    "email": "joellebrooks01@gmail.com",
+    "phone": "909-354-1000",
+    "entries": [20319687, 351655357, 656154398, 1003084576, 1022726709, 1036783461, 1135583208, 1173121627, 1455799106, 1856403301, 2044964367],
+    "records": [498171222, 526800373, 555429524, 584058675, 612687826, 639750451, 641316977, 668379602, 697008753, 1326850075, 1355479226, 1384108377]
+  },
+  {
+    "id": 1646034143,
+    "name": "Javier Garcia",
+    "email": "tbone8552@yahoo.com",
+    "phone": "562-832-5803",
+    "entries": [22010920, 486069919, 493110685, 772564054, 1173169055, 1314343778, 1321384544, 1743577930],
+    "records": [896504131, 925133282, 953762433, 1373037811, 1401666962, 1430296113, 1458925264, 1487554415, 1516183566, 1583603755, 1612232906, 1640862057]
+  },
+  {
+    "id": 152999434,
+    "name": "Byron Sanchez",
+    "email": "byron4578@gmail.com",
+    "phone": "818-653-2488",
+    "entries": [160004621, 589238773, 668269463, 1131681886, 1246844841, 1618820691, 1847872746, 1898274060, 1996088235],
+    "records": [180847868, 209477019, 238106170, 448993454, 477622605, 506251756, 1644173297, 1672802448, 1701431599, 1730060750, 1758689901, 1787319184]
+  },
+  {
+    "id": 727550555,
+    "name": "Corbett and Maria Rousey",
+    "email": "maria.rousey16@yahoo.com",
+    "phone": "626-429-3475",
+    "entries": [29696173, 370908858, 396594643, 650362197, 922269681, 1022338047, 1436545665, 1629542677, 1837150636, 2140507417],
+    "records": [303137757, 331766848, 360396029, 990237351, 1018866502, 1047495653, 1966404185, 1995033490, 2023662641, 2052291792, 2080920943, 2109550094]
+  },
+  {
+    "id": 1002459878,
+    "name": "Mia Hernandez",
+    "email": "miamag_443@msn.com",
+    "phone": "818-572-3332",
+    "entries": [620544365, 638089608, 757675946, 1078407668, 1186910098, 1323217712, 1849424065, 1866968468],
+    "records": [947538344, 976167495, 1004796646, 1322003598, 1350633589, 1379262740, 1407891891, 1436521042, 1465150193, 1634637968, 1663267119, 1691896270]
+  },
+  {
+    "id": 1554081728,
+    "name": "Vindy Duran",
+    "email": "vindyduran@gmail.com",
+    "phone": "323-514-6687",
+    "entries": [260812261, 481574302, 804563017, 1002891446, 1546642202, 1740208118, 1948680386, 2125525026],
+    "records": [183256259, 211885410, 240514561, 269143712, 297772863, 326402171, 954665257, 983294408, 1011923559, 1641764881, 1670394032, 1699023183]
+  },
+  {
+    "id": 554466551,
+    "name": "Kevin Simon",
+    "email": "mrsimonfilms@gmail.com",
+    "phone": "401-639-4952",
+    "entries": [272433168, 577077701, 584470059, 851008554, 985075060, 1222984404, 1238477777, 1502437773, 1960301169, 2051258263],
+    "records": [712665193, 741294468, 769923619, 798552770, 827181921, 855811072, 1556876749, 1585505900, 1614135051, 1993732621, 2022361772, 2050990923]
+  },
+  {
+    "id": 1009226164,
+    "name": "Ricardo Perez",
+    "email": "perezmiami72@yahoo.com",
+    "phone": "323-422-0063",
+    "entries": [170787123, 571392124, 657487534, 1264691490, 1636667340, 1830026097, 1916120709, 1978241586],
+    "records": [154982905, 183612056, 212241207, 842082529, 870711680, 899340831, 982937970, 1011567121, 1040196272, 1068825423, 1097454574, 1126084523]
+  },
+  {
+    "id": 1167141134,
+    "name": "Mary Texidor",
+    "phone": "323-394-9010",
+    "entries": [356532677, 453737470, 572697648, 764768722, 978041613, 1170112783, 1574115348, 2100266533],
+    "records": [20932839, 21856360, 22779881, 43097343, 44020864, 44944385, 292868880, 293792401, 294715922, 295639443, 296562964, 297486581]
+  },
+  {
+    "id": 1948488359,
+    "name": "Kathleen Dornidon",
+    "email": "mn46292@gmail.com",
+    "phone": "323-806-2720",
+    "entries": [137420450, 480767149, 1092584372, 1240799861, 1394928589, 1641404862, 1858987460, 1920858231],
+    "records": [440305040, 468934191, 497563342, 1127404664, 1156033815, 1184662966, 1829236902, 1857866181, 1886495332, 1915124483, 1943753634, 1972382785]
+  },
+  {
+    "id": 1505355247,
+    "name": "Vickie Nigra",
+    "email": "2vickie@charter.net"
+  }],
+  "buildings": [
+  {
+    "id": 204589028,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "3201 Orilla Avenue"
+    },
+    "property": 936057677,
+    "units": [38087793]
+  },
+  {
+    "id": 333872858,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "4539 Verdugo Road"
+    },
+    "property": 1604067203,
+    "units": [517628130]
+  },
+  {
+    "id": 838056571,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "3969 Denker Ave"
+    },
+    "property": 1475544782,
+    "units": [1357285494, 455391895, 1418583113, 169191674]
+  },
+  {
+    "id": 906979123,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "1202 Colorado Boulevard"
+    },
+    "property": 918976025,
+    "units": [584903032, 2002593783, 835434552, 299750007]
+  },
+  {
+    "id": 1169268374,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "1216 Colorado Boulevard"
+    },
+    "property": 918976025,
+    "units": [1480284426, 1406152844]
+  },
+  {
+    "id": 1437687918,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "1212 Colorado Boulevard"
+    },
+    "property": 918976025,
+    "units": [369657976, 324930195, 2134022001, 745110684]
+  },
+  {
+    "id": 1625037383,
+    "address":
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "line1": "1208 Colorado Boulevard"
+    },
+    "property": 918976025,
+    "units": [2098731169, 388159246, 1429983119, 590786302]
+  }],
+  "owners": [
+  {
+    "id": 445890682,
+    "person": 742965617,
+    "properties": [1604067203]
+  },
+  {
+    "id": 1320821815,
+    "person": 1505355247,
+    "properties": [918976025, 1604067203, 936057677]
   }]
 }
 

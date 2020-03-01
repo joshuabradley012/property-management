@@ -337,11 +337,156 @@ for (var propertyId in newData) {
   properties.push(property);
   delete newData[propertyId];
 }
-
 newData.properties = properties;
 newData.tenants = tenants;
 newData.entries = entries;
 newData.records = records;
 
+var getEntries = (propertyId, tenantId) => {
+  var entries = [];
+  for (var i = 0; i < newData.entries.length; i++) {
+    var entry = newData.entries[i];
+    if (entry.property === propertyId && entry.tenant === tenantId) entries.push(entry.id);
+  }
+  return entries;
+}
 
+var getRecords = (propertyId, tenantId) => {
+  var records = [];
+  for (var i = 0; i < newData.records.length; i++) {
+    var record = newData.records[i];
+    if (record.property === propertyId && record.tenant === tenantId) records.push(record.id);
+  }
+  return records;
+}
 
+var units = [];
+var people = [];
+var tenants = [];
+for (var i = 0; i < newData.tenants.length; i++) {
+  var tenant = newData.tenants[i];
+  var tenantId = hash(tenant.id.toString() + tenant.name);
+  var unitId = hash(tenant.id.toString() + (tenant.unit ? tenant.unit : ''));
+  // Need to add unit Ids to building
+  units.push({
+    id: unitId,
+    name: tenant.unit,
+    tenants: [tenantId],
+    building: tenant.property,
+  });
+  tenants.push({
+    id: tenantId,
+    unit: unitId,
+    person: tenant.id,
+    currentRent: tenant.currentRent,
+    leaseEnd: tenant.leaseEnd,
+  });
+  people.push({
+    id: tenant.id,
+    name: tenant.name,
+    email: tenant.email,
+    phone: tenant.phone,
+    entries: getEntries(tenant.property, tenant.id),
+    records: getRecords(tenant.property, tenant.id),
+  });
+}
+newData.units = units;
+newData.people = people;
+newData.tenants = tenants;
+
+var getUnits = (id) => {
+  var units = [];
+  for (var i = 0; i < newData.units.length; i++) {
+    var unit = newData.units[i];
+    if (unit.building === id) units.push(unit.id);
+  }
+  return units;
+}
+
+var properties = [];
+var buildings = [];
+var didColorado = false;
+for (var i = 0; i < newData.properties.length; i++) {
+  var building = newData.properties[i];
+  var property = {};
+  if (building.address.line1.match(/colorado boulevard/ig)) {
+    building.property = 918976025;
+    building.units = [];
+    building.units = getUnits(building.id);
+    delete building.tenants;
+    delete building.records;
+    delete building.entries;
+    buildings.push(building);
+    if (didColorado) continue;
+    property.name = 'Colorado Boulevard';
+    property.buildings = [906979123, 1169268374, 1437687918, 1625037383];
+    property.id = 918976025;
+    didColorado = true;
+  } else {
+    property.name = building.address.line1;
+    property.buildings = [building.id];
+    property.id = hash(property.name);
+    building.property = property.id;
+    building.units = getUnits(building.id);
+    delete building.tenants;
+    delete building.records;
+    delete building.entries;
+    buildings.push(building);
+  }
+  properties.push(property);
+}
+newData.properties = properties;
+newData.buildings = buildings;
+
+newData.owners = [
+  {
+    id: 445890682,
+    person: 742965617,
+    properties: [1475544782]
+  },
+  {
+    id: 1320821815,
+    person: hash('Vickie Nigra' + '2vickie@charter.net'),
+    properties: [918976025, 1604067203, 936057677]
+  },
+];
+
+newData.people.push({
+  id: hash('Vickie Nigra' + '2vickie@charter.net'),
+  name: 'Vickie Nigra',
+  email: '2vickie@charter.net',
+})
+
+for (var property of newData.properties) {
+  if (property.name.match(/denker/ig)) {
+    property.owner = 445890682
+  } else {
+    property.owner = 1320821815
+  }
+}
+
+var getOwner = (id) => {
+  for (var building of newData.buildings) {
+    if (building.id === id) {
+      for (var property of newData.properties) {
+        if (property.id === building.property) return property.owner;
+      }
+    }
+  }
+}
+
+for (var record of newData.records) {
+  record.person = record.tenant;
+  delete record.tenant;
+  delete record.property;
+}
+
+for (var entry of newData.entries) {
+  if (entry.tenant) {
+    entry.person = entry.tenant;
+  } else {
+    entry.person = getOwner(entry.property);
+  }
+  delete entry.tenant;
+  delete entry.property;
+}
