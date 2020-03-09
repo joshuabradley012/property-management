@@ -7,6 +7,7 @@ import {
   Grid,
   InputLabel,
   MenuItem,
+  Paper,
   Select,
   Toolbar,
   Typography,
@@ -16,22 +17,20 @@ import {
   makeStyles,
 } from '@material-ui/core/styles'
 import {
-  dateFns,
-  isEmpty,
-  getAll,
-  getDateRange,
-  getEarliestRecord,
-  getOutstandingRent,
-  getPaymentProgress,
-} from './utils/getData'
+  format,
+  getMonth,
+  getYear,
+  parseISO,
+} from 'date-fns'
 import styles from './styles'
 import theme from './theme'
+import LoginForm from './components/LoginForm'
 import AppBar from './components/AppBar'
 import ResponsiveDrawer from './components/ResponsiveDrawer'
 const DashboardCharts = lazy(() => import('./components/DashboardCharts'))
 const SortableTable = lazy(() => import('./components/SortableTable'))
 
-const appName = 'RT Properties'
+const appName = 'Property Management'
 
 const menu = [
   { name: 'Overview', icon: 'dashboard' },
@@ -59,21 +58,21 @@ const outstandingRentHeader = [
 const useStyles = makeStyles(styles)
 
 const App = () => {
-  const thisMonth = new Date(dateFns.getYear(new Date()), dateFns.getMonth(new Date())).toISOString()
+  const thisMonth = new Date(getYear(new Date()), getMonth(new Date())).toISOString()
   const [data, setData] = useState({})
   const [mobileOpen, setMobileOpen] = useState(false)
   const [date, setDate] = useState(thisMonth)
   const classes = useStyles()
 
-  const dates = getDateRange(data, thisMonth)
-  const paymentProgressData = getPaymentProgress(data, date)
-  const outstandingRentData = getOutstandingRent(data, date)
+  const dates = [thisMonth]
+  const paymentProgressData = []
+  const outstandingRentData = []
 
-  useEffect(() => {
-    import('../data').then(({data}) => {
-      setData(data)
-    })
-  }, [])
+  // useEffect(() => {
+  //   import('../data').then(({data}) => {
+  //     setData(data)
+  //   })
+  // }, [])
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
@@ -88,7 +87,8 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <div className={classes.root}>
-        <AppBar
+        <LoginForm />
+{/*        <AppBar
           appName={appName}
           classes={classes}
           handleDrawerToggle={handleDrawerToggle}
@@ -117,7 +117,7 @@ const App = () => {
               >
                 {dates.map(date => (
                   <MenuItem key={date} value={date}>
-                    {dateFns.format(dateFns.parseISO(date), 'MMMM yyyy')}
+                    {format(parseISO(date), 'MMMM yyyy')}
                   </MenuItem>
                 ))}
               </Select>
@@ -150,7 +150,7 @@ const App = () => {
               </Grid>
             </Box>
           </Suspense>
-        </Container>
+        </Container>*/}
       </div>
     </ThemeProvider>
   )

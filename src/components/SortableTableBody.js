@@ -31,10 +31,6 @@ const stableSort = (array, comparator) => {
   return stabilizedThis.map(el => el[0]);
 }
 
-const TableBodyCells = ({ rows }) => {
-
-}
-
 const SortableTableBody = ({ headCells, order, orderBy, page, rows, rowsPerPage }) => {
   const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage)
   return (

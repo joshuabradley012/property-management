@@ -490,3 +490,61 @@ for (var entry of newData.entries) {
   delete entry.tenant;
   delete entry.property;
 }
+
+// Remove Unnecessary Child IDs
+
+for (var owner of newData.owners) {
+  owner.personId = owner.person
+  delete owner.person
+  delete owner.properties
+}
+
+for (var property of newData.properties) {
+  property.ownerId = property.owner
+  delete property.owner
+  delete property.buildings
+}
+
+for (var building of newData.buildings) {
+  building.propertyId = building.property
+  delete building.property
+  delete building.units
+}
+
+for (var unit of newData.units) {
+  unit.buildingId = unit.building
+  delete unit.building
+  delete unit.tenants
+}
+
+for (var tenant of newData.tenants) {
+  tenant.personId = tenant.person
+  tenant.unitId = tenant.unit
+  delete tenant.person
+  delete tenant.unit
+}
+
+for (var person of newData.people) {
+  delete person.entries
+  delete person.records
+}
+
+for (var entry of newData.entries) {
+  entry.recordId = entry.record
+  entry.personId = entry.person
+  delete entry.record
+  delete entry.person
+}
+
+for (var record of newData.records) {
+  record.personId = record.person
+  delete record.person
+}
+
+for (var record of newData.records) {
+  if (record.personId === 1320821815 || record.personId === 445890682) record.personId = 742965617
+}
+
+for (var entry of newData.entries) {
+  if (entry.personId === 1320821815 || entry.personId === 445890682) entry.personId = 742965617
+}

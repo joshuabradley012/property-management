@@ -1,1 +1,0 @@
-export { Bar as default } from 'recharts/lib/cartesian/Bar'
