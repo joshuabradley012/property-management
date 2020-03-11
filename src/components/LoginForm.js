@@ -17,33 +17,43 @@ import {
   Typography,
 } from '@material-ui/core'
 
+const cognitoConfig = {
+  region: 'us-west-2',
+  userPoolId: 'us-west-2_Gy65rIyLG',
+  clientId: '5mt1bto4eiqkbvgfqqcor9kug4',
+  username: 'joshuabradley012@gmail.com',
+  password: 'Abc123!!!',
+  identityPoolId: 'us-west-2:cc7fcfdc-d59c-47be-8c52-418861ecb948',
+}
+
 const poolData = {
-  UserPoolId: 'us-west-2_kZx878f6F',
-  ClientId: '6ro6noqqq8ii91no1ca7ievio4',
+  UserPoolId: cognitoConfig.userPoolId,
+  ClientId: cognitoConfig.clientId,
 }
 const userPool = new CognitoUserPool(poolData)
 
+const loginKey = 'cognito-idp.us-west-2.amazonaws.com/' + cognitoConfig.userPoolId
+
 const userData = {
-  Username: 'admin',
+  Username: cognitoConfig.username,
   Pool: userPool,
 }
 const cognitoUser = new CognitoUser(userData)
 
 const authenticationData = {
-  Username: 'admin',
-  Password: 'Abc123!!!',
+  Username: cognitoConfig.username,
+  Password: cognitoConfig.password,
 }
 const authenticationDetails = new AuthenticationDetails(authenticationData)
 
-let sessionUserAttributes
 cognitoUser.authenticateUser(authenticationDetails, {
   onSuccess: function(result) {
     const accessToken = result.getAccessToken().getJwtToken()
-    AWS.config.region = 'us-west-2'
+    AWS.config.region = cognitoConfig.region
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-      IdentityPoolId: 'us-west-2:cc7fcfdc-d59c-47be-8c52-418861ecb948',
+      IdentityPoolId: cognitoConfig.identityPoolId,
       Logins: {
-        'cognito-idp.us-west-2.amazonaws.com/us-west-2_kZx878f6F': result.getIdToken().getJwtToken(),
+        [loginKey]: result.getIdToken().getJwtToken(),
       }
     })
     AWS.config.credentials.refresh(err => {
@@ -52,12 +62,14 @@ cognitoUser.authenticateUser(authenticationDetails, {
     })
   },
   onFailure: function(err) {
-    console.error(err.message || JSON.stringify(err))
+    if (err.code === 'NotAuthorizedException') {
+      console.error(JSON.stringify(err));
+    } else {
+      console.error(JSON.stringify(err));
+    }
   },
   newPasswordRequired: function(userAttributes, requiredAttributes) {
-    console.log(userAttributes)
     delete userAttributes.email_verified
-    sessionUserAttributes = userAttributes
     createNewPassword(userAttributes)
   },
 })
@@ -68,7 +80,7 @@ const createNewPassword = (ua) => {
       console.log(result)
     },
     onFailure: function(err) {
-      console.error(err.message || JSON.stringify(err))
+      console.error(JSON.stringify(err))
     },
   })
 }
@@ -88,7 +100,7 @@ const LoginForm = () => {
                 <Typography variant="h5" align="center" gutterBottom={true}>Log in</Typography>
                 <Typography  align="center" gutterBottom={true}>to continue to your account</Typography>
                 <form autoComplete="off">
-                  <TextField id="username" label="Username" variant="outlined" fullWidth={true} margin="normal" />
+                  <TextField id="username" label="Email" variant="outlined" fullWidth={true} margin="normal" />
                   <TextField id="password" label="Password" variant="outlined" fullWidth={true} margin="normal" />
                   <Box mt={2}>
                     <Button type="submit" variant="contained" color="primary" fullWidth={true}>Log in</Button>
