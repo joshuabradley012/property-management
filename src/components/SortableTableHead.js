@@ -12,7 +12,7 @@ const SortableTableHead = ({ handleRequestSort, headCells, order, orderBy }) => 
       {headCells.map(headCell => (
         <TableCell
           key={headCell.id}
-          align={headCell.numeric ? 'right': 'left'}
+          align={headCell.format === 'numeric' || headCell.format === 'currency' ? 'right': 'left'}
           sortDirection={orderBy === headCell.id ? order : false}
         >
           <TableSortLabel

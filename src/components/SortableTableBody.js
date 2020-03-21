@@ -4,6 +4,10 @@ import {
   TableCell,
   TableRow,
 } from '@material-ui/core'
+import {
+  format,
+  parseISO,
+} from 'date-fns'
 
 const descendingComparator = (a, b, orderBy) => {
   if (b[orderBy] < a[orderBy]) {
@@ -32,19 +36,25 @@ const stableSort = (array, comparator) => {
 }
 
 const SortableTableBody = ({ headCells, order, orderBy, page, rows, rowsPerPage }) => {
-  const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage)
+  const filteredRows = rows.filter((cell, index) => {
+    for (const [key, value] of Object.entries(cell)) {
+      if (value === null) return false
+    }
+    return true
+  })
+  const emptyRows = rowsPerPage - Math.min(rowsPerPage, filteredRows.length - page * rowsPerPage)
   return (
     <TableBody>
-      {stableSort(rows, getComparator(order, orderBy))
+      {stableSort(filteredRows, getComparator(order, orderBy))
         .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
         .map((cell, index) => (
           <TableRow key={index}>
             {headCells.map(headCell => (
               <TableCell
                 key={headCell.id}
-                align={headCell.numeric ? 'right': 'left'}
+                align={headCell.format === 'numeric' || headCell.format === 'currency' ? 'right': 'left'}
               >
-                {(headCell.decorator ? headCell.decorator : '') + cell[headCell.id]}
+                {headCell.format === 'date' ? format(parseISO(cell[headCell.id]), 'MM/dd/yyyy') : (headCell.format === 'currency' ? '$' : '') + cell[headCell.id]}
               </TableCell>
             ))}
           </TableRow>

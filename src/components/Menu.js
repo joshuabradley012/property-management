@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import {
   Divider,
   List,
@@ -11,7 +11,7 @@ import {
 import MenuIcon from './MenuIcon'
 
 const Menu = ({ appName, menu }) => (
-  <React.Fragment>
+  <Fragment>
     <Toolbar>
       <Typography variant="h6">{appName}</Typography>
     </Toolbar>
@@ -24,7 +24,7 @@ const Menu = ({ appName, menu }) => (
         </ListItem>
       ))}
     </List>
-  </React.Fragment>
+  </Fragment>
 )
 
 export default Menu

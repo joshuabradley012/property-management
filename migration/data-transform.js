@@ -184,7 +184,7 @@ for (var address in oldData) {
       var entryId = hash(['Rent', paymentId, paymentDate, amount].join(','));
       entryIds.push(entryId)
       var hasPaymentInfo = oldData[address].paymentsInfo && oldData[address].paymentsInfo[paymentId] && oldData[address].paymentsInfo[paymentId][paymentDate];
-      var source = hasPaymentInfo ? oldData[address].paymentsInfo[paymentId][paymentDate].source : oldData[address].residents[paymentId].mobile === 'yes' ? 'Mobile' : undefined;
+      var source = hasPaymentInfo ? oldData[address].paymentsInfo[paymentId][paymentDate].source : oldData[address].residents[paymentId].mobile === 'yes' ? 'Mobile' : 'Other';
       var description = hasPaymentInfo ? oldData[address].paymentsInfo[paymentId][paymentDate].description : undefined;
       var number = undefined;
       if (description && !!description.match(/^\d+$/)) {

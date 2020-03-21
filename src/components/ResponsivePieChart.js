@@ -39,7 +39,7 @@ const ResponsivePieChart = ({ data, height }) => {
             dataKey="value"
           >
             {
-              data.map((entry, index) => <Cell key={entry.name} fill={COLORS[index % COLORS.length]}/>)
+              data.map((cell, index) => <Cell key={cell.name} fill={COLORS[index % COLORS.length]}/>)
             }
           </Pie>
           <text x="50%" y="46%" dy={8} textAnchor="middle" fill="#666">Payment Source</text>

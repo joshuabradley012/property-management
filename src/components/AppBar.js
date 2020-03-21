@@ -9,6 +9,7 @@ import {
 import {
   Menu,
 } from '@material-ui/icons'
+import SignOutButton from './SignOutButton'
 
 const AppBar = ({ appName, classes, handleDrawerToggle }) => (
   <MuiAppBar position="fixed" className={classes.appBar}>
@@ -25,6 +26,7 @@ const AppBar = ({ appName, classes, handleDrawerToggle }) => (
         </IconButton>
       </Hidden>
       <Typography variant="h6">{appName}</Typography>
+      <SignOutButton />
     </Toolbar>
   </MuiAppBar>
 )

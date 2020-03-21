@@ -6,6 +6,24 @@ const styles = {
   root: {
     display: 'flex',
   },
+  loginPage: {
+    alignItems: 'center',
+    display: 'flex',
+    minHeight: '100vh',
+    justifyContent: 'center',
+    [theme.breakpoints.down('xs')]: {
+      paddingTop: theme.spacing(2),
+      paddingBottom: theme.spacing(2),
+      paddingLeft: 0,
+      paddingRight: 0,
+    },
+  },
+  loginForm: {
+    width: 400,
+    [theme.breakpoints.down('xs')]: {
+      width: '100%',
+    },
+  },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
   },
