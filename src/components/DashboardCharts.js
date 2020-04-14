@@ -10,13 +10,13 @@ const ResponsivePieChart = lazy(() => import('./ResponsivePieChart'))
 
 const DashboardCharts = ({ classes, date, data }) => {
   const chartHeight = { height: 280 }
-  const barData = []
-  const pieData = []
-  const rentCollected = 0
-  const rentRoll = 0
+  const barData = data.paymentTimeline
+  const pieData = data.paymentSources
+  const rentCollected = data.rentCollected ? data.rentCollected : 0
+  const rentRoll = data.rentRoll ? data.rentRoll : 0
   const due = rentRoll - rentCollected
-  const lateFees = 0
-  const reinbursements = 0
+  const lateFees = data.lateFees ? data.lateFees : 0
+  const reinbursements = data.reinbursements ? data.reinbursements : 0
 
   return (
     <Box p={1.5} px={[0, 1.5]}>

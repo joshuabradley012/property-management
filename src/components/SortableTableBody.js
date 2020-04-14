@@ -54,7 +54,7 @@ const SortableTableBody = ({ headCells, order, orderBy, page, rows, rowsPerPage 
                 key={headCell.id}
                 align={headCell.format === 'numeric' || headCell.format === 'currency' ? 'right': 'left'}
               >
-                {headCell.format === 'date' ? format(parseISO(cell[headCell.id]), 'MM/dd/yyyy') : (headCell.format === 'currency' ? '$' : '') + cell[headCell.id]}
+                {headCell.format === 'date' ? format(parseISO(cell[headCell.id]), 'M/d/yyyy') : (headCell.format === 'currency' ? '$' : '') + cell[headCell.id]}
               </TableCell>
             ))}
           </TableRow>

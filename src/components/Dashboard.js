@@ -15,10 +15,12 @@ import {
   Typography,
 } from '@material-ui/core'
 import {
+  eachDayOfInterval,
   eachMonthOfInterval,
   format,
   getMonth,
   getYear,
+  lastDayOfMonth,
   parseISO,
 } from 'date-fns'
 import { getIdToken } from '../utils/auth'
@@ -57,28 +59,79 @@ const Dashboard = ({ classes }) => {
   const thisMonth = new Date(getYear(new Date()), getMonth(new Date())).toISOString()
   const [date, setDate] = useState(thisMonth)
   const [dates, setDates] = useState([thisMonth])
+  const [dashboardData, setDashboardData] = useState({
+    rentCollected: null,
+    rentRoll: null,
+    lateFees: null,
+    reimbursements: null,
+    paymentTimeline: [],
+    paymentSources: [],
+    paymentProgress: [],
+    outstandingRent: [],
+  })
 
-  const [paymentProgressData, setPaymentProgressData] = useState([])
-  const [outstandingRentData, setOutstandingRentData] = useState([])
+  const handleTimelineData = data => {
+    if (!data || !data.length) return []
+    let rowIndex = 0
+    let total = 0
+    let currentRow = data[rowIndex]
+    const timeline = []
+    eachDayOfInterval({
+      start: new Date(getYear(parseISO(date)), getMonth(parseISO(date))),
+      end: lastDayOfMonth(parseISO(date))
+    }).forEach(day => {
+      if (currentRow.name === day.toISOString()) {
+        total += currentRow.collected
+        rowIndex++
+        if (rowIndex < data.length) {
+          currentRow = data[rowIndex]
+        }
+      }
+      timeline.push({
+        name: format(day, 'M/d'),
+        Collected: total,
+        Due: currentRow.due - total
+      })
+    })
+    return timeline
+  }
+
+  const handleDashboardData = data => {
+    data.paymentTimeline = handleTimelineData(data.paymentTimeline)
+    setDashboardData(data)
+  }
+
+  const handleDateSelect = event => {
+    const date = event.target.value
+    setDate(date)
+  }
 
   useEffect(() => {
-    fetchData('get=earliest-record', (data) => {
-      const dateInterval = eachMonthOfInterval({ start: parseISO(data[0].earliestRecord), end: parseISO(date) })
+    fetchData('fields=earliest-record', (data) => {
+      const dateInterval = eachMonthOfInterval({
+        start: parseISO(data.earliestRecord),
+        end: parseISO(date)
+      })
       .map(date => (
         date.toISOString()
       )).reverse()
       setDates(dateInterval)
     })
-    fetchData('get=payment-progress&date=' + date, setPaymentProgressData)
-    fetchData('get=outstanding-rent&date=' + date, setOutstandingRentData)
   }, [])
 
-  const handleDateSelect = event => {
-    const date = event.target.value
-    fetchData('get=payment-progress&date=' + date, setPaymentProgressData)
-    fetchData('get=outstanding-rent&date=' + date, setOutstandingRentData)
-    setDate(date)
-  }
+  useEffect(() => {
+    const fields = [
+      'rent-collected',
+      'rent-roll',
+      'late-fees',
+      'reimbursements',
+      'payment-timeline',
+      'payment-sources',
+      'payment-progress',
+      'outstanding-rent',
+    ]
+    fetchData('fields=' + fields.join(',') + '&date=' + date, handleDashboardData)
+  }, [date])
 
   return (
     <Fragment>
@@ -104,7 +157,7 @@ const Dashboard = ({ classes }) => {
         </FormControl>
       </Box>
       <Suspense fallback={<div></div>}>
-        <DashboardCharts classes={classes} date={date} data={{}} />
+        <DashboardCharts classes={classes} date={date} data={dashboardData} />
         <Box p={1.5} px={[0, 1.5]}>
           <Grid container spacing={3}>
             <Grid item xs={12}>
@@ -112,7 +165,7 @@ const Dashboard = ({ classes }) => {
                 classes={classes}
                 headCells={paymentProgressHeader}
                 initOrderBy="rentRoll"
-                rows={paymentProgressData}
+                rows={dashboardData.paymentProgress}
                 title="Payment Progress"
               />
             </Grid>
@@ -123,7 +176,7 @@ const Dashboard = ({ classes }) => {
                 initOrder="asc"
                 initOrderBy="name"
                 initRows={10}
-                rows={outstandingRentData}
+                rows={dashboardData.outstandingRent}
                 title="Outstanding Rent"
               />
             </Grid>
