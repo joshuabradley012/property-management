@@ -27,7 +27,7 @@ const ResponsiveDrawer = ({ appName, classes, handleDrawerToggle, menu, mobileOp
         open
       >
         <Suspense fallback={<div></div>}>
-          <Menu appName={appName} menu={menu} />
+          <Menu appName={appName} menu={menu} classes={classes} />
         </Suspense>
       </Drawer>
     </Hidden>

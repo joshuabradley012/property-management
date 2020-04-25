@@ -5,20 +5,25 @@ import React, {
   useState
 } from 'react'
 import {
+  Route,
+  Switch,
+} from 'react-router-dom'
+import {
   Container,
   Toolbar,
 } from '@material-ui/core'
 import AppBar from './AppBar'
+import PrivateRoute from './PrivateRoute'
 import ResponsiveDrawer from './ResponsiveDrawer'
 const Dashboard = lazy(() => import('./Dashboard'))
 
 const appName = 'Property Management'
 
 const menu = [
-  { name: 'Overview', icon: 'dashboard' },
-  { name: 'Properties', icon: 'apartment' },
-  { name: 'Tenants', icon: 'people' },
-  { name: 'Reports', icon: 'insertChart' },
+  { name: 'Overview', icon: 'dashboard', route: '/' },
+  { name: 'Properties', icon: 'apartment', route: '/properties' },
+  { name: 'Tenants', icon: 'people', route: '/tenants' },
+  { name: 'Reports', icon: 'insertChart', route: '/reports' },
 ]
 
 const AppShell = ({ classes }) => {
@@ -45,7 +50,20 @@ const AppShell = ({ classes }) => {
       <Container className={classes.content}>
         <Toolbar />
         <Suspense fallback={<div></div>}>
-          <Dashboard classes={classes} />
+          <Switch>
+            <PrivateRoute exact path="/">
+              <Dashboard classes={classes} />
+            </PrivateRoute>
+            <PrivateRoute path="/properties">
+              <div>Properties</div>
+            </PrivateRoute>
+            <PrivateRoute path="/tenants">
+              <div>Tenants</div>
+            </PrivateRoute>
+            <PrivateRoute path="/reports">
+              <div>Reports</div>
+            </PrivateRoute>
+          </Switch>
         </Suspense>
       </Container>
     </Fragment>

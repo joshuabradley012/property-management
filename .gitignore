@@ -52,6 +52,9 @@ sftp-config.json
 # ignore build files
 /dist
 
+#ignore migration files, sensitive data
+/migration
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------

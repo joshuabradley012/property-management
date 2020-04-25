@@ -53,6 +53,10 @@ const styles = {
   menuButton: {
     marginRight: theme.spacing(2),
   },
+  menuLink: {
+    color: theme.palette.text.primary,
+    textDecoration: 'none',
+  },
   formControl: {
     margin: theme.spacing(1),
     marginLeft: 'auto',

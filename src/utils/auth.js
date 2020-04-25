@@ -127,10 +127,23 @@ const completeNewPasswordChallenge = (newPassword, callbacks = {}) => {
   })
 }
 
+const fetchData = (queryString, callback) => {
+  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': getIdToken(),
+    }
+  })
+  .then(response => response.json())
+  .then(data => callback(data))
+  .catch(err => console.error(err))
+}
+
 export {
   authenticateUser,
   completeNewPasswordChallenge,
   defaultUser,
+  fetchData,
   getIdToken,
   isAccessTokenValid,
   signOut,

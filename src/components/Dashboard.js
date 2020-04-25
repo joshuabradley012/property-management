@@ -23,7 +23,7 @@ import {
   lastDayOfMonth,
   parseISO,
 } from 'date-fns'
-import { getIdToken } from '../utils/auth'
+import { fetchData } from '../utils/auth'
 const DashboardCharts = lazy(() => import('./DashboardCharts'))
 const SortableTable = lazy(() => import('./SortableTable'))
 
@@ -42,18 +42,6 @@ const outstandingRentHeader = [
   { id: 'source', label: 'Source', format: 'string'},
   { id: 'lastPayment', label: 'Last Payment', format: 'date'},
 ]
-
-const fetchData = (queryString, callback) => {
-  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': getIdToken(),
-    }
-  })
-  .then(response => response.json())
-  .then(data => callback(data))
-  .catch(err => console.error(err))
-}
 
 const Dashboard = ({ classes }) => {
   const thisMonth = new Date(getYear(new Date()), getMonth(new Date())).toISOString()
@@ -138,7 +126,7 @@ const Dashboard = ({ classes }) => {
       <Box display="flex" justifyContent="space-between" p={1.5} px={[0, 1.5]} pr={[1, 2.5]} pb={0}>
         <Box pl={2}>
           <Typography variant="h5">Overview</Typography>
-          <Typography variant="body2">All properties</Typography>
+          <Typography variant="body2">Payment progress</Typography>
         </Box>
         <FormControl variant="standard" className={classes.formControl}>
           <InputLabel id="date">Date</InputLabel>
