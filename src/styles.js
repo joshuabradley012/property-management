@@ -62,6 +62,14 @@ const styles = {
     marginLeft: 'auto',
     minWidth: 120,
   },
+  modalBody: {
+    left: '50%',
+    minWidth: '400px',
+    minHeight: '200px',
+    position: 'absolute',
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
+  },
 }
 
 export default styles

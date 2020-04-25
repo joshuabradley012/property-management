@@ -16,6 +16,7 @@ import AppBar from './AppBar'
 import PrivateRoute from './PrivateRoute'
 import ResponsiveDrawer from './ResponsiveDrawer'
 const Dashboard = lazy(() => import('./Dashboard'))
+const Properties = lazy(() => import('./Properties'))
 
 const appName = 'Property Management'
 
@@ -55,7 +56,7 @@ const AppShell = ({ classes }) => {
               <Dashboard classes={classes} />
             </PrivateRoute>
             <PrivateRoute path="/properties">
-              <div>Properties</div>
+              <Properties classes={classes} />
             </PrivateRoute>
             <PrivateRoute path="/tenants">
               <div>Tenants</div>
