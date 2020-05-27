@@ -35,6 +35,12 @@ const stableSort = (array, comparator) => {
   return stabilizedThis.map(el => el[0]);
 }
 
+const formatCell = (cellFormat, cell) => {
+  if (cellFormat === 'date') cell = format(parseISO(cell), 'M/d/yyyy')
+  else if (cellFormat === 'currency') cell = '$' + cell
+  return cell
+}
+
 const SortableTableBody = ({ headCells, order, orderBy, page, rows, rowsPerPage }) => {
   const filteredRows = rows.filter((cell, index) => {
     for (const [key, value] of Object.entries(cell)) {
@@ -47,14 +53,14 @@ const SortableTableBody = ({ headCells, order, orderBy, page, rows, rowsPerPage 
     <TableBody>
       {stableSort(filteredRows, getComparator(order, orderBy))
         .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-        .map((cell, index) => (
+        .map((row, index) => (
           <TableRow key={index}>
             {headCells.map(headCell => (
               <TableCell
                 key={headCell.id}
-                align={headCell.format === 'numeric' || headCell.format === 'currency' ? 'right': 'left'}
+                align={headCell.format === 'numeric' || headCell.format === 'currency' || headCell.format === 'html' ? 'right': 'left'}
               >
-                {headCell.format === 'date' ? format(parseISO(cell[headCell.id]), 'M/d/yyyy') : (headCell.format === 'currency' ? '$' : '') + cell[headCell.id]}
+                {formatCell(headCell.format, row[headCell.id])}
               </TableCell>
             ))}
           </TableRow>

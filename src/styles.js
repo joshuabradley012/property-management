@@ -64,8 +64,10 @@ const styles = {
   },
   modalBody: {
     left: '50%',
-    minWidth: '400px',
+    width: '420px',
     minHeight: '200px',
+    maxHeight: '90vh',
+    overflow: 'scroll',
     position: 'absolute',
     top: '50%',
     transform: 'translate(-50%, -50%)',

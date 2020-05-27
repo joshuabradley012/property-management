@@ -139,12 +139,41 @@ const fetchData = (queryString, callback) => {
   .catch(err => console.error(err))
 }
 
+const postData = (queryString, data, callback) => {
+  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': getIdToken(),
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => response.json())
+  .then(data => callback(data))
+  .catch(err => console.error(err))
+}
+
+const deleteData = (queryString, data, callback) => {
+  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': getIdToken(),
+    },
+  })
+  .then(response => response.json())
+  .then(data => callback(data))
+  .catch(err => console.error(err))
+}
+
 export {
   authenticateUser,
   completeNewPasswordChallenge,
   defaultUser,
+  deleteData,
   fetchData,
   getIdToken,
   isAccessTokenValid,
+  postData,
   signOut,
 }
