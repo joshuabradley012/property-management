@@ -94,25 +94,25 @@ exports.paymentProgress = (dateString) => {
     FROM properties
     LEFT
     JOIN buildings
-      ON buildings.propertyId = properties.id
+      ON buildings."propertyId" = properties.id
     LEFT
     JOIN units
-      ON units.buildingId = buildings.id
+      ON units."buildingId" = buildings.id
     LEFT
     JOIN tenants
-      ON tenants.unitId = units.id
+      ON tenants."unitId" = units.id
     LEFT
     JOIN people
-      ON people.id = tenants.personId
+      ON people.id = tenants."personId"
     LEFT
     JOIN records
-      ON records.personId = people.id
+      ON records."personId" = people.id
      AND EXTRACT(MONTH FROM records.date) = ${month}
      AND EXTRACT(YEAR FROM records.date) = ${year}
      AND records.type = 'Rent'
     LEFT
     JOIN entries
-      ON entries.recordId = records.id
+      ON entries."recordId" = records.id
      AND EXTRACT(MONTH FROM entries.date) = ${month}
      AND EXTRACT(YEAR FROM entries.date) = ${year}
      AND entries.type = 'Rent'
@@ -137,16 +137,16 @@ exports.outstandingRent = (dateString) => {
     FROM tenants
     LEFT
     JOIN people
-      ON people.id = tenants.personId
+      ON people.id = tenants."personId"
     LEFT
     JOIN records
-      ON records.personId = people.id
+      ON records."personId" = people.id
      AND EXTRACT(MONTH FROM records.date) = ${month}
      AND EXTRACT(YEAR FROM records.date) = ${year}
      AND records.type = 'Rent'
     LEFT
     JOIN entries
-      ON entries.recordId = records.id
+      ON entries."recordId" = records.id
      AND EXTRACT(MONTH FROM entries.date) = ${month}
      AND EXTRACT(YEAR FROM entries.date) = ${year}
      AND entries.type = 'Rent'

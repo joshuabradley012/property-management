@@ -34,7 +34,7 @@ const seed = async () => {
       id SERIAL,
       "personId" int,
       PRIMARY KEY (id),
-      FOREIGN KEY (personId)
+      FOREIGN KEY ("personId")
         REFERENCES people (id)
         ON DELETE CASCADE
     );
