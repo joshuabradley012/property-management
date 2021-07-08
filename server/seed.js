@@ -32,7 +32,7 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE owners(
       id SERIAL,
-      personId int,
+      "personId" int,
       PRIMARY KEY (id),
       FOREIGN KEY (personId)
         REFERENCES people (id)
@@ -51,10 +51,10 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE properties(
       id SERIAL,
-      ownerId int NOT NULL,
+      "ownerId" int NOT NULL,
       name varchar(255),
       PRIMARY KEY (id),
-      FOREIGN KEY (ownerId)
+      FOREIGN KEY ("ownerId")
         REFERENCES owners (id)
         ON DELETE CASCADE
     );
@@ -72,12 +72,12 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE buildings(
       id SERIAL,
-      propertyId int NOT NULL,
+      "propertyId" int NOT NULL,
       line1 varchar(255),
       city varchar(255),
       state varchar(255),
       PRIMARY KEY (id),
-      FOREIGN KEY (propertyId)
+      FOREIGN KEY ("propertyId")
         REFERENCES properties (id)
         ON DELETE CASCADE
     );
@@ -97,10 +97,10 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE units(
       id SERIAL,
-      buildingId int NOT NULL,
+      "buildingId" int NOT NULL,
       name varchar(255),
       PRIMARY KEY (id),
-      FOREIGN KEY (buildingId)
+      FOREIGN KEY ("buildingId")
         REFERENCES buildings (id)
         ON DELETE CASCADE
     );
@@ -118,15 +118,15 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE tenants(
       id SERIAL,
-      personId int NOT NULL,
-      unitId int NOT NULL,
-      leaseEnd timestamp,
-      currentRent real,
+      "personId" int NOT NULL,
+      "unitId" int NOT NULL,
+      "leaseEnd" timestamp,
+      "currentRent" real,
       PRIMARY KEY (id),
-      FOREIGN KEY (personId)
+      FOREIGN KEY ("personId")
         REFERENCES people (id)
         ON DELETE CASCADE,
-      FOREIGN KEY (unitId)
+      FOREIGN KEY ("unitId")
         REFERENCES units (id)
         ON DELETE CASCADE
     );
@@ -146,14 +146,14 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE records(
       id SERIAL,
-      personId int NOT NULL,
+      "personId" int NOT NULL,
       date timestamp,
       amount real,
       category varchar(255),
       type varchar(255),
       transactor varchar(255),
       PRIMARY KEY (id),
-      FOREIGN KEY (personId)
+      FOREIGN KEY ("personId")
         REFERENCES people (id)
         ON DELETE CASCADE
     );
@@ -175,8 +175,8 @@ const seed = async () => {
   await database.query(`
     CREATE TABLE entries(
       id SERIAL,
-      personId int NOT NULL,
-      recordId int,
+      "personId" int NOT NULL,
+      "recordId" int,
       date timestamp,
       amount real,
       category varchar(255),
@@ -184,10 +184,10 @@ const seed = async () => {
       source varchar(255),
       transactor varchar(255),
       PRIMARY KEY (id),
-      FOREIGN KEY (personId)
+      FOREIGN KEY ("personId")
         REFERENCES people (id)
         ON DELETE CASCADE,
-      FOREIGN KEY (recordId)
+      FOREIGN KEY ("recordId")
         REFERENCES records (id)
         ON DELETE CASCADE
     );

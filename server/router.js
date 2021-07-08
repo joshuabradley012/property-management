@@ -19,19 +19,19 @@ router.get('/data', async (req, res) => {
     for (const field of fields) {
       if (field === 'earliest-record') {
         const result = await database.query(queries.earliestRecord);
-        rows.earliestRecord = result[0].earliestrecord;
+        rows.earliestRecord = result[0].earliestRecord;
       }
       if (field === 'rent-roll') {
         const result = await database.query(queries.rentRoll(date));
-        rows.rentRoll = result[0].rentroll;
+        rows.rentRoll = result[0].rentRoll;
       }
       if (field === 'rent-collected') {
         const result = await database.query(queries.rentCollected(date));
-        rows.rentCollected = result[0].rentcollected;
+        rows.rentCollected = result[0].rentCollected;
       }
       if (field === 'late-fees') {
         const result = await database.query(queries.lateFees(date));
-        rows.lateFees = result[0].latefees;
+        rows.lateFees = result[0].lateFees;
       }
       if (field === 'reimbursements') {
         const result = await database.query(queries.reimbursements(date));
@@ -45,13 +45,6 @@ router.get('/data', async (req, res) => {
   }
 
   await database.close();
-  res.set({
-    'Access-Control-Allow-Origin' : '*',
-    'Access-Control-Allow-Headers':'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
-    'Access-Control-Allow-Methods': 'DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT',
-    'Access-Control-Allow-Credentials' : true,
-    'Content-Type': 'application/json',
-  });
   res.json(rows);
 });
 

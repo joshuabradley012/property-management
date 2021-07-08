@@ -5,14 +5,14 @@ const dateParts = (dateString) => {
 }
 
 exports.earliestRecord = `
-  SELECT MIN(date) AS earliestrecord
+  SELECT MIN(date) AS "earliestRecord"
     FROM records
 `;
 
 exports.rentRoll = (dateString) => {
   const [year, month] = dateParts(dateString);
   return `
-  SELECT SUM(records.amount) AS rentRoll
+  SELECT SUM(records.amount) AS "rentRoll"
     FROM records
    WHERE EXTRACT(MONTH FROM records.date) = ${month}
      AND EXTRACT(YEAR FROM records.date) = ${year}
@@ -22,7 +22,7 @@ exports.rentRoll = (dateString) => {
 exports.rentCollected = (dateString) => {
   const [year, month] = dateParts(dateString);
   return `
-  SELECT SUM(entries.amount) AS rentCollected
+  SELECT SUM(entries.amount) AS "rentCollected"
     FROM entries
    WHERE EXTRACT(MONTH FROM entries.date) = ${month}
      AND EXTRACT(YEAR FROM entries.date) = ${year}
@@ -32,7 +32,7 @@ exports.rentCollected = (dateString) => {
 exports.lateFees = (dateString) => {
   const [year, month] = dateParts(dateString);
   return `
-  SELECT SUM(entries.amount) AS lateFees
+  SELECT SUM(entries.amount) AS "lateFees"
     FROM entries
    WHERE EXTRACT(MONTH FROM entries.date) = ${month}
      AND EXTRACT(YEAR FROM entries.date) = ${year}
@@ -54,7 +54,7 @@ exports.paymentTimeline = (dateString) => {
   return `
   SELECT entries.date AS name,
          SUM(entries.amount) AS collected,
-         (SELECT SUM(records.amount) AS rentRoll
+         (SELECT SUM(records.amount) AS "rentRoll"
             FROM records
            WHERE EXTRACT(MONTH FROM records.date) = ${month}
              AND EXTRACT(YEAR FROM records.date) = ${year}
@@ -88,7 +88,7 @@ exports.paymentProgress = (dateString) => {
   return `
   SELECT properties.id,
          properties.name,
-         SUM(records.amount) AS rentRoll,
+         SUM(records.amount) AS "rentRoll",
          SUM(entries.amount) AS collected,
          SUM(records.amount) - SUM(entries.amount) AS due
     FROM properties
@@ -133,7 +133,7 @@ exports.outstandingRent = (dateString) => {
          SUM(records.amount) - SUM(entries.amount) AS balance,
          SUM(entries.amount) AS paid,
          entries.source,
-         entries.date AS lastPayment
+         entries.date AS "lastPayment"
     FROM tenants
     LEFT
     JOIN people

@@ -68,7 +68,7 @@ const Dashboard = ({ classes }) => {
       start: new Date(getYear(parseISO(date)), getMonth(parseISO(date))),
       end: lastDayOfMonth(parseISO(date))
     }).forEach(day => {
-      if (currentRow.name === day.toISOString()) {
+      if (currentRow.name.split('T')[0] === day.toISOString().split('T')[0]) {
         total += currentRow.collected
         rowIndex++
         if (rowIndex < data.length) {

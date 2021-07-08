@@ -128,7 +128,7 @@ const completeNewPasswordChallenge = (newPassword, callbacks = {}) => {
 }
 
 const fetchData = (queryString, callback) => {
-  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
+  fetch('http://localhost:8081/data?' + queryString, {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': getIdToken(),
@@ -140,7 +140,7 @@ const fetchData = (queryString, callback) => {
 }
 
 const postData = (queryString, data, callback) => {
-  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
+  fetch('http://localhost:8081/data?' + queryString, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -154,7 +154,7 @@ const postData = (queryString, data, callback) => {
 }
 
 const deleteData = (queryString, data, callback) => {
-  fetch('https://6wpgd6fc9b.execute-api.us-west-2.amazonaws.com/staging/data?' + queryString, {
+  fetch('http://localhost:8081/data?' + queryString, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',

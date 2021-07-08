@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --env.ENVIRONMENT=development --mode development",
     "build": "webpack --env.ENVIRONMENT=production --mode production",
-    "analyze": "source-map-explorer dist/*.js"
+    "analyze": "source-map-explorer dist/*.js",
+    "seed": "psql -U postgres < server/createdb.sql && node server/seed.js",
+    "server": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -39,6 +41,7 @@
     "@material-ui/pickers": "^3.2.10",
     "amazon-cognito-identity-js": "^3.2.5",
     "aws-sdk": "^2.635.0",
+    "cors": "^2.8.5",
     "date-fns": "^2.9.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
